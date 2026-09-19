@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "slide-087-chart-01",
+  "slide": 87,
+  "type": "donut",
+  "title": "Distribuicao percentual em tres categorias",
+  "source_asset": "image163.png",
+  "source_shape": "Google Shape;2385;p159",
+  "source_format": "raster_png",
+  "data_origin": "reconstructed_from_visible_chart_geometry_and_labels",
+  "confidence": "high",
+  "series": [
+    {
+      "category": "Categoria 1",
+      "value": 64,
+      "color": "#002233"
+    },
+    {
+      "category": "Categoria 2",
+      "value": 20,
+      "color": "#ffffff"
+    },
+    {
+      "category": "Categoria 3",
+      "value": 16,
+      "color": "#a34dff"
+    }
+  ]
+}

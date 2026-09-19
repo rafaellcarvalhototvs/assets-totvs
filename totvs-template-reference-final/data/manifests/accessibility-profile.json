@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "standard": "WCAG 2.2",
+  "target_level": "AA",
+  "criteria_reviewed": [
+    {
+      "criterion": "1.4.3",
+      "name": "Contrast (Minimum)",
+      "status": "high_contrast_alternate_mode_implemented; original_brand_mode_requires_manual_review"
+    },
+    {
+      "criterion": "1.4.12",
+      "name": "Text Spacing",
+      "status": "automated_stress_mode_available"
+    },
+    {
+      "criterion": "2.1.1",
+      "name": "Keyboard",
+      "status": "implemented"
+    },
+    {
+      "criterion": "2.2.2",
+      "name": "Pause, Stop, Hide",
+      "status": "implemented_for_native_effects_and_gifs"
+    },
+    {
+      "criterion": "2.4.7",
+      "name": "Focus Visible",
+      "status": "implemented"
+    },
+    {
+      "criterion": "2.4.11",
+      "name": "Focus Not Obscured (Minimum)",
+      "status": "implemented_in_page_controls"
+    },
+    {
+      "criterion": "2.5.8",
+      "name": "Target Size (Minimum)",
+      "status": "implemented_for_navigation_and_controls"
+    },
+    {
+      "criterion": "2.3.3",
+      "name": "Animation from Interactions",
+      "level": "AAA",
+      "status": "enhancement_implemented"
+    }
+  ],
+  "text_defaults": {
+    "body_line_height": 1.2,
+    "paragraph_gap_em": 0.24,
+    "comfortable_mode_line_height": 1.35,
+    "comfortable_mode_paragraph_gap_em": 0.42
+  },
+  "text_spacing_stress_query": "?static=1&a11y=spacing",
+  "high_contrast_query": "?static=1&a11y=contrast",
+  "stress_values": {
+    "line_height": 1.5,
+    "paragraph_spacing_em": 2,
+    "letter_spacing_em": 0.12,
+    "word_spacing_em": 0.16
+  },
+  "interactive_controls": [
+    "restart",
+    "next_step",
+    "pause_resume",
+    "comfortable_spacing",
+    "high_contrast",
+    "reduced_motion",
+    "gif_single_play_with_first_and_final_posters"
+  ],
+  "keyboard_shortcuts": {
+    "next_step": [
+      "ArrowRight",
+      "Space"
+    ],
+    "restart": [
+      "R"
+    ],
+    "pause_resume": [
+      "P"
+    ]
+  },
+  "limitations": [
+    "Contrast over photographs and gradients requires visual review per slide.",
+    "Generic template images have descriptive role labels; authors must replace them with content-specific alternative text in final presentations."
+  ]
+}

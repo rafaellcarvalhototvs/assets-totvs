@@ -1,0 +1,34 @@
+# Assets TOTVS
+
+Repositório público de mídias do template de apresentações TOTVS reproduzido em HTML.
+
+## Conteúdo publicado
+
+O pacote atual está em [`totvs-template-reference-final/`](totvs-template-reference-final/):
+
+- 158 imagens estáticas;
+- 16 GIFs animados;
+- 32 posters de primeiro e último quadro;
+- 118 thumbnails renderizados dos slides;
+- dados editáveis de gráficos;
+- manifestos de uso, animação, acessibilidade e relação entre slides e assets.
+
+O inventário técnico completo está em [`manifest.json`](totvs-template-reference-final/manifest.json). A relação de cada slide com suas imagens está em [`data/assets-by-slide.json`](totvs-template-reference-final/data/assets-by-slide.json).
+
+## URLs públicas
+
+Para produção e consumo por IA, use uma URL RAW presa ao SHA do commit:
+
+```text
+https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/COMMIT_SHA/totvs-template-reference-final/media/static/image32.png
+```
+
+Durante desenvolvimento também é possível usar `main`, mas essa referência pode mudar com novos commits.
+
+## Integridade
+
+Os hashes SHA-256 estão em [`checksums.sha256`](totvs-template-reference-final/checksums.sha256). Nenhum arquivo individual ultrapassa 100 MiB.
+
+## Uso de marca
+
+Este repositório organiza materiais de referência da marca TOTVS. A publicação não altera direitos autorais, regras de marca ou permissões de uso dos arquivos originais.

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "slide-090-chart-01",
+  "slide": 90,
+  "type": "horizontal_bar",
+  "title": "Valores trimestrais",
+  "source_asset": "image160.png",
+  "source_shape": "Google Shape;2439;p162",
+  "source_format": "raster_png",
+  "data_origin": "reconstructed_from_visible_chart_geometry_and_labels",
+  "confidence": "high",
+  "axis": {
+    "minimum": 0,
+    "maximum": 9,
+    "major_unit": 1
+  },
+  "series": [
+    {
+      "category": "1st Qtr",
+      "value": 8.2,
+      "color": "#00ffd3"
+    },
+    {
+      "category": "2nd Qtr",
+      "value": 3.2,
+      "color": "#002233"
+    },
+    {
+      "category": "3rd Qtr",
+      "value": 1.4,
+      "color": "#00c9eb"
+    }
+  ]
+}

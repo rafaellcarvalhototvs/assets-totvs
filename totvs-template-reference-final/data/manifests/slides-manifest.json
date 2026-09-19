@@ -1,0 +1,3415 @@
+{
+  "slide_count": 118,
+  "font_family": "Verdana",
+  "thumbnail_source": "html_render_static_mode",
+  "animation_runtime": "slide-runtime.js",
+  "accessibility_profile": "accessibility-profile.json",
+  "slides": [
+    {
+      "slide": 1,
+      "file": "slides/slide-001.html",
+      "thumbnail": "thumbnails/slide-001.png",
+      "title": "Template guidelines",
+      "family": "Orientações do template",
+      "assets": [
+        "image32.png",
+        "image12.png",
+        "image16.png",
+        "image13.png"
+      ],
+      "animation_file": "animations/slide-001.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 10,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 2,
+      "file": "slides/slide-002.html",
+      "thumbnail": "thumbnails/slide-002.png",
+      "title": "NÃO é permitido criar variações da CAPA ou CONTRACAPA, nem alterando a foto, nem trocando ou acrescentando logotipos. NÃO é permitido recriar a apresentação em outro software, como o Illustrator ou InDesign. NÃO é permitido criar outros modelos de slides, ainda que siga o manual da marca. A base e estrutura deste template devem ser sempre mantidas. NÃO trocar o logotipo da TOTVS da capa pelo logotipo da Unidade de Negócio. Utilize sempre e apenas a fonte Verdana, tanto para a versão offline como também para a versão online da apresentação. Não utilize este slide em sua apresentação.",
+      "family": "Orientações do template",
+      "assets": [
+        "image43.png",
+        "image8.png",
+        "image15.png"
+      ],
+      "animation_file": "animations/slide-002.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 6,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 3,
+      "file": "slides/slide-003.html",
+      "thumbnail": "thumbnails/slide-003.png",
+      "title": "Ao reutilizar slides prontos de outras apresentações, copie apenas os elementos necessários, sem copiar o slide inteiro para evitar misturar fundos antigos com o template novo. É permitido: Criar variações de separata, alterando a foto (trocando por uma imagem segmentada por exemplo) desde que mantenha a estrutura original; Alterar as fotos ou gifs dos slides de conteúdo. Evite misturar as separatas de vídeo com as estáticas. Escolha uma das opções. Se tiver muitas divisórias, priorize as versões com foto, pois são mais leves. Não utilize este slide em sua apresentação.",
+      "family": "Orientações do template",
+      "assets": [
+        "image43.png",
+        "image19.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-003.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 5,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 4,
+      "file": "slides/slide-004.html",
+      "thumbnail": "thumbnails/slide-004.png",
+      "title": "Capa_Título da apresentação",
+      "family": "Capas",
+      "assets": [
+        "image10.png"
+      ],
+      "animation_file": "animations/slide-004.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 5,
+      "file": "slides/slide-005.html",
+      "thumbnail": "thumbnails/slide-005.png",
+      "title": "Capa_Título da apresentação",
+      "family": "Capas",
+      "assets": [
+        "image14.png"
+      ],
+      "animation_file": "animations/slide-005.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 6,
+      "file": "slides/slide-006.html",
+      "thumbnail": "thumbnails/slide-006.png",
+      "title": "AVISO LEGAL: As informações, produtos e marcas contidas nesta apresentação são de propriedade intelectual da TOTVS e não podem ser divulgadas, compartilhadas, publicadas ou utilizadas sem autorização expressa da TOTVS, sob pena de responsabilização cível e criminal do infrator, nos termos do quanto disposto na Lei n. 9.279/1996. © TOTVS Todos os direitos reservados.",
+      "family": "Aviso legal",
+      "assets": [
+        "image43.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-006.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 7,
+      "file": "slides/slide-007.html",
+      "thumbnail": "thumbnails/slide-007.png",
+      "title": "Somos o Trusted Advisor do nosso cliente",
+      "family": "Separata de transição",
+      "assets": [
+        "image28.jpg",
+        "image22.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-007.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 8,
+      "file": "slides/slide-008.html",
+      "thumbnail": "thumbnails/slide-008.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image78.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-008.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 9,
+      "file": "slides/slide-009.html",
+      "thumbnail": "thumbnails/slide-009.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image26.jpg",
+        "image21.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-009.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 10,
+      "file": "slides/slide-010.html",
+      "thumbnail": "thumbnails/slide-010.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image95.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-010.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 8,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 11,
+      "file": "slides/slide-011.html",
+      "thumbnail": "thumbnails/slide-011.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image31.jpg",
+        "image50.png",
+        "image55.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-011.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 12,
+      "file": "slides/slide-012.html",
+      "thumbnail": "thumbnails/slide-012.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image29.jpg",
+        "image21.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-012.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 13,
+      "file": "slides/slide-013.html",
+      "thumbnail": "thumbnails/slide-013.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image30.jpg",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-013.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 14,
+      "file": "slides/slide-014.html",
+      "thumbnail": "thumbnails/slide-014.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image76.png",
+        "image59.png",
+        "image52.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-014.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 15,
+      "file": "slides/slide-015.html",
+      "thumbnail": "thumbnails/slide-015.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image83.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-015.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 16,
+      "file": "slides/slide-016.html",
+      "thumbnail": "thumbnails/slide-016.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image80.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-016.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 17,
+      "file": "slides/slide-017.html",
+      "thumbnail": "thumbnails/slide-017.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image33.jpg",
+        "image103.png",
+        "image48.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-017.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 18,
+      "file": "slides/slide-018.html",
+      "thumbnail": "thumbnails/slide-018.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image34.jpg",
+        "image103.png",
+        "image68.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-018.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 19,
+      "file": "slides/slide-019.html",
+      "thumbnail": "thumbnails/slide-019.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image42.jpg",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-019.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 20,
+      "file": "slides/slide-020.html",
+      "thumbnail": "thumbnails/slide-020.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image89.png",
+        "image2.png",
+        "image17.png"
+      ],
+      "animation_file": "animations/slide-020.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 21,
+      "file": "slides/slide-021.html",
+      "thumbnail": "thumbnails/slide-021.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image79.png",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-021.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 22,
+      "file": "slides/slide-022.html",
+      "thumbnail": "thumbnails/slide-022.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image100.png",
+        "image2.png",
+        "image17.png"
+      ],
+      "animation_file": "animations/slide-022.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 23,
+      "file": "slides/slide-023.html",
+      "thumbnail": "thumbnails/slide-023.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image47.jpg",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-023.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 24,
+      "file": "slides/slide-024.html",
+      "thumbnail": "thumbnails/slide-024.png",
+      "title": "Título ou tema do vídeo",
+      "family": "Separata de vídeo",
+      "assets": [
+        "image44.png",
+        "image46.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-024.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 25,
+      "file": "slides/slide-025.html",
+      "thumbnail": "thumbnails/slide-025.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image51.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-025.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image51.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image51-poster.png",
+          "final_poster_asset": "image51-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;909;p97"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 26,
+      "file": "slides/slide-026.html",
+      "thumbnail": "thumbnails/slide-026.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image53.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-026.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image53.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image53-poster.png",
+          "final_poster_asset": "image53-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;921;p98"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 27,
+      "file": "slides/slide-027.html",
+      "thumbnail": "thumbnails/slide-027.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image61.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-027.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image61.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image61-poster.png",
+          "final_poster_asset": "image61-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;933;p99"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 28,
+      "file": "slides/slide-028.html",
+      "thumbnail": "thumbnails/slide-028.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image64.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-028.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image64.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image64-poster.png",
+          "final_poster_asset": "image64-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;945;p100"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 29,
+      "file": "slides/slide-029.html",
+      "thumbnail": "thumbnails/slide-029.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image65.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-029.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image65.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image65-poster.png",
+          "final_poster_asset": "image65-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;957;p101"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 30,
+      "file": "slides/slide-030.html",
+      "thumbnail": "thumbnails/slide-030.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image58.gif",
+        "image17.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-030.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image58.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image58-poster.png",
+          "final_poster_asset": "image58-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;969;p102"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 31,
+      "file": "slides/slide-031.html",
+      "thumbnail": "thumbnails/slide-031.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image224.gif",
+        "image54.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-031.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image224.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 640,
+          "poster_asset": "image224-poster.png",
+          "final_poster_asset": "image224-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;981;p103"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 32,
+      "file": "slides/slide-032.html",
+      "thumbnail": "thumbnails/slide-032.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image60.gif",
+        "image54.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-032.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image60.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image60-poster.png",
+          "final_poster_asset": "image60-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;993;p104"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 33,
+      "file": "slides/slide-033.html",
+      "thumbnail": "thumbnails/slide-033.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image66.gif",
+        "image54.png",
+        "image57.png"
+      ],
+      "animation_file": "animations/slide-033.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image66.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image66-poster.png",
+          "final_poster_asset": "image66-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;1005;p105"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 34,
+      "file": "slides/slide-034.html",
+      "thumbnail": "thumbnails/slide-034.png",
+      "title": "Inserir o título",
+      "family": "Separatas fotográficas numeradas",
+      "assets": [
+        "image67.gif",
+        "image54.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-034.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": {
+        "type": "push",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [
+        {
+          "asset": "image67.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image67-poster.png",
+          "final_poster_asset": "image67-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;1017;p106"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 35,
+      "file": "slides/slide-035.html",
+      "thumbnail": "thumbnails/slide-035.png",
+      "title": "00h00",
+      "family": "Agendas",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-035.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1029;p107",
+          "sample_asset": "image18.jpg",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 36,
+      "file": "slides/slide-036.html",
+      "thumbnail": "thumbnails/slide-036.png",
+      "title": "Agenda 2",
+      "family": "Agendas",
+      "assets": [
+        "image102.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-036.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 25,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 37,
+      "file": "slides/slide-037.html",
+      "thumbnail": "thumbnails/slide-037.png",
+      "title": "Agenda 3",
+      "family": "Agendas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-037.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 30,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 38,
+      "file": "slides/slide-038.html",
+      "thumbnail": "thumbnails/slide-038.png",
+      "title": "Agenda 4",
+      "family": "Agendas",
+      "assets": [
+        "image62.png",
+        "image12.png",
+        "image62.png",
+        "image62.png",
+        "image62.png",
+        "image62.png",
+        "image62.png"
+      ],
+      "animation_file": "animations/slide-038.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 11,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 39,
+      "file": "slides/slide-039.html",
+      "thumbnail": "thumbnails/slide-039.png",
+      "title": "Agenda 5",
+      "family": "Agendas",
+      "assets": [
+        "image103.png",
+        "image12.png",
+        "image103.png",
+        "image103.png",
+        "image103.png"
+      ],
+      "animation_file": "animations/slide-039.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 11,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 40,
+      "file": "slides/slide-040.html",
+      "thumbnail": "thumbnails/slide-040.png",
+      "title": "Massa de texto, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo vehicula enim eros. Use a versão bold para títulos do texto",
+      "family": "Conteúdo textual",
+      "assets": [
+        "image84.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-040.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 2,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 41,
+      "file": "slides/slide-041.html",
+      "thumbnail": "thumbnails/slide-041.png",
+      "title": "Slide para conteúdos densos",
+      "family": "Conteúdo textual",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-041.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 42,
+      "file": "slides/slide-042.html",
+      "thumbnail": "thumbnails/slide-042.png",
+      "title": "Slide com texto + laptop em movimento 1",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image70.gif",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-042.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image70.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 75,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 3000,
+          "loop": null,
+          "pixel_width": 1024,
+          "pixel_height": 576,
+          "poster_asset": "image70-poster.png",
+          "final_poster_asset": "image70-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;1274;p114"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1279;p114",
+          "sample_asset": "image89.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 43,
+      "file": "slides/slide-043.html",
+      "thumbnail": "thumbnails/slide-043.png",
+      "title": "Slide com texto + laptop em movimento 2",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image101.png",
+        "image69.png",
+        "image71.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-043.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1295;p115",
+          "sample_asset": "image79.png",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 44,
+      "file": "slides/slide-044.html",
+      "thumbnail": "thumbnails/slide-044.png",
+      "title": "Ut wisi enim adminim veniam, quisnos exercitus",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image72.png",
+        "image73.png",
+        "image71.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-044.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 9,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1307;p116",
+          "sample_asset": "image95.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 45,
+      "file": "slides/slide-045.html",
+      "thumbnail": "thumbnails/slide-045.png",
+      "title": "Slide com texto + celular em movimento 1",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image75.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-045.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 2,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1321;p117",
+          "sample_asset": "image223.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 46,
+      "file": "slides/slide-046.html",
+      "thumbnail": "thumbnails/slide-046.png",
+      "title": "Slide com texto + celular em movimento 2",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image143.png",
+        "image143.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-046.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1341;p118",
+          "sample_asset": "image221.png",
+          "position": "center-left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1342;p118",
+          "sample_asset": "image223.png",
+          "position": "center-right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 47,
+      "file": "slides/slide-047.html",
+      "thumbnail": "thumbnails/slide-047.png",
+      "title": "Massa de texto, consectetuer am adipisc elit, seimt nonum nibh morq euismod tincidunt ut lore laoreet sit dolore magna aliquam erat agt volutpat dolor.",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-047.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 8,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1355;p119",
+          "sample_asset": "image95.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 48,
+      "file": "slides/slide-048.html",
+      "thumbnail": "thumbnails/slide-048.png",
+      "title": "Slide com texto + tablet em movimento 1",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image77.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-048.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 4,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1361;p120",
+          "sample_asset": "image102.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 49,
+      "file": "slides/slide-049.html",
+      "thumbnail": "thumbnails/slide-049.png",
+      "title": "Ut wisi enim adminim veniam, quisnos exerci tation ullam corper suscip eborp lobortis nislut utea commod. Use a versão bold para destaque.",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image86.png",
+        "image94.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-049.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 8,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1375;p121",
+          "sample_asset": "image30.jpg",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 50,
+      "file": "slides/slide-050.html",
+      "thumbnail": "thumbnails/slide-050.png",
+      "title": "Massa de texto, consectetuer am adipisc elit, seimt nonum nibh morq euismod tincidunt ut lore laoreet sit dolore magna aliquam erat agt volutpat dolor.",
+      "family": "Texto com dispositivo",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-050.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 12,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1386;p122",
+          "sample_asset": "image89.png",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 51,
+      "file": "slides/slide-051.html",
+      "thumbnail": "thumbnails/slide-051.png",
+      "title": "Slide com duas colunas e dispositivo",
+      "family": "Colunas e dispositivo",
+      "assets": [
+        "image84.png",
+        "image12.png",
+        "image77.png"
+      ],
+      "animation_file": "animations/slide-051.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 52,
+      "file": "slides/slide-052.html",
+      "thumbnail": "thumbnails/slide-052.png",
+      "title": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. A ornare vestibulum venenatis justo adipiscing pulvinar sed nibh eu",
+      "family": "Colunas e dispositivo",
+      "assets": [
+        "image84.png",
+        "image71.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-052.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 53,
+      "file": "slides/slide-053.html",
+      "thumbnail": "thumbnails/slide-053.png",
+      "title": "Slide com colunas e dispositivo",
+      "family": "Colunas e dispositivo",
+      "assets": [
+        "image12.png",
+        "image84.png",
+        "image75.png"
+      ],
+      "animation_file": "animations/slide-053.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 54,
+      "file": "slides/slide-054.html",
+      "thumbnail": "thumbnails/slide-054.png",
+      "title": "Legenda imagem em 2 linhas no máximo",
+      "family": "Passo a passo",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-054.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 21,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1495;p126",
+          "sample_asset": "image31.jpg",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1504;p126",
+          "sample_asset": "image95.png",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1505;p126",
+          "sample_asset": "image193.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 55,
+      "file": "slides/slide-055.html",
+      "thumbnail": "thumbnails/slide-055.png",
+      "title": "Legenda imagem em 2 linhas no máximo",
+      "family": "Passo a passo",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-055.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 18,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1532;p127",
+          "sample_asset": "image221.png",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1533;p127",
+          "sample_asset": "image222.png",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1534;p127",
+          "sample_asset": "image223.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 56,
+      "file": "slides/slide-056.html",
+      "thumbnail": "thumbnails/slide-056.png",
+      "title": "Slide com texto + tópicos",
+      "family": "Tópicos",
+      "assets": [
+        "image103.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-056.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 9,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 57,
+      "file": "slides/slide-057.html",
+      "thumbnail": "thumbnails/slide-057.png",
+      "title": "Slide com tópicos",
+      "family": "Tópicos",
+      "assets": [
+        "image103.png",
+        "image12.png",
+        "image90.png",
+        "image92.png",
+        "image91.png",
+        "image93.png",
+        "image103.png"
+      ],
+      "animation_file": "animations/slide-057.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 17,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 58,
+      "file": "slides/slide-058.html",
+      "thumbnail": "thumbnails/slide-058.png",
+      "title": "Slide com texto + destaque 1",
+      "family": "Texto com destaque",
+      "assets": [
+        "image103.png",
+        "image12.png",
+        "image97.png"
+      ],
+      "animation_file": "animations/slide-058.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 6,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 59,
+      "file": "slides/slide-059.html",
+      "thumbnail": "thumbnails/slide-059.png",
+      "title": "Slide com texto + destaque 1",
+      "family": "Texto com destaque",
+      "assets": [
+        "image103.png",
+        "image12.png",
+        "image98.png",
+        "image99.png"
+      ],
+      "animation_file": "animations/slide-059.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 60,
+      "file": "slides/slide-060.html",
+      "thumbnail": "thumbnails/slide-060.png",
+      "title": "Slide com texto + destaque 2",
+      "family": "Texto com destaque",
+      "assets": [
+        "image185.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-060.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1632;p132",
+          "sample_asset": "image105.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 61,
+      "file": "slides/slide-061.html",
+      "thumbnail": "thumbnails/slide-061.png",
+      "title": "Slide com texto + destaque 2",
+      "family": "Texto com destaque",
+      "assets": [
+        "image185.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-061.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1648;p133",
+          "sample_asset": "image47.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 62,
+      "file": "slides/slide-062.html",
+      "thumbnail": "thumbnails/slide-062.png",
+      "title": "Slide com texto + destaque 3",
+      "family": "Texto com destaque",
+      "assets": [
+        "image185.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-062.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1659;p134",
+          "sample_asset": "image76.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 63,
+      "file": "slides/slide-063.html",
+      "thumbnail": "thumbnails/slide-063.png",
+      "title": "Slide com texto + destaque 4",
+      "family": "Texto com destaque",
+      "assets": [
+        "image105.jpg",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-063.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 5,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 64,
+      "file": "slides/slide-064.html",
+      "thumbnail": "thumbnails/slide-064.png",
+      "title": "Slide com texto + destaque 4",
+      "family": "Texto com destaque",
+      "assets": [
+        "image225.gif",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-064.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image225.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 180,
+          "frame_duration_ms": 30,
+          "total_duration_ms": 5400,
+          "loop": 0,
+          "pixel_width": 1024,
+          "pixel_height": 576,
+          "poster_asset": "image225-poster.png",
+          "final_poster_asset": "image225-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;1682;p136"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 65,
+      "file": "slides/slide-065.html",
+      "thumbnail": "thumbnails/slide-065.png",
+      "title": "Lista de bullets 2",
+      "family": "Listas de bullets",
+      "assets": [
+        "image112.gif",
+        "image107.png",
+        "image107.png",
+        "image107.png",
+        "image107.png",
+        "image107.png",
+        "image107.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-065.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 18,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image112.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 180,
+          "frame_duration_ms": 30,
+          "total_duration_ms": 5400,
+          "loop": 0,
+          "pixel_width": 1920,
+          "pixel_height": 1080,
+          "poster_asset": "image112-poster.png",
+          "final_poster_asset": "image112-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;1694;p137"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 66,
+      "file": "slides/slide-066.html",
+      "thumbnail": "thumbnails/slide-066.png",
+      "title": "Lista de bullets 3",
+      "family": "Listas de bullets",
+      "assets": [
+        "image108.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-066.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1730;p138",
+          "sample_asset": "image30.jpg",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 67,
+      "file": "slides/slide-067.html",
+      "thumbnail": "thumbnails/slide-067.png",
+      "title": "Título do slide. Apenas 1 linha",
+      "family": "Texto e imagem",
+      "assets": [
+        "image110.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-067.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1737;p139",
+          "sample_asset": "image33.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 68,
+      "file": "slides/slide-068.html",
+      "thumbnail": "thumbnails/slide-068.png",
+      "title": "Título do slide. Apenas 1 linha",
+      "family": "Texto e imagem",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-068.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1750;p140",
+          "sample_asset": "image42.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 69,
+      "file": "slides/slide-069.html",
+      "thumbnail": "thumbnails/slide-069.png",
+      "title": "Título do slide. Apenas 1 linha",
+      "family": "Texto e imagem",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-069.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 8,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1759;p141",
+          "sample_asset": "image31.jpg",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1760;p141",
+          "sample_asset": "image193.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 70,
+      "file": "slides/slide-070.html",
+      "thumbnail": "thumbnails/slide-070.png",
+      "title": "Título do slide. Apenas 1 linha",
+      "family": "Texto e imagem",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-070.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 8,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;1771;p142",
+          "sample_asset": "image221.png",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;1772;p142",
+          "sample_asset": "image222.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 71,
+      "file": "slides/slide-071.html",
+      "thumbnail": "thumbnails/slide-071.png",
+      "title": "Slide com boxes comparativos",
+      "family": "Boxes comparativos",
+      "assets": [
+        "image12.png",
+        "image109.png",
+        "image111.png",
+        "image114.png",
+        "image115.png"
+      ],
+      "animation_file": "animations/slide-071.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 19,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 72,
+      "file": "slides/slide-072.html",
+      "thumbnail": "thumbnails/slide-072.png",
+      "title": "Slide com boxes comparativos",
+      "family": "Boxes comparativos",
+      "assets": [
+        "image12.png",
+        "image116.png",
+        "image117.png",
+        "image118.png",
+        "image123.png"
+      ],
+      "animation_file": "animations/slide-072.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 19,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 73,
+      "file": "slides/slide-073.html",
+      "thumbnail": "thumbnails/slide-073.png",
+      "title": "Representação de processos cíclicos",
+      "family": "Processo cíclico",
+      "assets": [
+        "image119.png",
+        "image2.png",
+        "image121.png",
+        "image122.png",
+        "image124.png",
+        "image126.png",
+        "image125.png",
+        "image128.png"
+      ],
+      "animation_file": "animations/slide-073.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 26,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 74,
+      "file": "slides/slide-074.html",
+      "thumbnail": "thumbnails/slide-074.png",
+      "title": "Representação de processos cíclicos",
+      "family": "Processo cíclico",
+      "assets": [
+        "image129.png",
+        "image12.png",
+        "image130.png",
+        "image131.png",
+        "image142.png",
+        "image132.png"
+      ],
+      "animation_file": "animations/slide-074.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 18,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 75,
+      "file": "slides/slide-075.html",
+      "thumbnail": "thumbnails/slide-075.png",
+      "title": "Tabela 1",
+      "family": "Tabelas",
+      "assets": [
+        "image12.png",
+        "image134.png",
+        "image135.png",
+        "image133.png",
+        "image138.png"
+      ],
+      "animation_file": "animations/slide-075.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 7,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 76,
+      "file": "slides/slide-076.html",
+      "thumbnail": "thumbnails/slide-076.png",
+      "title": "Tabela 2",
+      "family": "Tabelas",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-076.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 77,
+      "file": "slides/slide-077.html",
+      "thumbnail": "thumbnails/slide-077.png",
+      "title": "Tabela 2",
+      "family": "Tabelas",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-077.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 78,
+      "file": "slides/slide-078.html",
+      "thumbnail": "thumbnails/slide-078.png",
+      "title": "Tabela 2",
+      "family": "Tabelas",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-078.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 79,
+      "file": "slides/slide-079.html",
+      "thumbnail": "thumbnails/slide-079.png",
+      "title": "Tabela 3",
+      "family": "Tabelas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-079.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 80,
+      "file": "slides/slide-080.html",
+      "thumbnail": "thumbnails/slide-080.png",
+      "title": "Tabela 3",
+      "family": "Tabelas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-080.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 81,
+      "file": "slides/slide-081.html",
+      "thumbnail": "thumbnails/slide-081.png",
+      "title": "Tabela 3",
+      "family": "Tabelas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-081.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 82,
+      "file": "slides/slide-082.html",
+      "thumbnail": "thumbnails/slide-082.png",
+      "title": "Tabela 3",
+      "family": "Tabelas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-082.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 83,
+      "file": "slides/slide-083.html",
+      "thumbnail": "thumbnails/slide-083.png",
+      "title": "Tabela 3",
+      "family": "Tabelas",
+      "assets": [
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-083.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 84,
+      "file": "slides/slide-084.html",
+      "thumbnail": "thumbnails/slide-084.png",
+      "title": "Timeline 1",
+      "family": "Timelines",
+      "assets": [
+        "image12.png",
+        "image109.png",
+        "image111.png",
+        "image140.png",
+        "image115.png",
+        "image141.png"
+      ],
+      "animation_file": "animations/slide-084.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 30,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 85,
+      "file": "slides/slide-085.html",
+      "thumbnail": "thumbnails/slide-085.png",
+      "title": "Timeline 2",
+      "family": "Timelines",
+      "assets": [
+        "image145.png",
+        "image146.png",
+        "image145.png",
+        "image146.png",
+        "image145.png",
+        "image146.png",
+        "image145.png",
+        "image12.png",
+        "image149.png",
+        "image155.png",
+        "image150.png",
+        "image151.png",
+        "image152.png",
+        "image153.png",
+        "image157.png"
+      ],
+      "animation_file": "animations/slide-085.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 42,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 86,
+      "file": "slides/slide-086.html",
+      "thumbnail": "thumbnails/slide-086.png",
+      "title": "Cinco destaques + ícones",
+      "family": "Cinco destaques",
+      "assets": [
+        "image181.gif",
+        "image2.png",
+        "image109.png",
+        "image111.png",
+        "image114.png",
+        "image115.png",
+        "image159.png"
+      ],
+      "animation_file": "animations/slide-086.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 29,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image181.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image181-poster.png",
+          "final_poster_asset": "image181-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;2345;p158"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [
+        "image109.png",
+        "image111.png",
+        "image114.png",
+        "image115.png",
+        "image159.png"
+      ],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 87,
+      "file": "slides/slide-087.html",
+      "thumbnail": "thumbnails/slide-087.png",
+      "title": "Texto + Big Numbers",
+      "family": "Big numbers",
+      "assets": [
+        "image12.png",
+        "image163.png"
+      ],
+      "animation_file": "animations/slide-087.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [
+        "charts/slide-087-chart-01.json"
+      ],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 88,
+      "file": "slides/slide-088.html",
+      "thumbnail": "thumbnails/slide-088.png",
+      "title": "Texto + Big Numbers",
+      "family": "Big numbers",
+      "assets": [
+        "image12.png",
+        "image161.png"
+      ],
+      "animation_file": "animations/slide-088.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [
+        "charts/slide-088-chart-01.json"
+      ],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 89,
+      "file": "slides/slide-089.html",
+      "thumbnail": "thumbnails/slide-089.png",
+      "title": "Texto + Big Numbers",
+      "family": "Big numbers",
+      "assets": [
+        "image162.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-089.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [
+        "charts/slide-089-chart-01.json"
+      ],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 90,
+      "file": "slides/slide-090.html",
+      "thumbnail": "thumbnails/slide-090.png",
+      "title": "Texto + Big Numbers",
+      "family": "Big numbers",
+      "assets": [
+        "image160.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-090.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [
+        "charts/slide-090-chart-01.json"
+      ],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 91,
+      "file": "slides/slide-091.html",
+      "thumbnail": "thumbnails/slide-091.png",
+      "title": "Texto + Gr áficos",
+      "family": "Gráficos e imagens",
+      "assets": [
+        "image12.png",
+        "image172.png",
+        "image167.png",
+        "image167.png",
+        "image167.png",
+        "image167.png",
+        "image164.png",
+        "image164.png",
+        "image164.png"
+      ],
+      "animation_file": "animations/slide-091.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 92,
+      "file": "slides/slide-092.html",
+      "thumbnail": "thumbnails/slide-092.png",
+      "title": "3 colunas + imagens",
+      "family": "Gráficos e imagens",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-092.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;2506;p164",
+          "sample_asset": "image78.png",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;2507;p164",
+          "sample_asset": "image102.png",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 93,
+      "file": "slides/slide-093.html",
+      "thumbnail": "thumbnails/slide-093.png",
+      "title": "3 colunas + imagens",
+      "family": "Gráficos e imagens",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-093.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;2522;p165",
+          "sample_asset": "image29.jpg",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;2523;p165",
+          "sample_asset": "image34.jpg",
+          "position": "center",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;2524;p165",
+          "sample_asset": "image105.jpg",
+          "position": "right",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 94,
+      "file": "slides/slide-094.html",
+      "thumbnail": "thumbnails/slide-094.png",
+      "title": "4 colunas + imagens",
+      "family": "Gráficos e imagens",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-094.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [
+        {
+          "shape_name": "Google Shape;2553;p166",
+          "sample_asset": "image76.png",
+          "position": "left",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;2554;p166",
+          "sample_asset": "image79.png",
+          "position": "center-top",
+          "source_state": "empty_picture_placeholder"
+        },
+        {
+          "shape_name": "Google Shape;2555;p166",
+          "sample_asset": "image89.png",
+          "position": "center-bottom",
+          "source_state": "empty_picture_placeholder"
+        }
+      ],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 95,
+      "file": "slides/slide-095.html",
+      "thumbnail": "thumbnails/slide-095.png",
+      "title": "Modelos de gráficos para uso",
+      "family": "Gráficos e imagens",
+      "assets": [
+        "image171.png",
+        "image175.png",
+        "image173.png",
+        "image174.png",
+        "image176.png",
+        "image180.png",
+        "image179.png",
+        "image178.png",
+        "image182.png",
+        "image183.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-095.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 96,
+      "file": "slides/slide-096.html",
+      "thumbnail": "thumbnails/slide-096.png",
+      "title": "Slide especial com vídeo",
+      "family": "Slide especial com vídeo",
+      "assets": [
+        "image191.gif",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-096.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image191.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 50,
+          "total_duration_ms": 5000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 785,
+          "poster_asset": "image191-poster.png",
+          "final_poster_asset": "image191-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;2596;p168"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 97,
+      "file": "slides/slide-097.html",
+      "thumbnail": "thumbnails/slide-097.png",
+      "title": "Slide com fundo colorido Azul Escuro",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image198.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-097.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 98,
+      "file": "slides/slide-098.html",
+      "thumbnail": "thumbnails/slide-098.png",
+      "title": "Slide com fundo colorido Azul",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image211.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-098.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 99,
+      "file": "slides/slide-099.html",
+      "thumbnail": "thumbnails/slide-099.png",
+      "title": "Frase curta de impacto",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image103.png",
+        "image103.png",
+        "image103.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-099.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 100,
+      "file": "slides/slide-100.html",
+      "thumbnail": "thumbnails/slide-100.png",
+      "title": "Frase curta de impacto em 2 linhas",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image103.png",
+        "image103.png",
+        "image103.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-100.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 101,
+      "file": "slides/slide-101.html",
+      "thumbnail": "thumbnails/slide-101.png",
+      "title": "Slide com fundo colorido Roxo",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image207.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-101.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 102,
+      "file": "slides/slide-102.html",
+      "thumbnail": "thumbnails/slide-102.png",
+      "title": "Slide com fundo colorido Verde",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image207.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-102.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 103,
+      "file": "slides/slide-103.html",
+      "thumbnail": "thumbnails/slide-103.png",
+      "title": "Slide com fundo colorido Laranja",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image218.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-103.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 104,
+      "file": "slides/slide-104.html",
+      "thumbnail": "thumbnails/slide-104.png",
+      "title": "Slide com fundo colorido Limão",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image219.png",
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-104.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 105,
+      "file": "slides/slide-105.html",
+      "thumbnail": "thumbnails/slide-105.png",
+      "title": "Slide com fundo colorido Rosa",
+      "family": "Fundos coloridos",
+      "assets": [
+        "image215.png",
+        "image8.png"
+      ],
+      "animation_file": "animations/slide-105.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 106,
+      "file": "slides/slide-106.html",
+      "thumbnail": "thumbnails/slide-106.png",
+      "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+      "family": "Slides especiais com foto",
+      "assets": [
+        "image221.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-106.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 107,
+      "file": "slides/slide-107.html",
+      "thumbnail": "thumbnails/slide-107.png",
+      "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna pellentes elementum enim ut placerat.",
+      "family": "Slides especiais com foto",
+      "assets": [
+        "image193.jpg",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-107.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 108,
+      "file": "slides/slide-108.html",
+      "thumbnail": "thumbnails/slide-108.png",
+      "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+      "family": "Slides especiais com foto",
+      "assets": [
+        "image222.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-108.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 109,
+      "file": "slides/slide-109.html",
+      "thumbnail": "thumbnails/slide-109.png",
+      "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+      "family": "Slides especiais com foto",
+      "assets": [
+        "image223.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-109.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 0,
+      "transition": {
+        "type": "fade",
+        "speed": "slow",
+        "advance_on_click": null,
+        "advance_after_ms": null,
+        "parameters": {}
+      },
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 110,
+      "file": "slides/slide-110.html",
+      "thumbnail": "thumbnails/slide-110.png",
+      "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+      "family": "Slides especiais com foto",
+      "assets": [
+        "image197.gif",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-110.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [
+        {
+          "asset": "image197.gif",
+          "media_type": "image/gif",
+          "animation_mode": "intrinsic_gif",
+          "frame_count": 100,
+          "frame_duration_ms": 40,
+          "total_duration_ms": 4000,
+          "loop": 0,
+          "pixel_width": 960,
+          "pixel_height": 540,
+          "poster_asset": "image197-poster.png",
+          "final_poster_asset": "image197-final-poster.png",
+          "playback_policy": "once_then_freeze_on_last_frame",
+          "pause_strategy": "swap_to_first_frame_poster_and_restart_on_resume",
+          "shape_name": "Google Shape;2736;p182"
+        }
+      ],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 111,
+      "file": "slides/slide-111.html",
+      "thumbnail": "thumbnails/slide-111.png",
+      "title": "Elementos gráficos úteis",
+      "family": "Elementos gráficos",
+      "assets": [
+        "image12.png",
+        "image214.png",
+        "image195.png",
+        "image213.png",
+        "image194.png",
+        "image200.png",
+        "image196.png"
+      ],
+      "animation_file": "animations/slide-111.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [
+        "image194.png",
+        "image195.png",
+        "image196.png"
+      ],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 112,
+      "file": "slides/slide-112.html",
+      "thumbnail": "thumbnails/slide-112.png",
+      "title": "Elementos gráficos úteis",
+      "family": "Elementos gráficos",
+      "assets": [
+        "image206.png",
+        "image201.png",
+        "image216.png",
+        "image12.png",
+        "image199.png",
+        "image202.png",
+        "image209.png"
+      ],
+      "animation_file": "animations/slide-112.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 3,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [
+        "image199.png",
+        "image202.png",
+        "image209.png"
+      ],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 113,
+      "file": "slides/slide-113.html",
+      "thumbnail": "thumbnails/slide-113.png",
+      "title": "Biblioteca de ícones",
+      "family": "Biblioteca de ícones",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-113.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 114,
+      "file": "slides/slide-114.html",
+      "thumbnail": "thumbnails/slide-114.png",
+      "title": "Biblioteca de ícones",
+      "family": "Biblioteca de ícones",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-114.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 115,
+      "file": "slides/slide-115.html",
+      "thumbnail": "thumbnails/slide-115.png",
+      "title": "Biblioteca de ícones",
+      "family": "Biblioteca de ícones",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-115.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 116,
+      "file": "slides/slide-116.html",
+      "thumbnail": "thumbnails/slide-116.png",
+      "title": "Biblioteca de ícones",
+      "family": "Biblioteca de ícones",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-116.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": "editable-assets-manifest.json",
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 117,
+      "file": "slides/slide-117.html",
+      "thumbnail": "thumbnails/slide-117.png",
+      "title": "Classificação do sigilo da apresentação",
+      "family": "Classificação do signo",
+      "assets": [
+        "image12.png"
+      ],
+      "animation_file": "animations/slide-117.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": false,
+      "animation_effect_count": 0,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    },
+    {
+      "slide": 118,
+      "file": "slides/slide-118.html",
+      "thumbnail": "thumbnails/slide-118.png",
+      "title": "Obrigado(a)",
+      "family": "Encerramento",
+      "assets": [
+        "image203.png",
+        "image220.png",
+        "image204.png",
+        "image205.png",
+        "image208.png",
+        "image212.png",
+        "image210.png",
+        "image2.png",
+        "image2.png"
+      ],
+      "animation_file": "animations/slide-118.json",
+      "animation_runtime": "slide-runtime.js",
+      "animation_runtime_enabled": true,
+      "animation_effect_count": 1,
+      "transition": null,
+      "animated_media": [],
+      "chart_files": [],
+      "replaceable_icons": [],
+      "picture_placeholders": [],
+      "editable_assets_manifest": null,
+      "accessibility_profile": "accessibility-profile.json"
+    }
+  ]
+}

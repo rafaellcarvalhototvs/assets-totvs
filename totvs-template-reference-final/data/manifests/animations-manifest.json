@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "slide_count": 118,
+  "slides_with_native_timing": 81,
+  "slides_with_effects": 81,
+  "slides_with_transitions": 27,
+  "slides_with_animated_media": 16,
+  "total_effects": 681,
+  "total_animated_media": 16,
+  "effect_type_counts": {
+    "appear": 82,
+    "disappear": 9,
+    "fade_in": 386,
+    "fade_out": 6,
+    "fly_in_from_bottom": 53,
+    "fly_in_from_left": 43,
+    "fly_in_from_right": 26,
+    "fly_in_from_top": 11,
+    "fly_out_to_left": 3,
+    "fly_out_to_right": 4,
+    "spin": 7,
+    "zoom_in": 51
+  },
+  "trigger_counts": {
+    "after_previous": 53,
+    "on_click": 29,
+    "with_previous": 599
+  },
+  "transition_type_counts": {
+    "fade": 1,
+    "push": 26
+  },
+  "animated_media_assets": [
+    "image112.gif",
+    "image181.gif",
+    "image191.gif",
+    "image197.gif",
+    "image224.gif",
+    "image225.gif",
+    "image51.gif",
+    "image53.gif",
+    "image58.gif",
+    "image60.gif",
+    "image61.gif",
+    "image64.gif",
+    "image65.gif",
+    "image66.gif",
+    "image67.gif",
+    "image70.gif"
+  ],
+  "runtime_playback": {
+    "manual_step_speed_factor": 0.85,
+    "manual_step_speed_change_percent": -15,
+    "gif_playback_policy": "once_then_freeze_on_last_frame",
+    "source_timing_preserved_in_slide_json": true
+  },
+  "slides_with_runtime_sequence_policy": [
+    42,
+    73,
+    74
+  ],
+  "html_runtime_implemented": true,
+  "html_runtime_file": "slide-runtime.js",
+  "supported_effect_types": [
+    "appear",
+    "disappear",
+    "fade_in",
+    "fade_out",
+    "fly_in_from_bottom",
+    "fly_in_from_left",
+    "fly_in_from_right",
+    "fly_in_from_top",
+    "fly_out_to_left",
+    "fly_out_to_right",
+    "spin",
+    "zoom_in"
+  ],
+  "reduced_motion_behavior": "Static final composition plus first-frame GIF posters unless the user explicitly enables movement.",
+  "slides": [
+    {
+      "slide": 1,
+      "file": "animations/slide-001.json",
+      "effect_count": 10,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 2,
+      "file": "animations/slide-002.json",
+      "effect_count": 6,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 3,
+      "file": "animations/slide-003.json",
+      "effect_count": 5,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 4,
+      "file": "animations/slide-004.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 5,
+      "file": "animations/slide-005.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 6,
+      "file": "animations/slide-006.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 7,
+      "file": "animations/slide-007.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 8,
+      "file": "animations/slide-008.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 9,
+      "file": "animations/slide-009.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 10,
+      "file": "animations/slide-010.json",
+      "effect_count": 8,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 11,
+      "file": "animations/slide-011.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 12,
+      "file": "animations/slide-012.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 13,
+      "file": "animations/slide-013.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 14,
+      "file": "animations/slide-014.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 15,
+      "file": "animations/slide-015.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 16,
+      "file": "animations/slide-016.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 17,
+      "file": "animations/slide-017.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 18,
+      "file": "animations/slide-018.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 19,
+      "file": "animations/slide-019.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 20,
+      "file": "animations/slide-020.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 21,
+      "file": "animations/slide-021.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 22,
+      "file": "animations/slide-022.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 23,
+      "file": "animations/slide-023.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 24,
+      "file": "animations/slide-024.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 25,
+      "file": "animations/slide-025.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 26,
+      "file": "animations/slide-026.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 27,
+      "file": "animations/slide-027.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 28,
+      "file": "animations/slide-028.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 29,
+      "file": "animations/slide-029.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 30,
+      "file": "animations/slide-030.json",
+      "effect_count": 7,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 31,
+      "file": "animations/slide-031.json",
+      "effect_count": 3,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 32,
+      "file": "animations/slide-032.json",
+      "effect_count": 3,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 33,
+      "file": "animations/slide-033.json",
+      "effect_count": 3,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 34,
+      "file": "animations/slide-034.json",
+      "effect_count": 3,
+      "transition": "push",
+      "animated_media_count": 1
+    },
+    {
+      "slide": 35,
+      "file": "animations/slide-035.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 36,
+      "file": "animations/slide-036.json",
+      "effect_count": 25,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 37,
+      "file": "animations/slide-037.json",
+      "effect_count": 30,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 38,
+      "file": "animations/slide-038.json",
+      "effect_count": 11,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 39,
+      "file": "animations/slide-039.json",
+      "effect_count": 11,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 40,
+      "file": "animations/slide-040.json",
+      "effect_count": 2,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 41,
+      "file": "animations/slide-041.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 42,
+      "file": "animations/slide-042.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 43,
+      "file": "animations/slide-043.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 44,
+      "file": "animations/slide-044.json",
+      "effect_count": 9,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 45,
+      "file": "animations/slide-045.json",
+      "effect_count": 2,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 46,
+      "file": "animations/slide-046.json",
+      "effect_count": 7,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 47,
+      "file": "animations/slide-047.json",
+      "effect_count": 8,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 48,
+      "file": "animations/slide-048.json",
+      "effect_count": 4,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 49,
+      "file": "animations/slide-049.json",
+      "effect_count": 8,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 50,
+      "file": "animations/slide-050.json",
+      "effect_count": 12,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 51,
+      "file": "animations/slide-051.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 52,
+      "file": "animations/slide-052.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 53,
+      "file": "animations/slide-053.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 54,
+      "file": "animations/slide-054.json",
+      "effect_count": 21,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 55,
+      "file": "animations/slide-055.json",
+      "effect_count": 18,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 56,
+      "file": "animations/slide-056.json",
+      "effect_count": 9,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 57,
+      "file": "animations/slide-057.json",
+      "effect_count": 17,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 58,
+      "file": "animations/slide-058.json",
+      "effect_count": 6,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 59,
+      "file": "animations/slide-059.json",
+      "effect_count": 7,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 60,
+      "file": "animations/slide-060.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 61,
+      "file": "animations/slide-061.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 62,
+      "file": "animations/slide-062.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 63,
+      "file": "animations/slide-063.json",
+      "effect_count": 5,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 64,
+      "file": "animations/slide-064.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 65,
+      "file": "animations/slide-065.json",
+      "effect_count": 18,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 66,
+      "file": "animations/slide-066.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 67,
+      "file": "animations/slide-067.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 68,
+      "file": "animations/slide-068.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 69,
+      "file": "animations/slide-069.json",
+      "effect_count": 8,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 70,
+      "file": "animations/slide-070.json",
+      "effect_count": 8,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 71,
+      "file": "animations/slide-071.json",
+      "effect_count": 19,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 72,
+      "file": "animations/slide-072.json",
+      "effect_count": 19,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 73,
+      "file": "animations/slide-073.json",
+      "effect_count": 26,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 74,
+      "file": "animations/slide-074.json",
+      "effect_count": 18,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 75,
+      "file": "animations/slide-075.json",
+      "effect_count": 7,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 76,
+      "file": "animations/slide-076.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 77,
+      "file": "animations/slide-077.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 78,
+      "file": "animations/slide-078.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 79,
+      "file": "animations/slide-079.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 80,
+      "file": "animations/slide-080.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 81,
+      "file": "animations/slide-081.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 82,
+      "file": "animations/slide-082.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 83,
+      "file": "animations/slide-083.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 84,
+      "file": "animations/slide-084.json",
+      "effect_count": 30,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 85,
+      "file": "animations/slide-085.json",
+      "effect_count": 42,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 86,
+      "file": "animations/slide-086.json",
+      "effect_count": 29,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 87,
+      "file": "animations/slide-087.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 88,
+      "file": "animations/slide-088.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 89,
+      "file": "animations/slide-089.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 90,
+      "file": "animations/slide-090.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 91,
+      "file": "animations/slide-091.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 92,
+      "file": "animations/slide-092.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 93,
+      "file": "animations/slide-093.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 94,
+      "file": "animations/slide-094.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 95,
+      "file": "animations/slide-095.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 96,
+      "file": "animations/slide-096.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 97,
+      "file": "animations/slide-097.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 98,
+      "file": "animations/slide-098.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 99,
+      "file": "animations/slide-099.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 100,
+      "file": "animations/slide-100.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 101,
+      "file": "animations/slide-101.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 102,
+      "file": "animations/slide-102.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 103,
+      "file": "animations/slide-103.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 104,
+      "file": "animations/slide-104.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 105,
+      "file": "animations/slide-105.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 106,
+      "file": "animations/slide-106.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 107,
+      "file": "animations/slide-107.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 108,
+      "file": "animations/slide-108.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 109,
+      "file": "animations/slide-109.json",
+      "effect_count": 0,
+      "transition": "fade",
+      "animated_media_count": 0
+    },
+    {
+      "slide": 110,
+      "file": "animations/slide-110.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 1
+    },
+    {
+      "slide": 111,
+      "file": "animations/slide-111.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 112,
+      "file": "animations/slide-112.json",
+      "effect_count": 3,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 113,
+      "file": "animations/slide-113.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 114,
+      "file": "animations/slide-114.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 115,
+      "file": "animations/slide-115.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 116,
+      "file": "animations/slide-116.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 117,
+      "file": "animations/slide-117.json",
+      "effect_count": 0,
+      "transition": null,
+      "animated_media_count": 0
+    },
+    {
+      "slide": 118,
+      "file": "animations/slide-118.json",
+      "effect_count": 1,
+      "transition": null,
+      "animated_media_count": 0
+    }
+  ]
+}

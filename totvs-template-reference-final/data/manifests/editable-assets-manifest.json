@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "rule": "Icons and picture samples remain independent from backgrounds and text so they can be replaced without rebuilding the component.",
+  "component_families": [
+    {
+      "name": "highlights_with_icons",
+      "slides": [
+        86
+      ],
+      "icon_representation": "independent_image_asset"
+    },
+    {
+      "name": "text_cards_with_icons",
+      "slides": [
+        111,
+        112
+      ],
+      "icon_representation": "independent_image_asset"
+    },
+    {
+      "name": "icon_library",
+      "slides": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "icon_representation": "independent_vector_objects"
+    }
+  ],
+  "replaceable_icons": [
+    {
+      "slide": 86,
+      "shape_name": "Google Shape;2367;p158",
+      "asset": "image109.png",
+      "html_selector": "[data-object=\"Google Shape;2367;p158\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 86,
+      "shape_name": "Google Shape;2368;p158",
+      "asset": "image111.png",
+      "html_selector": "[data-object=\"Google Shape;2368;p158\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 86,
+      "shape_name": "Google Shape;2369;p158",
+      "asset": "image114.png",
+      "html_selector": "[data-object=\"Google Shape;2369;p158\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 86,
+      "shape_name": "Google Shape;2370;p158",
+      "asset": "image115.png",
+      "html_selector": "[data-object=\"Google Shape;2370;p158\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 86,
+      "shape_name": "Google Shape;2371;p158",
+      "asset": "image159.png",
+      "html_selector": "[data-object=\"Google Shape;2371;p158\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2751;p183",
+      "asset": "image195.png",
+      "html_selector": "[data-object=\"Google Shape;2751;p183\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2755;p183",
+      "asset": "image194.png",
+      "html_selector": "[data-object=\"Google Shape;2755;p183\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2759;p183",
+      "asset": "image196.png",
+      "html_selector": "[data-object=\"Google Shape;2759;p183\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2785;p184",
+      "asset": "image199.png",
+      "html_selector": "[data-object=\"Google Shape;2785;p184\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2788;p184",
+      "asset": "image202.png",
+      "html_selector": "[data-object=\"Google Shape;2788;p184\"]",
+      "role": "replaceable-icon"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2791;p184",
+      "asset": "image209.png",
+      "html_selector": "[data-object=\"Google Shape;2791;p184\"]",
+      "role": "replaceable-icon"
+    }
+  ],
+  "card_backgrounds": [
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2749;p183",
+      "asset": "image214.png",
+      "html_selector": "[data-object=\"Google Shape;2749;p183\"]",
+      "role": "card-background"
+    },
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2753;p183",
+      "asset": "image213.png",
+      "html_selector": "[data-object=\"Google Shape;2753;p183\"]",
+      "role": "card-background"
+    },
+    {
+      "slide": 111,
+      "shape_name": "Google Shape;2757;p183",
+      "asset": "image200.png",
+      "html_selector": "[data-object=\"Google Shape;2757;p183\"]",
+      "role": "card-background"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2777;p184",
+      "asset": "image206.png",
+      "html_selector": "[data-object=\"Google Shape;2777;p184\"]",
+      "role": "card-background"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2778;p184",
+      "asset": "image201.png",
+      "html_selector": "[data-object=\"Google Shape;2778;p184\"]",
+      "role": "card-background"
+    },
+    {
+      "slide": 112,
+      "shape_name": "Google Shape;2779;p184",
+      "asset": "image216.png",
+      "html_selector": "[data-object=\"Google Shape;2779;p184\"]",
+      "role": "card-background"
+    }
+  ],
+  "picture_placeholders": [
+    {
+      "slide": 35,
+      "shape_name": "Google Shape;1029;p107",
+      "html_selector": "[data-object=\"Google Shape;1029;p107\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image18.jpg",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 42,
+      "shape_name": "Google Shape;1279;p114",
+      "html_selector": "[data-object=\"Google Shape;1279;p114\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image89.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 43,
+      "shape_name": "Google Shape;1295;p115",
+      "html_selector": "[data-object=\"Google Shape;1295;p115\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image79.png",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 44,
+      "shape_name": "Google Shape;1307;p116",
+      "html_selector": "[data-object=\"Google Shape;1307;p116\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image95.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 45,
+      "shape_name": "Google Shape;1321;p117",
+      "html_selector": "[data-object=\"Google Shape;1321;p117\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image223.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 46,
+      "shape_name": "Google Shape;1341;p118",
+      "html_selector": "[data-object=\"Google Shape;1341;p118\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image221.png",
+      "position": "center-left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 46,
+      "shape_name": "Google Shape;1342;p118",
+      "html_selector": "[data-object=\"Google Shape;1342;p118\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image223.png",
+      "position": "center-right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 47,
+      "shape_name": "Google Shape;1355;p119",
+      "html_selector": "[data-object=\"Google Shape;1355;p119\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image95.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 48,
+      "shape_name": "Google Shape;1361;p120",
+      "html_selector": "[data-object=\"Google Shape;1361;p120\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image102.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 49,
+      "shape_name": "Google Shape;1375;p121",
+      "html_selector": "[data-object=\"Google Shape;1375;p121\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image30.jpg",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 50,
+      "shape_name": "Google Shape;1386;p122",
+      "html_selector": "[data-object=\"Google Shape;1386;p122\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image89.png",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 54,
+      "shape_name": "Google Shape;1495;p126",
+      "html_selector": "[data-object=\"Google Shape;1495;p126\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image31.jpg",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 54,
+      "shape_name": "Google Shape;1504;p126",
+      "html_selector": "[data-object=\"Google Shape;1504;p126\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image95.png",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 54,
+      "shape_name": "Google Shape;1505;p126",
+      "html_selector": "[data-object=\"Google Shape;1505;p126\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image193.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 55,
+      "shape_name": "Google Shape;1532;p127",
+      "html_selector": "[data-object=\"Google Shape;1532;p127\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image221.png",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 55,
+      "shape_name": "Google Shape;1533;p127",
+      "html_selector": "[data-object=\"Google Shape;1533;p127\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image222.png",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 55,
+      "shape_name": "Google Shape;1534;p127",
+      "html_selector": "[data-object=\"Google Shape;1534;p127\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image223.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 60,
+      "shape_name": "Google Shape;1632;p132",
+      "html_selector": "[data-object=\"Google Shape;1632;p132\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image105.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 61,
+      "shape_name": "Google Shape;1648;p133",
+      "html_selector": "[data-object=\"Google Shape;1648;p133\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image47.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 62,
+      "shape_name": "Google Shape;1659;p134",
+      "html_selector": "[data-object=\"Google Shape;1659;p134\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image76.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 66,
+      "shape_name": "Google Shape;1730;p138",
+      "html_selector": "[data-object=\"Google Shape;1730;p138\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image30.jpg",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 67,
+      "shape_name": "Google Shape;1737;p139",
+      "html_selector": "[data-object=\"Google Shape;1737;p139\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image33.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 68,
+      "shape_name": "Google Shape;1750;p140",
+      "html_selector": "[data-object=\"Google Shape;1750;p140\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image42.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 69,
+      "shape_name": "Google Shape;1759;p141",
+      "html_selector": "[data-object=\"Google Shape;1759;p141\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image31.jpg",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 69,
+      "shape_name": "Google Shape;1760;p141",
+      "html_selector": "[data-object=\"Google Shape;1760;p141\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image193.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 70,
+      "shape_name": "Google Shape;1771;p142",
+      "html_selector": "[data-object=\"Google Shape;1771;p142\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image221.png",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 70,
+      "shape_name": "Google Shape;1772;p142",
+      "html_selector": "[data-object=\"Google Shape;1772;p142\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image222.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 92,
+      "shape_name": "Google Shape;2506;p164",
+      "html_selector": "[data-object=\"Google Shape;2506;p164\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image78.png",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 92,
+      "shape_name": "Google Shape;2507;p164",
+      "html_selector": "[data-object=\"Google Shape;2507;p164\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image102.png",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 93,
+      "shape_name": "Google Shape;2522;p165",
+      "html_selector": "[data-object=\"Google Shape;2522;p165\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image29.jpg",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 93,
+      "shape_name": "Google Shape;2523;p165",
+      "html_selector": "[data-object=\"Google Shape;2523;p165\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image34.jpg",
+      "position": "center",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 93,
+      "shape_name": "Google Shape;2524;p165",
+      "html_selector": "[data-object=\"Google Shape;2524;p165\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image105.jpg",
+      "position": "right",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 94,
+      "shape_name": "Google Shape;2553;p166",
+      "html_selector": "[data-object=\"Google Shape;2553;p166\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image76.png",
+      "position": "left",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 94,
+      "shape_name": "Google Shape;2554;p166",
+      "html_selector": "[data-object=\"Google Shape;2554;p166\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image79.png",
+      "position": "center-top",
+      "source_state": "empty_picture_placeholder"
+    },
+    {
+      "slide": 94,
+      "shape_name": "Google Shape;2555;p166",
+      "html_selector": "[data-object=\"Google Shape;2555;p166\"]",
+      "role": "replaceable-picture-placeholder",
+      "sample_asset": "image89.png",
+      "position": "center-bottom",
+      "source_state": "empty_picture_placeholder"
+    }
+  ]
+}

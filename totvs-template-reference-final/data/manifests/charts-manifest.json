@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source_file": "Template_PPT TOTVS_junho_2025_GSlides (1).pptx",
+  "source_chart_format": "raster_png",
+  "provenance_note": "The PPTX contains no native chart XML or embedded workbook. Values were reconstructed from visible labels and geometry and are explicitly marked as reconstructed.",
+  "chart_count": 4,
+  "charts": [
+    {
+      "id": "slide-087-chart-01",
+      "slide": 87,
+      "type": "donut",
+      "file": "charts/slide-087-chart-01.json",
+      "source_asset": "image163.png",
+      "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
+    },
+    {
+      "id": "slide-088-chart-01",
+      "slide": 88,
+      "type": "donut",
+      "file": "charts/slide-088-chart-01.json",
+      "source_asset": "image161.png",
+      "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
+    },
+    {
+      "id": "slide-089-chart-01",
+      "slide": 89,
+      "type": "horizontal_bar",
+      "file": "charts/slide-089-chart-01.json",
+      "source_asset": "image162.png",
+      "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
+    },
+    {
+      "id": "slide-090-chart-01",
+      "slide": 90,
+      "type": "horizontal_bar",
+      "file": "charts/slide-090-chart-01.json",
+      "source_asset": "image160.png",
+      "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
+    }
+  ]
+}

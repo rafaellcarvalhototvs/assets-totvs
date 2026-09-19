@@ -1,0 +1,3330 @@
+[
+  {
+    "slide": 1,
+    "title": "Template guidelines",
+    "family": "Orientações do template",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-001.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-001.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image32.png",
+        "canonical_path": "media/static/image32.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image32.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image16.png",
+        "canonical_path": "media/static/image16.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image16.png"
+      },
+      {
+        "source_filename": "image13.png",
+        "canonical_path": "media/static/image13.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image13.png"
+      }
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "NÃO é permitido criar variações da CAPA ou CONTRACAPA, nem alterando a foto, nem trocando ou acrescentando logotipos. NÃO é permitido recriar a apresentação em outro software, como o Illustrator ou InDesign. NÃO é permitido criar outros modelos de slides, ainda que siga o manual da marca. A base e estrutura deste template devem ser sempre mantidas. NÃO trocar o logotipo da TOTVS da capa pelo logotipo da Unidade de Negócio. Utilize sempre e apenas a fonte Verdana, tanto para a versão offline como também para a versão online da apresentação. Não utilize este slide em sua apresentação.",
+    "family": "Orientações do template",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-002.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-002.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image43.png",
+        "canonical_path": "media/static/image43.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image43.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      },
+      {
+        "source_filename": "image15.png",
+        "canonical_path": "media/static/image15.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image15.png"
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Ao reutilizar slides prontos de outras apresentações, copie apenas os elementos necessários, sem copiar o slide inteiro para evitar misturar fundos antigos com o template novo. É permitido: Criar variações de separata, alterando a foto (trocando por uma imagem segmentada por exemplo) desde que mantenha a estrutura original; Alterar as fotos ou gifs dos slides de conteúdo. Evite misturar as separatas de vídeo com as estáticas. Escolha uma das opções. Se tiver muitas divisórias, priorize as versões com foto, pois são mais leves. Não utilize este slide em sua apresentação.",
+    "family": "Orientações do template",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-003.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-003.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image43.png",
+        "canonical_path": "media/static/image43.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image43.png"
+      },
+      {
+        "source_filename": "image19.png",
+        "canonical_path": "media/static/image19.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image19.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Capa_Título da apresentação",
+    "family": "Capas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-004.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-004.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image10.png",
+        "canonical_path": "media/static/image10.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image10.png"
+      },
+      {
+        "source_filename": "image32.png",
+        "canonical_path": "media/static/image32.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image32.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Capa_Título da apresentação",
+    "family": "Capas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-005.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-005.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image14.png",
+        "canonical_path": "media/static/image14.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image14.png"
+      },
+      {
+        "source_filename": "image32.png",
+        "canonical_path": "media/static/image32.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image32.png"
+      },
+      {
+        "source_filename": "image1.png",
+        "canonical_path": "media/static/image1.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image1.png"
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "AVISO LEGAL: As informações, produtos e marcas contidas nesta apresentação são de propriedade intelectual da TOTVS e não podem ser divulgadas, compartilhadas, publicadas ou utilizadas sem autorização expressa da TOTVS, sob pena de responsabilização cível e criminal do infrator, nos termos do quanto disposto na Lei n. 9.279/1996. © TOTVS Todos os direitos reservados.",
+    "family": "Aviso legal",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-006.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-006.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image43.png",
+        "canonical_path": "media/static/image43.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image43.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "Somos o Trusted Advisor do nosso cliente",
+    "family": "Separata de transição",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-007.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-007.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image28.jpg",
+        "canonical_path": "media/static/image28.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image28.jpg"
+      },
+      {
+        "source_filename": "image22.png",
+        "canonical_path": "media/static/image22.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image22.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-008.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-008.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image78.png",
+        "canonical_path": "media/static/image78.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image78.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-009.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-009.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image26.jpg",
+        "canonical_path": "media/static/image26.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image26.jpg"
+      },
+      {
+        "source_filename": "image21.png",
+        "canonical_path": "media/static/image21.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image21.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-010.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-010.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image95.png",
+        "canonical_path": "media/static/image95.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image95.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-011.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-011.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image31.jpg",
+        "canonical_path": "media/static/image31.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image31.jpg"
+      },
+      {
+        "source_filename": "image50.png",
+        "canonical_path": "media/static/image50.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image50.png"
+      },
+      {
+        "source_filename": "image55.png",
+        "canonical_path": "media/static/image55.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image55.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-012.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-012.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image29.jpg",
+        "canonical_path": "media/static/image29.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image29.jpg"
+      },
+      {
+        "source_filename": "image21.png",
+        "canonical_path": "media/static/image21.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image21.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-013.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-013.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image30.jpg",
+        "canonical_path": "media/static/image30.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image30.jpg"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-014.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-014.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image76.png",
+        "canonical_path": "media/static/image76.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image76.png"
+      },
+      {
+        "source_filename": "image59.png",
+        "canonical_path": "media/static/image59.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image59.png"
+      },
+      {
+        "source_filename": "image52.png",
+        "canonical_path": "media/static/image52.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image52.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-015.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-015.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image83.png",
+        "canonical_path": "media/static/image83.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image83.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-016.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-016.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image80.png",
+        "canonical_path": "media/static/image80.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image80.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-017.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-017.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image33.jpg",
+        "canonical_path": "media/static/image33.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image33.jpg"
+      },
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image48.png",
+        "canonical_path": "media/static/image48.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image48.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-018.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-018.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image34.jpg",
+        "canonical_path": "media/static/image34.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image34.jpg"
+      },
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image68.png",
+        "canonical_path": "media/static/image68.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image68.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-019.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-019.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image42.jpg",
+        "canonical_path": "media/static/image42.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image42.jpg"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-020.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-020.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image89.png",
+        "canonical_path": "media/static/image89.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image89.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      }
+    ]
+  },
+  {
+    "slide": 21,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-021.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-021.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image79.png",
+        "canonical_path": "media/static/image79.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image79.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 22,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-022.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-022.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image100.png",
+        "canonical_path": "media/static/image100.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image100.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      }
+    ]
+  },
+  {
+    "slide": 23,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-023.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-023.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image47.jpg",
+        "canonical_path": "media/static/image47.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image47.jpg"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 24,
+    "title": "Título ou tema do vídeo",
+    "family": "Separata de vídeo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-024.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-024.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image44.png",
+        "canonical_path": "media/static/image44.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image44.png"
+      },
+      {
+        "source_filename": "image46.png",
+        "canonical_path": "media/static/image46.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image46.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 25,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-025.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-025.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image51.gif",
+        "canonical_path": "media/animated/image51.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image51.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image51-poster.png",
+        "canonical_path": "media/posters/image51-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image51-poster.png"
+      },
+      {
+        "source_filename": "image51-final-poster.png",
+        "canonical_path": "media/posters/image51-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image51-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 26,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-026.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-026.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image53.gif",
+        "canonical_path": "media/animated/image53.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image53.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image53-poster.png",
+        "canonical_path": "media/posters/image53-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image53-poster.png"
+      },
+      {
+        "source_filename": "image53-final-poster.png",
+        "canonical_path": "media/posters/image53-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image53-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 27,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-027.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-027.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image61.gif",
+        "canonical_path": "media/animated/image61.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image61.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image61-poster.png",
+        "canonical_path": "media/posters/image61-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image61-poster.png"
+      },
+      {
+        "source_filename": "image61-final-poster.png",
+        "canonical_path": "media/posters/image61-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image61-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 28,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-028.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-028.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image64.gif",
+        "canonical_path": "media/animated/image64.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image64.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image64-poster.png",
+        "canonical_path": "media/posters/image64-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image64-poster.png"
+      },
+      {
+        "source_filename": "image64-final-poster.png",
+        "canonical_path": "media/posters/image64-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image64-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 29,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-029.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-029.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image65.gif",
+        "canonical_path": "media/animated/image65.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image65.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image65-poster.png",
+        "canonical_path": "media/posters/image65-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image65-poster.png"
+      },
+      {
+        "source_filename": "image65-final-poster.png",
+        "canonical_path": "media/posters/image65-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image65-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 30,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-030.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-030.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image58.gif",
+        "canonical_path": "media/animated/image58.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image58.gif"
+      },
+      {
+        "source_filename": "image17.png",
+        "canonical_path": "media/static/image17.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image17.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image58-poster.png",
+        "canonical_path": "media/posters/image58-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image58-poster.png"
+      },
+      {
+        "source_filename": "image58-final-poster.png",
+        "canonical_path": "media/posters/image58-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image58-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 31,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-031.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-031.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image224.gif",
+        "canonical_path": "media/animated/image224.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image224.gif"
+      },
+      {
+        "source_filename": "image54.png",
+        "canonical_path": "media/static/image54.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image54.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image224-poster.png",
+        "canonical_path": "media/posters/image224-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image224-poster.png"
+      },
+      {
+        "source_filename": "image224-final-poster.png",
+        "canonical_path": "media/posters/image224-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image224-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 32,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-032.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-032.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image60.gif",
+        "canonical_path": "media/animated/image60.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image60.gif"
+      },
+      {
+        "source_filename": "image54.png",
+        "canonical_path": "media/static/image54.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image54.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image60-poster.png",
+        "canonical_path": "media/posters/image60-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image60-poster.png"
+      },
+      {
+        "source_filename": "image60-final-poster.png",
+        "canonical_path": "media/posters/image60-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image60-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 33,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-033.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-033.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image66.gif",
+        "canonical_path": "media/animated/image66.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image66.gif"
+      },
+      {
+        "source_filename": "image54.png",
+        "canonical_path": "media/static/image54.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image54.png"
+      },
+      {
+        "source_filename": "image57.png",
+        "canonical_path": "media/static/image57.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image57.png"
+      },
+      {
+        "source_filename": "image66-poster.png",
+        "canonical_path": "media/posters/image66-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image66-poster.png"
+      },
+      {
+        "source_filename": "image66-final-poster.png",
+        "canonical_path": "media/posters/image66-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image66-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 34,
+    "title": "Inserir o título",
+    "family": "Separatas fotográficas numeradas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-034.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-034.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image67.gif",
+        "canonical_path": "media/animated/image67.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image67.gif"
+      },
+      {
+        "source_filename": "image54.png",
+        "canonical_path": "media/static/image54.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image54.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image67-poster.png",
+        "canonical_path": "media/posters/image67-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image67-poster.png"
+      },
+      {
+        "source_filename": "image67-final-poster.png",
+        "canonical_path": "media/posters/image67-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image67-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 35,
+    "title": "00h00",
+    "family": "Agendas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-035.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-035.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image18.jpg",
+        "canonical_path": "media/static/image18.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image18.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 36,
+    "title": "Agenda 2",
+    "family": "Agendas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-036.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-036.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image102.png",
+        "canonical_path": "media/static/image102.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image102.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 37,
+    "title": "Agenda 3",
+    "family": "Agendas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-037.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-037.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 38,
+    "title": "Agenda 4",
+    "family": "Agendas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-038.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-038.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image62.png",
+        "canonical_path": "media/static/image62.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image62.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 39,
+    "title": "Agenda 5",
+    "family": "Agendas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-039.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-039.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 40,
+    "title": "Massa de texto, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo vehicula enim eros. Use a versão bold para títulos do texto",
+    "family": "Conteúdo textual",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-040.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-040.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image84.png",
+        "canonical_path": "media/static/image84.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image84.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 41,
+    "title": "Slide para conteúdos densos",
+    "family": "Conteúdo textual",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-041.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-041.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 42,
+    "title": "Slide com texto + laptop em movimento 1",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-042.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-042.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image70.gif",
+        "canonical_path": "media/animated/image70.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image70.gif"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image89.png",
+        "canonical_path": "media/static/image89.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image89.png"
+      },
+      {
+        "source_filename": "image4.png",
+        "canonical_path": "media/static/image4.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image4.png"
+      },
+      {
+        "source_filename": "image70-poster.png",
+        "canonical_path": "media/posters/image70-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image70-poster.png"
+      },
+      {
+        "source_filename": "image70-final-poster.png",
+        "canonical_path": "media/posters/image70-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image70-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 43,
+    "title": "Slide com texto + laptop em movimento 2",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-043.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-043.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image101.png",
+        "canonical_path": "media/static/image101.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image101.png"
+      },
+      {
+        "source_filename": "image69.png",
+        "canonical_path": "media/static/image69.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image69.png"
+      },
+      {
+        "source_filename": "image71.png",
+        "canonical_path": "media/static/image71.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image71.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image79.png",
+        "canonical_path": "media/static/image79.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image79.png"
+      }
+    ]
+  },
+  {
+    "slide": 44,
+    "title": "Ut wisi enim adminim veniam, quisnos exercitus",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-044.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-044.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image72.png",
+        "canonical_path": "media/static/image72.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image72.png"
+      },
+      {
+        "source_filename": "image73.png",
+        "canonical_path": "media/static/image73.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image73.png"
+      },
+      {
+        "source_filename": "image71.png",
+        "canonical_path": "media/static/image71.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image71.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image95.png",
+        "canonical_path": "media/static/image95.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image95.png"
+      }
+    ]
+  },
+  {
+    "slide": 45,
+    "title": "Slide com texto + celular em movimento 1",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-045.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-045.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image75.png",
+        "canonical_path": "media/static/image75.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image75.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image223.png",
+        "canonical_path": "media/static/image223.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image223.png"
+      }
+    ]
+  },
+  {
+    "slide": 46,
+    "title": "Slide com texto + celular em movimento 2",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-046.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-046.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image143.png",
+        "canonical_path": "media/static/image143.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image143.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image221.png",
+        "canonical_path": "media/static/image221.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image221.png"
+      },
+      {
+        "source_filename": "image223.png",
+        "canonical_path": "media/static/image223.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image223.png"
+      },
+      {
+        "source_filename": "image38.png",
+        "canonical_path": "media/static/image38.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image38.png"
+      }
+    ]
+  },
+  {
+    "slide": 47,
+    "title": "Massa de texto, consectetuer am adipisc elit, seimt nonum nibh morq euismod tincidunt ut lore laoreet sit dolore magna aliquam erat agt volutpat dolor.",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-047.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-047.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image95.png",
+        "canonical_path": "media/static/image95.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image95.png"
+      },
+      {
+        "source_filename": "image5.jpg",
+        "canonical_path": "media/static/image5.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image5.jpg"
+      },
+      {
+        "source_filename": "image6.png",
+        "canonical_path": "media/static/image6.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image6.png"
+      }
+    ]
+  },
+  {
+    "slide": 48,
+    "title": "Slide com texto + tablet em movimento 1",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-048.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-048.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image77.png",
+        "canonical_path": "media/static/image77.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image77.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image102.png",
+        "canonical_path": "media/static/image102.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image102.png"
+      }
+    ]
+  },
+  {
+    "slide": 49,
+    "title": "Ut wisi enim adminim veniam, quisnos exerci tation ullam corper suscip eborp lobortis nislut utea commod. Use a versão bold para destaque.",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-049.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-049.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image86.png",
+        "canonical_path": "media/static/image86.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image86.png"
+      },
+      {
+        "source_filename": "image94.png",
+        "canonical_path": "media/static/image94.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image94.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image30.jpg",
+        "canonical_path": "media/static/image30.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image30.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 50,
+    "title": "Massa de texto, consectetuer am adipisc elit, seimt nonum nibh morq euismod tincidunt ut lore laoreet sit dolore magna aliquam erat agt volutpat dolor.",
+    "family": "Texto com dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-050.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-050.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image89.png",
+        "canonical_path": "media/static/image89.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image89.png"
+      },
+      {
+        "source_filename": "image11.jpg",
+        "canonical_path": "media/static/image11.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image11.jpg"
+      },
+      {
+        "source_filename": "image7.png",
+        "canonical_path": "media/static/image7.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image7.png"
+      }
+    ]
+  },
+  {
+    "slide": 51,
+    "title": "Slide com duas colunas e dispositivo",
+    "family": "Colunas e dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-051.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-051.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image84.png",
+        "canonical_path": "media/static/image84.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image84.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image77.png",
+        "canonical_path": "media/static/image77.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image77.png"
+      }
+    ]
+  },
+  {
+    "slide": 52,
+    "title": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. A ornare vestibulum venenatis justo adipiscing pulvinar sed nibh eu",
+    "family": "Colunas e dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-052.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-052.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image84.png",
+        "canonical_path": "media/static/image84.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image84.png"
+      },
+      {
+        "source_filename": "image71.png",
+        "canonical_path": "media/static/image71.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image71.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 53,
+    "title": "Slide com colunas e dispositivo",
+    "family": "Colunas e dispositivo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-053.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-053.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image84.png",
+        "canonical_path": "media/static/image84.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image84.png"
+      },
+      {
+        "source_filename": "image75.png",
+        "canonical_path": "media/static/image75.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image75.png"
+      }
+    ]
+  },
+  {
+    "slide": 54,
+    "title": "Legenda imagem em 2 linhas no máximo",
+    "family": "Passo a passo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-054.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-054.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image95.png",
+        "canonical_path": "media/static/image95.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image95.png"
+      },
+      {
+        "source_filename": "image31.jpg",
+        "canonical_path": "media/static/image31.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image31.jpg"
+      },
+      {
+        "source_filename": "image193.jpg",
+        "canonical_path": "media/static/image193.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image193.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 55,
+    "title": "Legenda imagem em 2 linhas no máximo",
+    "family": "Passo a passo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-055.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-055.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image221.png",
+        "canonical_path": "media/static/image221.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image221.png"
+      },
+      {
+        "source_filename": "image222.png",
+        "canonical_path": "media/static/image222.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image222.png"
+      },
+      {
+        "source_filename": "image223.png",
+        "canonical_path": "media/static/image223.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image223.png"
+      }
+    ]
+  },
+  {
+    "slide": 56,
+    "title": "Slide com texto + tópicos",
+    "family": "Tópicos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-056.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-056.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 57,
+    "title": "Slide com tópicos",
+    "family": "Tópicos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-057.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-057.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image90.png",
+        "canonical_path": "media/static/image90.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image90.png"
+      },
+      {
+        "source_filename": "image92.png",
+        "canonical_path": "media/static/image92.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image92.png"
+      },
+      {
+        "source_filename": "image91.png",
+        "canonical_path": "media/static/image91.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image91.png"
+      },
+      {
+        "source_filename": "image93.png",
+        "canonical_path": "media/static/image93.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image93.png"
+      }
+    ]
+  },
+  {
+    "slide": 58,
+    "title": "Slide com texto + destaque 1",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-058.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-058.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image97.png",
+        "canonical_path": "media/static/image97.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image97.png"
+      },
+      {
+        "source_filename": "image3.png",
+        "canonical_path": "media/static/image3.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image3.png"
+      }
+    ]
+  },
+  {
+    "slide": 59,
+    "title": "Slide com texto + destaque 1",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-059.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-059.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image98.png",
+        "canonical_path": "media/static/image98.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image98.png"
+      },
+      {
+        "source_filename": "image99.png",
+        "canonical_path": "media/static/image99.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image99.png"
+      },
+      {
+        "source_filename": "image3.png",
+        "canonical_path": "media/static/image3.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image3.png"
+      }
+    ]
+  },
+  {
+    "slide": 60,
+    "title": "Slide com texto + destaque 2",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-060.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-060.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image185.png",
+        "canonical_path": "media/static/image185.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image185.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image105.jpg",
+        "canonical_path": "media/static/image105.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image105.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 61,
+    "title": "Slide com texto + destaque 2",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-061.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-061.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image185.png",
+        "canonical_path": "media/static/image185.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image185.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image47.jpg",
+        "canonical_path": "media/static/image47.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image47.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 62,
+    "title": "Slide com texto + destaque 3",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-062.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-062.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image185.png",
+        "canonical_path": "media/static/image185.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image185.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image76.png",
+        "canonical_path": "media/static/image76.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image76.png"
+      }
+    ]
+  },
+  {
+    "slide": 63,
+    "title": "Slide com texto + destaque 4",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-063.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-063.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image105.jpg",
+        "canonical_path": "media/static/image105.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image105.jpg"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 64,
+    "title": "Slide com texto + destaque 4",
+    "family": "Texto com destaque",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-064.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-064.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image225.gif",
+        "canonical_path": "media/animated/image225.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image225.gif"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image225-poster.png",
+        "canonical_path": "media/posters/image225-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image225-poster.png"
+      },
+      {
+        "source_filename": "image225-final-poster.png",
+        "canonical_path": "media/posters/image225-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image225-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 65,
+    "title": "Lista de bullets 2",
+    "family": "Listas de bullets",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-065.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-065.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image112.gif",
+        "canonical_path": "media/animated/image112.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image112.gif"
+      },
+      {
+        "source_filename": "image107.png",
+        "canonical_path": "media/static/image107.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image107.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image112-poster.png",
+        "canonical_path": "media/posters/image112-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image112-poster.png"
+      },
+      {
+        "source_filename": "image112-final-poster.png",
+        "canonical_path": "media/posters/image112-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image112-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 66,
+    "title": "Lista de bullets 3",
+    "family": "Listas de bullets",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-066.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-066.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image108.png",
+        "canonical_path": "media/static/image108.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image108.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image30.jpg",
+        "canonical_path": "media/static/image30.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image30.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 67,
+    "title": "Título do slide. Apenas 1 linha",
+    "family": "Texto e imagem",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-067.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-067.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image110.png",
+        "canonical_path": "media/static/image110.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image110.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image33.jpg",
+        "canonical_path": "media/static/image33.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image33.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 68,
+    "title": "Título do slide. Apenas 1 linha",
+    "family": "Texto e imagem",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-068.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-068.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image42.jpg",
+        "canonical_path": "media/static/image42.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image42.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 69,
+    "title": "Título do slide. Apenas 1 linha",
+    "family": "Texto e imagem",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-069.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-069.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image31.jpg",
+        "canonical_path": "media/static/image31.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image31.jpg"
+      },
+      {
+        "source_filename": "image193.jpg",
+        "canonical_path": "media/static/image193.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image193.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 70,
+    "title": "Título do slide. Apenas 1 linha",
+    "family": "Texto e imagem",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-070.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-070.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image221.png",
+        "canonical_path": "media/static/image221.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image221.png"
+      },
+      {
+        "source_filename": "image222.png",
+        "canonical_path": "media/static/image222.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image222.png"
+      }
+    ]
+  },
+  {
+    "slide": 71,
+    "title": "Slide com boxes comparativos",
+    "family": "Boxes comparativos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-071.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-071.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image109.png",
+        "canonical_path": "media/static/image109.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image109.png"
+      },
+      {
+        "source_filename": "image111.png",
+        "canonical_path": "media/static/image111.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image111.png"
+      },
+      {
+        "source_filename": "image114.png",
+        "canonical_path": "media/static/image114.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image114.png"
+      },
+      {
+        "source_filename": "image115.png",
+        "canonical_path": "media/static/image115.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image115.png"
+      }
+    ]
+  },
+  {
+    "slide": 72,
+    "title": "Slide com boxes comparativos",
+    "family": "Boxes comparativos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-072.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-072.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image116.png",
+        "canonical_path": "media/static/image116.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image116.png"
+      },
+      {
+        "source_filename": "image117.png",
+        "canonical_path": "media/static/image117.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image117.png"
+      },
+      {
+        "source_filename": "image118.png",
+        "canonical_path": "media/static/image118.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image118.png"
+      },
+      {
+        "source_filename": "image123.png",
+        "canonical_path": "media/static/image123.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image123.png"
+      }
+    ]
+  },
+  {
+    "slide": 73,
+    "title": "Representação de processos cíclicos",
+    "family": "Processo cíclico",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-073.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-073.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image119.png",
+        "canonical_path": "media/static/image119.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image119.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image121.png",
+        "canonical_path": "media/static/image121.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image121.png"
+      },
+      {
+        "source_filename": "image122.png",
+        "canonical_path": "media/static/image122.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image122.png"
+      },
+      {
+        "source_filename": "image124.png",
+        "canonical_path": "media/static/image124.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image124.png"
+      },
+      {
+        "source_filename": "image126.png",
+        "canonical_path": "media/static/image126.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image126.png"
+      },
+      {
+        "source_filename": "image125.png",
+        "canonical_path": "media/static/image125.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image125.png"
+      },
+      {
+        "source_filename": "image128.png",
+        "canonical_path": "media/static/image128.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image128.png"
+      }
+    ]
+  },
+  {
+    "slide": 74,
+    "title": "Representação de processos cíclicos",
+    "family": "Processo cíclico",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-074.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-074.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image129.png",
+        "canonical_path": "media/static/image129.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image129.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image130.png",
+        "canonical_path": "media/static/image130.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image130.png"
+      },
+      {
+        "source_filename": "image131.png",
+        "canonical_path": "media/static/image131.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image131.png"
+      },
+      {
+        "source_filename": "image142.png",
+        "canonical_path": "media/static/image142.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image142.png"
+      },
+      {
+        "source_filename": "image132.png",
+        "canonical_path": "media/static/image132.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image132.png"
+      }
+    ]
+  },
+  {
+    "slide": 75,
+    "title": "Tabela 1",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-075.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-075.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image134.png",
+        "canonical_path": "media/static/image134.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image134.png"
+      },
+      {
+        "source_filename": "image135.png",
+        "canonical_path": "media/static/image135.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image135.png"
+      },
+      {
+        "source_filename": "image133.png",
+        "canonical_path": "media/static/image133.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image133.png"
+      },
+      {
+        "source_filename": "image138.png",
+        "canonical_path": "media/static/image138.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image138.png"
+      }
+    ]
+  },
+  {
+    "slide": 76,
+    "title": "Tabela 2",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-076.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-076.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 77,
+    "title": "Tabela 2",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-077.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-077.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 78,
+    "title": "Tabela 2",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-078.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-078.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 79,
+    "title": "Tabela 3",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-079.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-079.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 80,
+    "title": "Tabela 3",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-080.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-080.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 81,
+    "title": "Tabela 3",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-081.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-081.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 82,
+    "title": "Tabela 3",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-082.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-082.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 83,
+    "title": "Tabela 3",
+    "family": "Tabelas",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-083.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-083.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 84,
+    "title": "Timeline 1",
+    "family": "Timelines",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-084.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-084.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image109.png",
+        "canonical_path": "media/static/image109.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image109.png"
+      },
+      {
+        "source_filename": "image111.png",
+        "canonical_path": "media/static/image111.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image111.png"
+      },
+      {
+        "source_filename": "image140.png",
+        "canonical_path": "media/static/image140.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image140.png"
+      },
+      {
+        "source_filename": "image115.png",
+        "canonical_path": "media/static/image115.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image115.png"
+      },
+      {
+        "source_filename": "image141.png",
+        "canonical_path": "media/static/image141.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image141.png"
+      }
+    ]
+  },
+  {
+    "slide": 85,
+    "title": "Timeline 2",
+    "family": "Timelines",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-085.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-085.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image145.png",
+        "canonical_path": "media/static/image145.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image145.png"
+      },
+      {
+        "source_filename": "image146.png",
+        "canonical_path": "media/static/image146.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image146.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image149.png",
+        "canonical_path": "media/static/image149.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image149.png"
+      },
+      {
+        "source_filename": "image155.png",
+        "canonical_path": "media/static/image155.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image155.png"
+      },
+      {
+        "source_filename": "image150.png",
+        "canonical_path": "media/static/image150.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image150.png"
+      },
+      {
+        "source_filename": "image151.png",
+        "canonical_path": "media/static/image151.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image151.png"
+      },
+      {
+        "source_filename": "image152.png",
+        "canonical_path": "media/static/image152.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image152.png"
+      },
+      {
+        "source_filename": "image153.png",
+        "canonical_path": "media/static/image153.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image153.png"
+      },
+      {
+        "source_filename": "image157.png",
+        "canonical_path": "media/static/image157.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image157.png"
+      }
+    ]
+  },
+  {
+    "slide": 86,
+    "title": "Cinco destaques + ícones",
+    "family": "Cinco destaques",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-086.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-086.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image181.gif",
+        "canonical_path": "media/animated/image181.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image181.gif"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image109.png",
+        "canonical_path": "media/static/image109.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image109.png"
+      },
+      {
+        "source_filename": "image111.png",
+        "canonical_path": "media/static/image111.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image111.png"
+      },
+      {
+        "source_filename": "image114.png",
+        "canonical_path": "media/static/image114.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image114.png"
+      },
+      {
+        "source_filename": "image115.png",
+        "canonical_path": "media/static/image115.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image115.png"
+      },
+      {
+        "source_filename": "image159.png",
+        "canonical_path": "media/static/image159.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image159.png"
+      },
+      {
+        "source_filename": "image181-poster.png",
+        "canonical_path": "media/posters/image181-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image181-poster.png"
+      },
+      {
+        "source_filename": "image181-final-poster.png",
+        "canonical_path": "media/posters/image181-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image181-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 87,
+    "title": "Texto + Big Numbers",
+    "family": "Big numbers",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-087.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-087.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image163.png",
+        "canonical_path": "media/static/image163.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image163.png"
+      }
+    ]
+  },
+  {
+    "slide": 88,
+    "title": "Texto + Big Numbers",
+    "family": "Big numbers",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-088.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-088.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image161.png",
+        "canonical_path": "media/static/image161.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image161.png"
+      }
+    ]
+  },
+  {
+    "slide": 89,
+    "title": "Texto + Big Numbers",
+    "family": "Big numbers",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-089.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-089.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image162.png",
+        "canonical_path": "media/static/image162.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image162.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 90,
+    "title": "Texto + Big Numbers",
+    "family": "Big numbers",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-090.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-090.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image160.png",
+        "canonical_path": "media/static/image160.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image160.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 91,
+    "title": "Texto + Gr áficos",
+    "family": "Gráficos e imagens",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-091.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-091.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image172.png",
+        "canonical_path": "media/static/image172.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image172.png"
+      },
+      {
+        "source_filename": "image167.png",
+        "canonical_path": "media/static/image167.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image167.png"
+      },
+      {
+        "source_filename": "image164.png",
+        "canonical_path": "media/static/image164.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image164.png"
+      }
+    ]
+  },
+  {
+    "slide": 92,
+    "title": "3 colunas + imagens",
+    "family": "Gráficos e imagens",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-092.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-092.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image78.png",
+        "canonical_path": "media/static/image78.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image78.png"
+      },
+      {
+        "source_filename": "image102.png",
+        "canonical_path": "media/static/image102.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image102.png"
+      }
+    ]
+  },
+  {
+    "slide": 93,
+    "title": "3 colunas + imagens",
+    "family": "Gráficos e imagens",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-093.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-093.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image29.jpg",
+        "canonical_path": "media/static/image29.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image29.jpg"
+      },
+      {
+        "source_filename": "image34.jpg",
+        "canonical_path": "media/static/image34.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image34.jpg"
+      },
+      {
+        "source_filename": "image105.jpg",
+        "canonical_path": "media/static/image105.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image105.jpg"
+      }
+    ]
+  },
+  {
+    "slide": 94,
+    "title": "4 colunas + imagens",
+    "family": "Gráficos e imagens",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-094.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-094.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image76.png",
+        "canonical_path": "media/static/image76.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image76.png"
+      },
+      {
+        "source_filename": "image89.png",
+        "canonical_path": "media/static/image89.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image89.png"
+      },
+      {
+        "source_filename": "image79.png",
+        "canonical_path": "media/static/image79.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image79.png"
+      }
+    ]
+  },
+  {
+    "slide": 95,
+    "title": "Modelos de gráficos para uso",
+    "family": "Gráficos e imagens",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-095.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-095.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image171.png",
+        "canonical_path": "media/static/image171.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image171.png"
+      },
+      {
+        "source_filename": "image175.png",
+        "canonical_path": "media/static/image175.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image175.png"
+      },
+      {
+        "source_filename": "image173.png",
+        "canonical_path": "media/static/image173.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image173.png"
+      },
+      {
+        "source_filename": "image174.png",
+        "canonical_path": "media/static/image174.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image174.png"
+      },
+      {
+        "source_filename": "image176.png",
+        "canonical_path": "media/static/image176.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image176.png"
+      },
+      {
+        "source_filename": "image180.png",
+        "canonical_path": "media/static/image180.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image180.png"
+      },
+      {
+        "source_filename": "image179.png",
+        "canonical_path": "media/static/image179.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image179.png"
+      },
+      {
+        "source_filename": "image178.png",
+        "canonical_path": "media/static/image178.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image178.png"
+      },
+      {
+        "source_filename": "image182.png",
+        "canonical_path": "media/static/image182.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image182.png"
+      },
+      {
+        "source_filename": "image183.png",
+        "canonical_path": "media/static/image183.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image183.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 96,
+    "title": "Slide especial com vídeo",
+    "family": "Slide especial com vídeo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-096.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-096.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image191.gif",
+        "canonical_path": "media/animated/image191.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image191.gif"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image191-poster.png",
+        "canonical_path": "media/posters/image191-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image191-poster.png"
+      },
+      {
+        "source_filename": "image191-final-poster.png",
+        "canonical_path": "media/posters/image191-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image191-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 97,
+    "title": "Slide com fundo colorido Azul Escuro",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-097.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-097.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image198.png",
+        "canonical_path": "media/static/image198.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image198.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 98,
+    "title": "Slide com fundo colorido Azul",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-098.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-098.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image211.png",
+        "canonical_path": "media/static/image211.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image211.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 99,
+    "title": "Frase curta de impacto",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-099.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-099.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 100,
+    "title": "Frase curta de impacto em 2 linhas",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-100.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-100.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image103.png",
+        "canonical_path": "media/static/image103.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image103.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 101,
+    "title": "Slide com fundo colorido Roxo",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-101.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-101.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image207.png",
+        "canonical_path": "media/static/image207.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image207.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 102,
+    "title": "Slide com fundo colorido Verde",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-102.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-102.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image207.png",
+        "canonical_path": "media/static/image207.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image207.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 103,
+    "title": "Slide com fundo colorido Laranja",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-103.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-103.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image218.png",
+        "canonical_path": "media/static/image218.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image218.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 104,
+    "title": "Slide com fundo colorido Limão",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-104.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-104.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image219.png",
+        "canonical_path": "media/static/image219.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image219.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 105,
+    "title": "Slide com fundo colorido Rosa",
+    "family": "Fundos coloridos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-105.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-105.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image215.png",
+        "canonical_path": "media/static/image215.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image215.png"
+      },
+      {
+        "source_filename": "image8.png",
+        "canonical_path": "media/static/image8.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image8.png"
+      }
+    ]
+  },
+  {
+    "slide": 106,
+    "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+    "family": "Slides especiais com foto",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-106.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-106.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image221.png",
+        "canonical_path": "media/static/image221.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image221.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 107,
+    "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna pellentes elementum enim ut placerat.",
+    "family": "Slides especiais com foto",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-107.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-107.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image193.jpg",
+        "canonical_path": "media/static/image193.jpg",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image193.jpg"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 108,
+    "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+    "family": "Slides especiais com foto",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-108.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-108.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image222.png",
+        "canonical_path": "media/static/image222.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image222.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 109,
+    "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+    "family": "Slides especiais com foto",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-109.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-109.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image223.png",
+        "canonical_path": "media/static/image223.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image223.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  },
+  {
+    "slide": 110,
+    "title": "Insira um complemento do título, se precisar. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet dolore magna. Pellentesque elementum enim ut placerat.",
+    "family": "Slides especiais com foto",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-110.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-110.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image197.gif",
+        "canonical_path": "media/animated/image197.gif",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/animated/image197.gif"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      },
+      {
+        "source_filename": "image197-poster.png",
+        "canonical_path": "media/posters/image197-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image197-poster.png"
+      },
+      {
+        "source_filename": "image197-final-poster.png",
+        "canonical_path": "media/posters/image197-final-poster.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/posters/image197-final-poster.png"
+      }
+    ]
+  },
+  {
+    "slide": 111,
+    "title": "Elementos gráficos úteis",
+    "family": "Elementos gráficos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-111.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-111.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image214.png",
+        "canonical_path": "media/static/image214.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image214.png"
+      },
+      {
+        "source_filename": "image195.png",
+        "canonical_path": "media/static/image195.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image195.png"
+      },
+      {
+        "source_filename": "image213.png",
+        "canonical_path": "media/static/image213.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image213.png"
+      },
+      {
+        "source_filename": "image194.png",
+        "canonical_path": "media/static/image194.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image194.png"
+      },
+      {
+        "source_filename": "image200.png",
+        "canonical_path": "media/static/image200.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image200.png"
+      },
+      {
+        "source_filename": "image196.png",
+        "canonical_path": "media/static/image196.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image196.png"
+      }
+    ]
+  },
+  {
+    "slide": 112,
+    "title": "Elementos gráficos úteis",
+    "family": "Elementos gráficos",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-112.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-112.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image206.png",
+        "canonical_path": "media/static/image206.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image206.png"
+      },
+      {
+        "source_filename": "image201.png",
+        "canonical_path": "media/static/image201.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image201.png"
+      },
+      {
+        "source_filename": "image216.png",
+        "canonical_path": "media/static/image216.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image216.png"
+      },
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      },
+      {
+        "source_filename": "image199.png",
+        "canonical_path": "media/static/image199.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image199.png"
+      },
+      {
+        "source_filename": "image202.png",
+        "canonical_path": "media/static/image202.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image202.png"
+      },
+      {
+        "source_filename": "image209.png",
+        "canonical_path": "media/static/image209.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image209.png"
+      }
+    ]
+  },
+  {
+    "slide": 113,
+    "title": "Biblioteca de ícones",
+    "family": "Biblioteca de ícones",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-113.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-113.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 114,
+    "title": "Biblioteca de ícones",
+    "family": "Biblioteca de ícones",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-114.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-114.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 115,
+    "title": "Biblioteca de ícones",
+    "family": "Biblioteca de ícones",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-115.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-115.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 116,
+    "title": "Biblioteca de ícones",
+    "family": "Biblioteca de ícones",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-116.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-116.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 117,
+    "title": "Classificação do sigilo da apresentação",
+    "family": "Classificação do signo",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-117.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-117.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image12.png",
+        "canonical_path": "media/static/image12.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image12.png"
+      }
+    ]
+  },
+  {
+    "slide": 118,
+    "title": "Obrigado(a)",
+    "family": "Encerramento",
+    "thumbnail": {
+      "canonical_path": "thumbnails/slide-118.png",
+      "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/thumbnails/slide-118.png"
+    },
+    "assets": [
+      {
+        "source_filename": "image203.png",
+        "canonical_path": "media/static/image203.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image203.png"
+      },
+      {
+        "source_filename": "image220.png",
+        "canonical_path": "media/static/image220.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image220.png"
+      },
+      {
+        "source_filename": "image204.png",
+        "canonical_path": "media/static/image204.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image204.png"
+      },
+      {
+        "source_filename": "image205.png",
+        "canonical_path": "media/static/image205.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image205.png"
+      },
+      {
+        "source_filename": "image208.png",
+        "canonical_path": "media/static/image208.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image208.png"
+      },
+      {
+        "source_filename": "image212.png",
+        "canonical_path": "media/static/image212.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image212.png"
+      },
+      {
+        "source_filename": "image210.png",
+        "canonical_path": "media/static/image210.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image210.png"
+      },
+      {
+        "source_filename": "image2.png",
+        "canonical_path": "media/static/image2.png",
+        "raw_github_url_template": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/{ref}/totvs-template-reference-final/media/static/image2.png"
+      }
+    ]
+  }
+]
