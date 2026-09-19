@@ -11,6 +11,7 @@
       "type": "donut",
       "file": "charts/slide-087-chart-01.json",
       "source_asset": "image163.png",
+      "source_asset_url": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image163.png",
       "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
     },
     {
@@ -19,6 +20,7 @@
       "type": "donut",
       "file": "charts/slide-088-chart-01.json",
       "source_asset": "image161.png",
+      "source_asset_url": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image161.png",
       "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
     },
     {
@@ -27,6 +29,7 @@
       "type": "horizontal_bar",
       "file": "charts/slide-089-chart-01.json",
       "source_asset": "image162.png",
+      "source_asset_url": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image162.png",
       "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
     },
     {
@@ -35,6 +38,7 @@
       "type": "horizontal_bar",
       "file": "charts/slide-090-chart-01.json",
       "source_asset": "image160.png",
+      "source_asset_url": "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image160.png",
       "data_origin": "reconstructed_from_visible_chart_geometry_and_labels"
     }
   ]

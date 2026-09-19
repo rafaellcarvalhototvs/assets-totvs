@@ -48,6 +48,24 @@
     "image67.gif",
     "image70.gif"
   ],
+  "animated_media_asset_urls": [
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image112.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image181.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image191.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image197.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image224.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image225.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image51.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image53.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image58.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image60.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image61.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image64.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image65.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image66.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image67.gif",
+    "https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/animated/image70.gif"
+  ],
   "runtime_playback": {
     "manual_step_speed_factor": 0.85,
     "manual_step_speed_change_percent": -15,

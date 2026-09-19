@@ -17,6 +17,7 @@ Este diretório reúne todas as imagens externas usadas pelo catálogo HTML, sem
 - `data/assets-by-slide.json`: consulta por slide, sem duplicar arquivos.
 - `data/charts/`: dados editáveis dos gráficos.
 - `data/manifests/`: contexto de slides, animações, acessibilidade e editabilidade.
+- `data/manifests/slides-source.json`: inventário integral dos 118 slides, com o nome estável de cada imagem em `image_assets` e a URL RAW correspondente em `image_asset_urls`.
 - `manifest.json`: inventário técnico completo, hashes, dimensões, papéis e uso por slide.
 - `rewrite-map.json`: mapa dos caminhos locais atuais para as futuras URLs do GitHub.
 - `checksums.sha256`: verificação de integridade.
@@ -40,3 +41,5 @@ Base CDN apoiada no GitHub:
 `https://cdn.jsdelivr.net/gh/rafaellcarvalhototvs/assets-totvs@{ref}/totvs-template-reference-final/`
 
 Para uso por um GEM/Gemini, prefira a URL RAW presa ao SHA do commit; isso evita mudanças silenciosas quando a branch `main` avançar.
+
+Nos arquivos estruturados, os nomes originais dos assets continuam presentes como identificadores. Toda referência visual possui também seu campo de URL completo (`asset_url`, `asset_urls`, `image_asset_urls`, `sample_asset_url`, `source_asset_url`, `poster_url` ou `final_poster_url`) apontando para o pacote publicado acima.
