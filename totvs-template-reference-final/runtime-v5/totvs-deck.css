@@ -267,8 +267,8 @@ deck-stage[data-comfortable-spacing] .text-paragraph+.text-paragraph,
 deck-stage[data-comfortable-spacing] .text-paragraph+.bullet-line,
 deck-stage[data-comfortable-spacing] .bullet-line+.text-paragraph,
 deck-stage[data-comfortable-spacing] .bullet-line+.bullet-line{margin-top:.42em!important}
-deck-stage .slide-wrap [data-text-box-expanded="true"],
-deck-stage .slide-wrap [data-text-box-adjusted="true"]{overflow:visible!important}
+deck-stage .slide-wrap [data-text-box-expanded],
+deck-stage .slide-wrap [data-text-box-adjusted]{overflow:visible!important}
 deck-stage[data-contrast="high"] .slide-wrap .object-text{background:#002233!important;color:#fff!important;box-shadow:0 0 0 .16em #002233!important;text-shadow:none!important}
 deck-stage[data-contrast="high"] .slide-wrap .object-text *{color:#fff!important}
 deck-stage[data-contrast="high"] .slide-wrap .editable-table td,
