@@ -36,10 +36,11 @@
 
   function shell(manifest) {
     const motion = ['none', 'source', 'cascade'].includes(manifest.motion) ? manifest.motion : 'none';
+    const contrast = ['source', 'aa', 'high'].includes(manifest.contrast) ? manifest.contrast : 'aa';
     const label = manifest.title || 'Apresentação TOTVS';
     app.innerHTML = `
       <main id="deck-viewport">
-        <deck-stage id="deck-stage" role="region" aria-label="${escapeAttribute(label)}" data-entrance="${motion}" data-reading-mode="${escapeAttribute(manifest.readingMode || 'sala')}"></deck-stage>
+        <deck-stage id="deck-stage" role="region" aria-label="${escapeAttribute(label)}" data-entrance="${motion}" data-contrast="${contrast}" data-reading-mode="${escapeAttribute(manifest.readingMode || 'sala')}"></deck-stage>
       </main>
       <nav id="deck-controls" aria-label="Controles da apresentação">
         <button id="deck-controls-toggle" type="button" aria-expanded="false" aria-controls="deck-controls-panel" aria-label="Mostrar controles" title="Mostrar controles">
@@ -54,6 +55,9 @@
           <button id="deck-motion-next" type="button" hidden>Próxima etapa</button>
           <button id="deck-motion-toggle" type="button" aria-pressed="false" hidden>Desativar movimento</button>
           <span id="deck-motion-status" role="status" aria-live="polite" hidden></span>
+          <button id="deck-spacing-toggle" type="button" aria-pressed="false">Mais espaçamento</button>
+          <button id="deck-contrast-toggle" type="button" aria-pressed="false">Alto contraste</button>
+          <span id="deck-reading-status" role="status" aria-live="polite"></span>
           <button id="deck-edit" type="button" aria-pressed="false" aria-controls="deck-editor-panel">✏️ Editar slide</button>
           <button id="deck-download" type="button">Baixar HTML editado</button>
           <div id="deck-editor-panel" hidden>
@@ -256,6 +260,7 @@
     runtimeInit();
     nativeMotionInit();
     editorInit();
+    accessibilityInit(manifest);
     document.documentElement.dataset.totvsReady = 'true';
     document.dispatchEvent(new CustomEvent('totvs:ready', { detail: { slides: manifest.slides.length } }));
   }
@@ -825,6 +830,44 @@
           if (url) window.setTimeout(() => URL.revokeObjectURL(url), 30000);
         }
       });
+  }
+
+  function accessibilityInit(manifest) {
+    const stage = document.getElementById('deck-stage');
+    const spacingButton = document.getElementById('deck-spacing-toggle');
+    const contrastButton = document.getElementById('deck-contrast-toggle');
+    const status = document.getElementById('deck-reading-status');
+    if (!stage || !spacingButton || !contrastButton || !status) return;
+
+    const requested = ['source', 'aa', 'high'].includes(manifest.contrast)
+      ? manifest.contrast : 'aa';
+    let regularContrast = requested === 'high' ? 'aa' : requested;
+
+    const announce = message => { status.textContent = message; };
+    const setContrast = mode => {
+      stage.dataset.contrast = mode;
+      document.documentElement.dataset.totvsContrast = mode;
+      const high = mode === 'high';
+      contrastButton.setAttribute('aria-pressed', String(high));
+      contrastButton.textContent = high ? 'Contraste padrão' : 'Alto contraste';
+    };
+
+    setContrast(requested);
+    if (requested === 'high') announce('Modo de alto contraste ativado.');
+
+    spacingButton.addEventListener('click', () => {
+      const active = stage.toggleAttribute('data-comfortable-spacing');
+      spacingButton.setAttribute('aria-pressed', String(active));
+      spacingButton.textContent = active ? 'Espaçamento padrão' : 'Mais espaçamento';
+      announce(active ? 'Espaçamento de leitura ampliado.' : 'Espaçamento original restaurado.');
+    });
+
+    contrastButton.addEventListener('click', () => {
+      const high = stage.dataset.contrast === 'high';
+      if (!high) regularContrast = stage.dataset.contrast || regularContrast || 'aa';
+      setContrast(high ? regularContrast : 'high');
+      announce(high ? 'Contraste acessível padrão restaurado.' : 'Modo de alto contraste ativado.');
+    });
   }
 
   start().catch(error => fail(error?.message || 'Erro inesperado no renderizador.', error));
