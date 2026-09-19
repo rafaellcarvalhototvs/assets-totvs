@@ -163,7 +163,7 @@
       const top = target.offsetTop;
       const baseWidth = target.clientWidth;
       const baseHeight = target.clientHeight;
-      const smallOverflow = !widthOverflow && target.scrollHeight <= baseHeight * 1.15;
+      const smallOverflow = !widthOverflow && target.scrollHeight <= baseHeight * 1.18;
       if (smallOverflow) {
         target.dataset.textBoxExpanded = 'true';
         return;
@@ -191,7 +191,7 @@
 
       if (heightOverflow) {
         const factor = role === 'title' ? 1.45
-          : (['label', 'contact'].includes(role) ? 2
+          : (['label', 'contact'].includes(role) ? 2.5
           : (role === 'metric' ? 1.5
           : (role === 'supporting_text' ? 1.2 : 1.5)));
         const desired = Math.min(maxWidth, Math.ceil(baseWidth * factor));
