@@ -4,9 +4,9 @@ Este diretório reúne todas as imagens externas usadas pelo catálogo HTML, sem
 
 ## Situação atual
 
-- O catálogo HTML original ainda usa caminhos locais (`../assets/...` e `thumbnails/...`).
-- Este pacote ainda **não foi publicado** e, por isso, as URLs com `{ref}` ainda são modelos.
-- Depois do envio, substitua `{ref}` pelo SHA do commit publicado. Para prévia, `main` também funciona, mas não é imutável.
+- O pacote está publicado em `rafaellcarvalhototvs/assets-totvs`.
+- O commit imutável dos arquivos de mídia é `476da4aa0ec513d528f77453f50918c29915378e`.
+- As URLs com `{ref}` continuam disponíveis como modelos; para a versão validada, use o SHA acima.
 
 ## Estrutura
 

@@ -17,10 +17,10 @@ O inventário técnico completo está em [`manifest.json`](totvs-template-refere
 
 ## URLs públicas
 
-Para produção e consumo por IA, use uma URL RAW presa ao SHA do commit:
+Para produção e consumo por IA, use a publicação imutável dos assets no commit `476da4aa0ec513d528f77453f50918c29915378e`:
 
 ```text
-https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/COMMIT_SHA/totvs-template-reference-final/media/static/image32.png
+https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image32.png
 ```
 
 Durante desenvolvimento também é possível usar `main`, mas essa referência pode mudar com novos commits.
