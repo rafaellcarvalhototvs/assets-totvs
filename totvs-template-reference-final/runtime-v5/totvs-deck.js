@@ -134,6 +134,51 @@
     });
   }
 
+  function applyTextBoxes(section, boxes) {
+    if (!boxes || typeof boxes !== 'object') return;
+    const limits = { left: 1280, top: 720, width: 1280, height: 720 };
+    Object.entries(boxes).forEach(([slot, box]) => {
+      const target = bySlot(section, 'data-slot-id', slot);
+      if (!target || !box || typeof box !== 'object') return;
+      Object.entries(limits).forEach(([property, maximum]) => {
+        const value = Number(box[property]);
+        if (!Number.isFinite(value) || value < 0 || value > maximum) return;
+        target.style[property] = `${value}px`;
+      });
+      target.dataset.textBoxAdjusted = 'true';
+    });
+  }
+
+  function expandTextBoxes(section, policy) {
+    if (policy !== 'expand') return;
+    section.querySelectorAll('[data-slot-id]').forEach(target => {
+      const text = (target.textContent || '').trim();
+      if (!text) return;
+      const role = target.dataset.slotRole || '';
+      const heightOverflow = target.scrollHeight > target.clientHeight + 1;
+      const widthOverflow = target.scrollWidth > target.clientWidth + 1;
+      if (!heightOverflow && !widthOverflow) return;
+
+      if (heightOverflow) {
+        const factor = ['title', 'label', 'contact', 'metric', 'chapter_number'].includes(role)
+          ? 2 : (role === 'supporting_text' ? 1.2 : 1.08);
+        const available = Math.max(target.clientWidth, 1280 - target.offsetLeft - 12);
+        const desired = Math.min(available, Math.ceil(target.clientWidth * factor));
+        if (desired > target.clientWidth) target.style.width = `${desired}px`;
+      }
+
+      if (target.scrollWidth > target.clientWidth + 1) {
+        const available = Math.max(target.clientWidth, 1280 - target.offsetLeft - 12);
+        target.style.width = `${Math.min(available, target.scrollWidth + 4)}px`;
+      }
+      if (target.scrollHeight > target.clientHeight + 1) {
+        const available = Math.max(target.clientHeight, 720 - target.offsetTop - 8);
+        target.style.height = `${Math.min(available, target.scrollHeight + 4)}px`;
+      }
+      target.dataset.textBoxExpanded = 'true';
+    });
+  }
+
   function allowedImageURL(value) {
     if (typeof value !== 'string') return false;
     return value.startsWith('data:image/') ||
@@ -236,10 +281,12 @@
       section.dataset.deckSlide = String(index + 1);
       section.dataset.templateInstance = `${slideData.layout}-${index + 1}`;
       applyText(section, slideData.bindings);
+      applyTextBoxes(section, slideData.boxes);
       applyImages(section, slideData.images, slideData.alt);
       applyTables(section, slideData.tables);
       namespaceSVG(section, index);
       stage.append(section);
+      expandTextBoxes(section, manifest.textFit || 'expand');
 
       if (manifest.motion === 'source' && templateData.animation) {
         const payload = document.createElement('script');
