@@ -159,23 +159,67 @@
       const widthOverflow = target.scrollWidth > target.clientWidth + 1;
       if (!heightOverflow && !widthOverflow) return;
 
-      if (heightOverflow) {
-        const factor = ['title', 'label', 'contact', 'metric', 'chapter_number'].includes(role)
-          ? 2 : (role === 'supporting_text' ? 1.2 : 1.08);
-        const available = Math.max(target.clientWidth, 1280 - target.offsetLeft - 12);
-        const desired = Math.min(available, Math.ceil(target.clientWidth * factor));
-        if (desired > target.clientWidth) target.style.width = `${desired}px`;
+      const left = target.offsetLeft;
+      const top = target.offsetTop;
+      const baseWidth = target.clientWidth;
+      const baseHeight = target.clientHeight;
+      const smallOverflow = !widthOverflow && target.scrollHeight <= baseHeight * 1.15;
+      if (smallOverflow) {
+        target.dataset.textBoxExpanded = 'true';
+        return;
       }
 
-      if (target.scrollWidth > target.clientWidth + 1) {
-        const available = Math.max(target.clientWidth, 1280 - target.offsetLeft - 12);
-        target.style.width = `${Math.min(available, target.scrollWidth + 4)}px`;
+      const obstacles = Array.from(section.querySelectorAll(':scope > .slide-object'))
+        .filter(node => {
+          if (node === target) return false;
+          if (node.matches('[data-slot-id], [data-table-slot], .object-image-frame')) return true;
+          if (!node.matches('.object-image, .object-cover')) return false;
+          return node.offsetWidth * node.offsetHeight < 1280 * 720 * 0.55;
+        })
+        .map(node => ({
+          left: node.offsetLeft,
+          top: node.offsetTop,
+          right: node.offsetLeft + node.offsetWidth,
+          bottom: node.offsetTop + node.offsetHeight,
+        }));
+      const overlap = (a1, a2, b1, b2) => Math.min(a2, b2) > Math.max(a1, b1) + 2;
+      const maxWidth = obstacles.reduce((limit, item) => {
+        if (item.left < left + baseWidth - 1) return limit;
+        if (!overlap(top, top + baseHeight, item.top, item.bottom)) return limit;
+        return Math.min(limit, item.left - left - 8);
+      }, 1280 - left - 8);
+
+      if (heightOverflow) {
+        const factor = role === 'title' ? 1.45
+          : (['label', 'contact'].includes(role) ? 2
+          : (role === 'metric' ? 1.5
+          : (role === 'supporting_text' ? 1.2 : 1.5)));
+        const desired = Math.min(maxWidth, Math.ceil(baseWidth * factor));
+        if (desired > baseWidth) target.style.width = `${desired}px`;
       }
+
+      if (target.scrollWidth > target.clientWidth + 1 && maxWidth > target.clientWidth) {
+        target.style.width = `${Math.min(maxWidth, target.scrollWidth + 4)}px`;
+      }
+
       if (target.scrollHeight > target.clientHeight + 1) {
-        const available = Math.max(target.clientHeight, 720 - target.offsetTop - 8);
-        target.style.height = `${Math.min(available, target.scrollHeight + 4)}px`;
+        const currentWidth = target.clientWidth;
+        const maxHeight = obstacles.reduce((limit, item) => {
+          if (item.top < top + baseHeight - 1) return limit;
+          if (!overlap(left, left + currentWidth, item.left, item.right)) return limit;
+          return Math.min(limit, item.top - top - 8);
+        }, 720 - top - 8);
+        const desired = Math.min(maxHeight, target.scrollHeight + 4);
+        if (desired > baseHeight) target.style.height = `${desired}px`;
       }
-      target.dataset.textBoxExpanded = 'true';
+
+      const unresolved = target.scrollWidth > target.clientWidth + 1 ||
+        target.scrollHeight > target.clientHeight + 1;
+      target.toggleAttribute('data-text-overflow', unresolved);
+      target.toggleAttribute('data-text-box-expanded', !unresolved);
+      if (unresolved) {
+        console.warn(`Texto acima da capacidade em ${section.dataset.templateId}/${target.dataset.slotId}.`);
+      }
     });
   }
 
@@ -900,7 +944,9 @@
     };
 
     setContrast(requested);
+    const overflowCount = stage.querySelectorAll('[data-text-overflow]').length;
     if (requested === 'high') announce('Modo de alto contraste ativado.');
+    else if (overflowCount) announce(`${overflowCount} caixa(s) de texto precisam de síntese ou ampliação adicional.`);
 
     spacingButton.addEventListener('click', () => {
       const active = stage.toggleAttribute('data-comfortable-spacing');
