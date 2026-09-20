@@ -7,7 +7,7 @@
   "package_version": "2.1.2",
   "license": "MIT",
   "source": "https://github.com/phosphor-icons/web",
-  "name_format": "official kebab-case name without the -light suffix",
+  "name_format": "canonical official kebab-case name without the -light suffix",
   "icon_count": 1512,
   "font_file": "Phosphor-Light.woff2",
   "examples": [
@@ -602,7 +602,7 @@
       "codepoint": "E5E2"
     },
     {
-      "name": "asclepius-light, caduceus",
+      "name": "asclepius",
       "codepoint": "EE34"
     },
     {
@@ -950,7 +950,7 @@
       "codepoint": "EA34"
     },
     {
-      "name": "box-arrow-down-light, archive-box",
+      "name": "box-arrow-down",
       "codepoint": "E00E"
     },
     {
@@ -2354,7 +2354,7 @@
       "codepoint": "EB1C"
     },
     {
-      "name": "file-dashed-light, file-dotted",
+      "name": "file-dashed",
       "codepoint": "E704"
     },
     {
@@ -2390,7 +2390,7 @@
       "codepoint": "E95C"
     },
     {
-      "name": "file-magnifying-glass-light, file-search",
+      "name": "file-magnifying-glass",
       "codepoint": "E238"
     },
     {
@@ -2602,27 +2602,27 @@
       "codepoint": "EB4A"
     },
     {
-      "name": "folder-dashed-light, folder-dotted",
-      "codepoint": "E8F8"
+      "name": "folder",
+      "codepoint": "E24A"
     },
     {
-      "name": "folder-light, folder-notch",
-      "codepoint": "E24A"
+      "name": "folder-dashed",
+      "codepoint": "E8F8"
     },
     {
       "name": "folder-lock",
       "codepoint": "EA3C"
     },
     {
-      "name": "folder-minus-light, folder-notch-minus",
+      "name": "folder-minus",
       "codepoint": "E254"
     },
     {
-      "name": "folder-open-light, folder-notch-open",
+      "name": "folder-open",
       "codepoint": "E256"
     },
     {
-      "name": "folder-plus-light, folder-notch-plus",
+      "name": "folder-plus",
       "codepoint": "E258"
     },
     {
@@ -2630,7 +2630,7 @@
       "codepoint": "E25A"
     },
     {
-      "name": "folder-simple-dashed-light, folder-simple-dotted",
+      "name": "folder-simple-dashed",
       "codepoint": "EC2A"
     },
     {
@@ -3226,7 +3226,7 @@
       "codepoint": "E834"
     },
     {
-      "name": "infinity-light, lemniscate",
+      "name": "infinity",
       "codepoint": "E634"
     },
     {
@@ -4490,7 +4490,7 @@
       "codepoint": "E65A"
     },
     {
-      "name": "pulse-light, activity",
+      "name": "pulse",
       "codepoint": "E000"
     },
     {
@@ -4714,23 +4714,23 @@
       "codepoint": "EB7A"
     },
     {
-      "name": "seal-check-light, circle-wavy-check",
-      "codepoint": "E606"
+      "name": "seal",
+      "codepoint": "E604"
     },
     {
-      "name": "seal-light, circle-wavy",
-      "codepoint": "E604"
+      "name": "seal-check",
+      "codepoint": "E606"
     },
     {
       "name": "seal-percent",
       "codepoint": "E60A"
     },
     {
-      "name": "seal-question-light, circle-wavy-question",
+      "name": "seal-question",
       "codepoint": "E608"
     },
     {
-      "name": "seal-warning-light, circle-wavy-warning",
+      "name": "seal-warning",
       "codepoint": "E60C"
     },
     {
@@ -5438,7 +5438,7 @@
       "codepoint": "E486"
     },
     {
-      "name": "text-b-light, text-bolder",
+      "name": "text-b",
       "codepoint": "E5BE"
     },
     {
@@ -5674,7 +5674,7 @@
       "codepoint": "E4AA"
     },
     {
-      "name": "tray-arrow-down-light, archive-tray",
+      "name": "tray-arrow-down",
       "codepoint": "E010"
     },
     {
