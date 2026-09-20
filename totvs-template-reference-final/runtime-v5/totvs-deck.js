@@ -1615,7 +1615,43 @@
 
       function exportHTML() {
         finishEditing();
-        const copy = document.documentElement.cloneNode(true);
+        // Export only presentation-owned content, never the embedding editor page.
+        const clean = document.implementation.createHTMLDocument(document.title);
+        clean.documentElement.lang = 'pt-BR';
+        const charset = clean.createElement('meta');
+        charset.setAttribute('charset', 'utf-8');
+        clean.head.prepend(charset);
+        const viewport = clean.createElement('meta');
+        viewport.name = 'viewport';
+        viewport.content = 'width=device-width,initial-scale=1';
+        clean.head.append(viewport);
+        const favicon = clean.createElement('link');
+        favicon.rel = 'icon';
+        favicon.href = 'data:,';
+        clean.head.append(favicon);
+        const runtimeURL = new URL(engineScript.src);
+        const stylesheet = clean.createElement('link');
+        stylesheet.rel = 'stylesheet';
+        stylesheet.href = new URL('totvs-deck.css', runtimeURL).href;
+        clean.head.append(stylesheet);
+        const exportedApp = app.cloneNode(true);
+        exportedApp.querySelectorAll('script').forEach(node => {
+          if (node.type !== 'application/json' || !node.hasAttribute('data-slide-animation')) node.remove();
+        });
+        exportedApp.querySelectorAll('*').forEach(node => {
+          for (const attr of [...node.attributes]) {
+            if (/^on/i.test(attr.name) || attr.name.startsWith('data-bard-')) node.removeAttribute(attr.name);
+          }
+        });
+        const data = clean.createElement('script');
+        data.id = 'totvs-deck-manifest';
+        data.type = 'application/json';
+        data.textContent = JSON.stringify(readManifest()).replace(/</g, '\\u003c');
+        const loader = clean.createElement('script');
+        loader.src = runtimeURL.href;
+        if (engineScript.dataset.templateRoot) loader.dataset.templateRoot = engineScript.dataset.templateRoot;
+        clean.body.append(exportedApp, data, loader);
+        const copy = clean.documentElement;
         const copyStage = copy.querySelector('deck-stage');
         copyStage.removeAttribute('data-editor-active');
         copyStage.style.removeProperty('transform');
