@@ -302,6 +302,11 @@
 
   function applyImages(section, images, alternatives) {
     if (!images || typeof images !== 'object') return;
+    const layoutNumber = Number((section.dataset.templateId || '').replace('TOTVS-', ''));
+    if (layoutNumber >= 8 && layoutNumber <= 33) {
+      console.warn('Fundo de abertura preservado: substituição de imagem não permitida.');
+      return;
+    }
     Object.entries(images).forEach(([slot, value]) => {
       const target = bySlot(section, 'data-media-slot', slot);
       if (!target || !allowedImageURL(value)) {
