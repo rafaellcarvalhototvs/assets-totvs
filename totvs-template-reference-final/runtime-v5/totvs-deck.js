@@ -67,7 +67,17 @@
           <p id="deck-editor-status" role="status" aria-live="polite"></p>
         </div>
       </nav>
-      <div id="totvs-animation-library" hidden></div>`;
+      <div id="totvs-animation-library" hidden></div>
+      <dialog id="deck-link-dialog" aria-labelledby="deck-link-dialog-title">
+        <header>
+          <strong id="deck-link-dialog-title">Conteúdo vinculado</strong>
+          <div>
+            <a id="deck-link-external" href="#" target="_blank" rel="noopener noreferrer">Abrir em nova aba</a>
+            <button id="deck-link-close" type="button" aria-label="Fechar conteúdo">Fechar</button>
+          </div>
+        </header>
+        <iframe id="deck-link-frame" title="Conteúdo externo do slide" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </dialog>`;
   }
 
   function escapeAttribute(value) {
@@ -116,6 +126,10 @@
         console.warn(`Slot de texto ${slot} não existe em ${section.dataset.templateId}.`);
         return;
       }
+      if (target.matches('[data-fixed], [data-institutional="true"]')) {
+        console.warn(`Slot institucional fixo ignorado: ${section.dataset.templateId}/${slot}.`);
+        return;
+      }
       const runs = bindingRuns(value);
       if (!runs) return;
       const nodes = textNodes(target);
@@ -141,6 +155,7 @@
       const target = bySlot(section, 'data-slot-id', slot);
       if (!target || !box || typeof box !== 'object') return;
       Object.entries(limits).forEach(([property, maximum]) => {
+        if (target.dataset.boxResize === 'height-only' && property === 'width') return;
         const value = Number(box[property]);
         if (!Number.isFinite(value) || value < 0 || value > maximum) return;
         target.style[property] = `${value}px`;
@@ -149,9 +164,64 @@
     });
   }
 
+  function expandHeightOnlyStacks(section) {
+    const groups = new Map();
+    section.querySelectorAll('[data-box-resize="height-only"][data-box-stack]').forEach(node => {
+      const key = node.dataset.boxStack;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(node);
+    });
+    const handled = new Set();
+    groups.forEach(nodes => {
+      nodes.sort((left, right) =>
+        Number(left.dataset.boxStackOrder || 0) - Number(right.dataset.boxStackOrder || 0));
+      const sectionWidth = section.clientWidth || 1280;
+      const sectionHeight = section.clientHeight || 720;
+      const metrics = nodes.map(node => {
+        if (!node.dataset.boxBaseTopRatio) node.dataset.boxBaseTopRatio = String(node.offsetTop / sectionHeight);
+        if (!node.dataset.boxBaseHeightRatio) node.dataset.boxBaseHeightRatio = String(node.offsetHeight / sectionHeight);
+        if (!node.dataset.boxBaseWidthRatio) node.dataset.boxBaseWidthRatio = String(node.offsetWidth / sectionWidth);
+        return {
+          top: Number(node.dataset.boxBaseTopRatio) * sectionHeight,
+          height: Number(node.dataset.boxBaseHeightRatio) * sectionHeight,
+          width: Number(node.dataset.boxBaseWidthRatio) * sectionWidth,
+        };
+      });
+      let cursor = metrics[0]?.top || 0;
+      let previousBottom = cursor;
+      nodes.forEach((node, index) => {
+        const metric = metrics[index];
+        const previous = metrics[index - 1];
+        const gap = index === 0 ? 0 : Math.max(8, metric.top - (previous.top + previous.height));
+        if (index > 0) cursor = previousBottom + gap;
+        node.style.top = `${Math.round(cursor)}px`;
+        node.style.width = `${Math.round(metric.width)}px`;
+        node.style.height = `${Math.round(metric.height)}px`;
+        const desiredHeight = Math.ceil(Math.max(metric.height, node.scrollHeight + 2));
+        node.style.height = `${desiredHeight}px`;
+        previousBottom = cursor + desiredHeight;
+        handled.add(node);
+      });
+      const outsideCanvas = previousBottom > sectionHeight - 8;
+      nodes.forEach(node => {
+        const unresolved = outsideCanvas ||
+          node.scrollWidth > node.clientWidth + 1 ||
+          node.scrollHeight > node.clientHeight + 1;
+        node.toggleAttribute('data-text-overflow', unresolved);
+        node.toggleAttribute('data-text-box-expanded', !unresolved);
+        if (unresolved) {
+          console.warn(`Texto acima da capacidade em ${section.dataset.templateId}/${node.dataset.slotId}.`);
+        }
+      });
+    });
+    return handled;
+  }
+
   function expandTextBoxes(section, policy) {
     if (policy !== 'expand') return;
+    const heightOnly = expandHeightOnlyStacks(section);
     section.querySelectorAll('[data-slot-id]').forEach(target => {
+      if (heightOnly.has(target)) return;
       const text = (target.textContent || '').trim();
       if (!text) return;
       const role = target.dataset.slotRole || '';
@@ -244,6 +314,90 @@
     });
   }
 
+  function normalizedLink(value) {
+    const input = typeof value === 'string' ? { url: value } : value;
+    if (!input || typeof input !== 'object' || typeof input.url !== 'string') return null;
+    let url;
+    try {
+      url = new URL(input.url);
+    } catch (_) {
+      return null;
+    }
+    if (url.protocol !== 'https:' || url.username || url.password) return null;
+    const host = url.hostname.toLowerCase().replace(/^www\./, '');
+    let source = url.href;
+    let kind = 'website';
+    let mediaId = '';
+    if (host === 'youtu.be') {
+      mediaId = url.pathname.split('/').filter(Boolean)[0] || '';
+    } else if (['youtube.com', 'm.youtube.com', 'youtube-nocookie.com'].includes(host)) {
+      mediaId = url.searchParams.get('v') ||
+        url.pathname.match(/^\/(?:embed|shorts)\/([A-Za-z0-9_-]+)/)?.[1] || '';
+    }
+    if (/^[A-Za-z0-9_-]{6,20}$/.test(mediaId)) {
+      kind = 'youtube';
+      source = `https://www.youtube-nocookie.com/embed/${mediaId}?autoplay=1&rel=0`;
+    } else if (host === 'vimeo.com' || host === 'player.vimeo.com') {
+      mediaId = url.pathname.match(/\/(?:video\/)?(\d+)/)?.[1] || '';
+      if (mediaId) {
+        kind = 'vimeo';
+        source = `https://player.vimeo.com/video/${mediaId}?autoplay=1`;
+      }
+    }
+    return {
+      url: url.href,
+      source,
+      kind,
+      label: typeof input.label === 'string' && input.label.trim()
+        ? input.label.trim() : (kind === 'website' ? 'Site vinculado' : 'Vídeo vinculado'),
+    };
+  }
+
+  function openLinkDialog(link) {
+    const dialog = document.getElementById('deck-link-dialog');
+    const frame = document.getElementById('deck-link-frame');
+    const title = document.getElementById('deck-link-dialog-title');
+    const external = document.getElementById('deck-link-external');
+    const close = document.getElementById('deck-link-close');
+    if (!dialog || !frame || !title || !external || !close) return;
+    title.textContent = link.label;
+    external.href = link.url;
+    frame.title = link.label;
+    frame.src = link.source;
+    if (!dialog.dataset.ready) {
+      const closeDialog = () => {
+        if (dialog.open) dialog.close();
+        frame.removeAttribute('src');
+      };
+      close.addEventListener('click', closeDialog);
+      dialog.addEventListener('click', event => {
+        if (event.target === dialog) closeDialog();
+      });
+      dialog.addEventListener('close', () => frame.removeAttribute('src'));
+      dialog.dataset.ready = 'true';
+    }
+    if (!dialog.open) dialog.showModal();
+    close.focus();
+  }
+
+  function applyLinks(section, links) {
+    if (!links || typeof links !== 'object') return;
+    Object.entries(links).forEach(([slot, value]) => {
+      const trigger = bySlot(section, 'data-link-slot', slot);
+      const link = normalizedLink(value);
+      if (!trigger || !link) {
+        console.warn(`Link recusado ou slot inexistente: ${slot}.`);
+        return;
+      }
+      trigger.hidden = false;
+      trigger.setAttribute('aria-label', link.label);
+      trigger.addEventListener('click', event => {
+        event.stopPropagation();
+        openLinkDialog(link);
+      });
+    });
+  }
+
   function applyTables(section, tables) {
     if (!tables || typeof tables !== 'object') return;
     Object.entries(tables).forEach(([slot, rows]) => {
@@ -327,6 +481,7 @@
       applyText(section, slideData.bindings);
       applyTextBoxes(section, slideData.boxes);
       applyImages(section, slideData.images, slideData.alt);
+      applyLinks(section, slideData.links);
       applyTables(section, slideData.tables);
       namespaceSVG(section, index);
       stage.append(section);
