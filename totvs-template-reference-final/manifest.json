@@ -31,6 +31,19 @@
     "files_over_github_100_mib_limit": 0,
     "files_over_github_web_25_mib_limit": 12
   },
+  "iconography": {
+    "schema": "totvs-icon-registry/v1",
+    "family": "Phosphor",
+    "font_family": "Phosphor-Light",
+    "weight": "Light",
+    "package": "@phosphor-icons/web",
+    "package_version": "2.1.2",
+    "license": "MIT",
+    "icon_count": 1512,
+    "registry_path": "iconography/phosphor-light/registry.json",
+    "font_path": "iconography/phosphor-light/Phosphor-Light.woff2",
+    "policy": "Use only for suggested or explicitly replaceable icons; preserve fixed template icons."
+  },
   "media": [
     {
       "canonical_path": "media/static/image1.png",

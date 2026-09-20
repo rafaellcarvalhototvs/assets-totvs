@@ -1,6 +1,6 @@
 {
   "schema": "totvs-runtime-library/v5",
-  "version": "5.4.0",
+  "version": "5.5.0",
   "source_deck": "Template_PPT TOTVS_junho_2025_GSlides (1).pptx",
   "layout_count": 118,
   "template_ids": [
@@ -142,487 +142,499 @@
     "TOTVS-090"
   ],
   "chart_schema": "totvs-chart/v1",
+  "iconography": {
+    "schema": "totvs-icon/v1",
+    "family": "Phosphor",
+    "font_family": "Phosphor-Light",
+    "weight": "Light",
+    "package": "@phosphor-icons/web",
+    "package_version": "2.1.2",
+    "license": "MIT",
+    "icon_count": 1512,
+    "registry_path": "../iconography/phosphor-light/registry.json",
+    "font_path": "../iconography/phosphor-light/Phosphor-Light.woff2"
+  },
   "asset_commit": "476da4aa0ec513d528f77453f50918c29915378e",
   "files": {
     "templates/TOTVS-001.json": {
       "bytes": 15789,
-      "sha256": "1950de45b48a67204716419e48966dca68ae7931616940fdc986fd51bea2d2a2"
+      "sha256": "82d3aa98804e96af64bc814d5e4bf7b0b1672b0b51bf02c50521a4543e6bb8f6"
     },
     "templates/TOTVS-002.json": {
       "bytes": 12438,
-      "sha256": "c854987f0e92d4eee28bf77ab4fd8d39401543761b1e5d2cc7d8b4e1a37b23fc"
+      "sha256": "548f7f60fc7b5e857f74055889c70cd32a9ad2d10c1223d3bb66c3331833c9b8"
     },
     "templates/TOTVS-003.json": {
       "bytes": 10969,
-      "sha256": "4879027d8384ae35252b1dce1be337f5071351675301ac6113bb1b7f4067cbdd"
+      "sha256": "ab0ffc3b70283af0133733a64dde341052cf7b6f5599036c7d452d4520eb149e"
     },
     "templates/TOTVS-004.json": {
       "bytes": 8762,
-      "sha256": "3f9b913ccec332aeff7564231437645aad1439afba52e52cab218b7ffef583bc"
+      "sha256": "29ab5bb00dc86bbce3e6e0c88927aacceb9f2959fded7ad0d391448e46ce659d"
     },
     "templates/TOTVS-005.json": {
       "bytes": 6435,
-      "sha256": "4e582ebc828d259ea0b934cfc264eaa14c1721e192ca9724a956d8a6973a438b"
+      "sha256": "735be37e568ce325759845cff9511039b9747161cffe208a8d3d76e17eab2364"
     },
     "templates/TOTVS-006.json": {
       "bytes": 9220,
-      "sha256": "2efa4117dacc03065e46a8fa267e3ea765709651bc93c058aa73896c970b79cc"
+      "sha256": "5b5baaa21b11368ac5688d944cee9046a1baf9cdec9dd0ac9964a5b4011f9700"
     },
     "templates/TOTVS-007.json": {
       "bytes": 6246,
-      "sha256": "f699a43ee34e9e810e36f8a3993e29df7bae0a40ca70eed4a1cc3a60dfbb2e57"
+      "sha256": "06efda6aac9b55dd7ace95bbbe2e02161090b6487c61e3b85024292f18b42c27"
     },
     "templates/TOTVS-008.json": {
       "bytes": 10926,
-      "sha256": "51ae1620197f38b62ebd85377dd74ae9130d5f672c3496c77a3c5b14f7d62039"
+      "sha256": "c6cccebb0020e3c2ee8bf310b10ce9a913c8451ebff1361ae979d2d462b408a2"
     },
     "templates/TOTVS-009.json": {
       "bytes": 10932,
-      "sha256": "bb3426d486bd5deb6097e4e5839d9f82234579c0f34fc42744d84de4bbcc3721"
+      "sha256": "6b923c8d9c94aedbd878817b7403cee1e7a41fea31d8147cbf8dbaa9064388f9"
     },
     "templates/TOTVS-010.json": {
       "bytes": 11363,
-      "sha256": "ac38cdbbc2aea7f5d42bc0f763aea70874b831680f4ad31b641097532bfb5a64"
+      "sha256": "05ff3176c5311de3f8d410e832494d914f92bdd087877d9c6204d1b438e4e7ce"
     },
     "templates/TOTVS-011.json": {
       "bytes": 11638,
-      "sha256": "9982128f98eaf44ef75485bf67a0384b360876ccd0822d64d354322441b0e7c9"
+      "sha256": "cdff61516f5836d6f95b5096e04382bd27f92707893136509fe3fe325540a38d"
     },
     "templates/TOTVS-012.json": {
       "bytes": 11044,
-      "sha256": "423ed13a8d468cb1e0484ebed2edddd34305e58763a6d02082a2e079b7a1db82"
+      "sha256": "f2dfa037fdb07190c8e8fafd5db1c568da84dfe55d5a405d5dc37431cd3e06b8"
     },
     "templates/TOTVS-013.json": {
       "bytes": 10932,
-      "sha256": "29bd6750f0b64d9380228313fe86d4676c0327385dcdcc6c4582605bcd014518"
+      "sha256": "360994802b18e80f8bd8716fa6d115678214c41955cd54b4921d5d7eca0d1315"
     },
     "templates/TOTVS-014.json": {
       "bytes": 11638,
-      "sha256": "6fa415caff2dd4ebe2677d9f9cde846f44bf12eef2cbcd53d4ed4fc5b628f48b"
+      "sha256": "94ffdfd493048b9e0003326554ca07c7e40948ee78fe0289634cf3cdd9973d6c"
     },
     "templates/TOTVS-015.json": {
       "bytes": 11052,
-      "sha256": "cb730393e6ef4b0123bdfe34aebcf51421f44f5447fa1590e2052c6b11f7aa7e"
+      "sha256": "a8d90f38195139e719917cdd767c25a366ce3ea85d462db06abe2bfe14307f6a"
     },
     "templates/TOTVS-016.json": {
       "bytes": 10827,
-      "sha256": "d6d4ca0869675b621d82ad2644c7798c982e5705bd269f02a0f1d4b1d7a86d70"
+      "sha256": "61ebc0577c024a2463adf7e19d9bf604cdfa2dca4f469f30b77cc0b4f15f2f83"
     },
     "templates/TOTVS-017.json": {
       "bytes": 11772,
-      "sha256": "1de7fc27d95a12c9aa43f2cd586131230ce4ca50937b55085837f3d3cc95e44a"
+      "sha256": "4a44f1f7f9ff9338bfa4992ad623e5fbb4012bdee1e67cc57ee2adc1ae957a63"
     },
     "templates/TOTVS-018.json": {
       "bytes": 11768,
-      "sha256": "881ef95b6b5b25c5a93fb0e257b8957cd8e0b4e916623b780510f3eaee941b6e"
+      "sha256": "ece80901717378f4dbf7ad33b252fd38ff41a36901b3901c56cf5a759fd0a427"
     },
     "templates/TOTVS-019.json": {
       "bytes": 10930,
-      "sha256": "e51a1176ba35178b1ec73c46f1c06348eb5438f2e4a5a1bff60c208ec4b38764"
+      "sha256": "97af964626b7580d80dcda584e47a9899cc5d3920f97ce072cc39e454029e488"
     },
     "templates/TOTVS-020.json": {
       "bytes": 10827,
-      "sha256": "6d377595bf41c8de525da037316c56f747375dc48fff98037fce0ceef7545a88"
+      "sha256": "ad312aa7ba4831c22a0d4d5c0aef388bb90d8865a8851d6ad7a11328d13c4986"
     },
     "templates/TOTVS-021.json": {
       "bytes": 11051,
-      "sha256": "e8b8547bcf5a570ff307224b91832f10e8aa5f0d7576a1d7ef41f5a839bd1194"
+      "sha256": "6c15b3228333031c7c539d05c1b5c9effea589c1efef90d8da6e9fe6376b49bb"
     },
     "templates/TOTVS-022.json": {
       "bytes": 10935,
-      "sha256": "d53a9e2cab448bc9dc7fc52bf46e46000e0e7b8f0110d5e80b2dcaaabda54a57"
+      "sha256": "1d48875ddc3bac6682442e46672978233562670bf17d2eb6842e4c1cf3bb0cf7"
     },
     "templates/TOTVS-023.json": {
       "bytes": 10934,
-      "sha256": "cc50e5622d25c25645f041635ecb21338b37f9a99d635b2a4d7db23aed2f7fac"
+      "sha256": "6bb45bc8ccf0ffe438216e1034ec4a9f3fdc9c8866f85c13c77ebca3e0f953c0"
     },
     "templates/TOTVS-024.json": {
       "bytes": 8735,
-      "sha256": "b20b833c5e3cf7619051e9b0583012696e527c72679c83a443da31142ab8e814"
+      "sha256": "507bfef741937a9506f5b0ff5cb9feff70d9b8b3dbcc8bbbe37c064e5faebd14"
     },
     "templates/TOTVS-025.json": {
       "bytes": 12462,
-      "sha256": "c8fe70ff38ccd6d0e0259a34aea2fa88f59258bd2f618a2e374cf468ab5dedfb"
+      "sha256": "1c5c20a59f5e767697cda99a3edfb0ed97fb2005554c744813b38790667fed27"
     },
     "templates/TOTVS-026.json": {
       "bytes": 12462,
-      "sha256": "acb403c6085f0e3ebed90ed581f6c97900bdd7641365ff7149dac9496eedc74e"
+      "sha256": "8361189190c110fba361fce35a27537c5dce02aef6102e1f41dd7ea18a85be59"
     },
     "templates/TOTVS-027.json": {
       "bytes": 12462,
-      "sha256": "b1275859f6ac7eea66c2198d533462e77eb1a704861bcc152795043eed4a41de"
+      "sha256": "e2a9968fec9d4a9e138fbd00a5ec9a40b4dbed1da114faf6b4f58538573a1554"
     },
     "templates/TOTVS-028.json": {
       "bytes": 12494,
-      "sha256": "1efb9b4649e4dc68e9633a1d4a9847c2bb670663bd58c16a52bde244d4f8569c"
+      "sha256": "5e3625060a560a0869aee01d4dd47bd1a352f1ada0ca8d21a84a4a2197311109"
     },
     "templates/TOTVS-029.json": {
       "bytes": 12589,
-      "sha256": "c6f009bdc0b41019a56c67449d846850ac9c58923745465bfbd37abc62322e67"
+      "sha256": "285c463298cec850ceebe4bc3d211625bfe212cd97745fef2082da9ac4984711"
     },
     "templates/TOTVS-030.json": {
       "bytes": 12589,
-      "sha256": "0ef464642e715dbbf5e15d60155b86ce282fdcec5bd846824bceb723bc909213"
+      "sha256": "854e15a6eb2f10fffbc8b411cc464bb2d78fd6219a8352c887c499a4c4120dfd"
     },
     "templates/TOTVS-031.json": {
       "bytes": 10764,
-      "sha256": "bd819a1ea0aec4b79cdb9fb37c5354d899220eabd78f5e19b0ac72393b47ff77"
+      "sha256": "b5ea6703f41b9aef18e3730da9e23990fd71a4868a705e11e88a0aa203ce351b"
     },
     "templates/TOTVS-032.json": {
       "bytes": 10749,
-      "sha256": "0d8c9082cd54aa4119509cfe36b3ebc390b9e03452ff6f491cd6eae12ad40e9d"
+      "sha256": "c4a0ad79d557961ce5aefeb1a399158f72fecb0fd14a133b90143b052d82f119"
     },
     "templates/TOTVS-033.json": {
       "bytes": 10784,
-      "sha256": "fcddf575e387b15ce5469292bc1cbdbaf2c3f7231d9c141544b864ef3cb5c42d"
+      "sha256": "1541951dae1f1ff8b82ee64dbd749bbe72a72d5d836b2f8fd10cc882f13c4ea6"
     },
     "templates/TOTVS-034.json": {
       "bytes": 10781,
-      "sha256": "329aa1d6b1088bdfa88d5c7c50beb3999b056ac58cce7db33df593cf251ab4c4"
+      "sha256": "82bbcdd3a4efbb3551cc5116f95a6f68a1e8bc913f477593ba435e420a5bc7df"
     },
     "templates/TOTVS-035.json": {
       "bytes": 31294,
-      "sha256": "7934e5c1011c5847771e6b46171dffa3c5cb4134901052ebc651ca4e19a466cb"
+      "sha256": "55d7c4bc4e57ebb7cf1c988b7d7a902b70b9d12b867b30e0846b23efd2466189"
     },
     "templates/TOTVS-036.json": {
       "bytes": 48896,
-      "sha256": "cbce5a95f6d9f208b80c436a3c99ca43c8c62a345dd9af3392c98593a14ebc90"
+      "sha256": "5f1c5ea660b12dcec2c4ee8fee302abf88eb1a865b654baa2517c0dfcf91fa67"
     },
     "templates/TOTVS-037.json": {
       "bytes": 45750,
-      "sha256": "f777c52c6fd1e144b4736918fc9c58ede758354dcadcb8ed6faf02fda4e0b763"
+      "sha256": "285da80349d5216263fe87933087122031ba395084fb02e7d819111ff1bd7281"
     },
     "templates/TOTVS-038.json": {
       "bytes": 51038,
-      "sha256": "f4c5f2279b8306731e772c0734b1b44155987ae30f2867b817d70749468fc1e9"
+      "sha256": "bf2bff578202761ab106750364d2156d777ad61e0c9ac43cd14a88b27271b11f"
     },
     "templates/TOTVS-039.json": {
       "bytes": 28827,
-      "sha256": "99680e34a3e9e7baab03d1334ce7763f8a6298b56865321494d6e4a071f26ac5"
+      "sha256": "2ed1e3f11ca5d52659950ecb30406b29e857c88000e1ec8b579ddd240a4ad974"
     },
     "templates/TOTVS-040.json": {
       "bytes": 11027,
-      "sha256": "50a453d0671d1d781dc19e07a0c0e6072a509e82ebd8420fabc930a1edc24adc"
+      "sha256": "7d54ec1a3cfc4e42a9828acfeb43193a245163d7c4cfc67249ad075cfe690cb0"
     },
     "templates/TOTVS-041.json": {
       "bytes": 12080,
-      "sha256": "70c55f108c3ac018f57103e8543833e1e01ad43d7de0466965ba19213a5f8693"
+      "sha256": "e1ec077522bf99d5d88fcc1a801b74ac09e381b40b3114a753d13a81a388f4fa"
     },
     "templates/TOTVS-042.json": {
       "bytes": 15666,
-      "sha256": "86c2b387712df6d054f3e9c91c82051f36e3fc212d8bac8f38435f68d82efd70"
+      "sha256": "ce9a95aaec272176ecde0371ead229aa4269b7edabcdc4e667a484ba823d9777"
     },
     "templates/TOTVS-043.json": {
       "bytes": 12336,
-      "sha256": "60cf7266b4499beb3f0f30368e65c02260ed87cb6a69071e586f5e1e78a243f9"
+      "sha256": "617e64e7fa17317d5c19fddb9e34222bf983ce60c32229f9f9079f76a7bed848"
     },
     "templates/TOTVS-044.json": {
       "bytes": 17297,
-      "sha256": "3a9b9113d65a91c7ecadf5e82d078522063789110b2977a57242c4f9746c4773"
+      "sha256": "f7ef28d330365808e45488dcbf9533fdc11132351043498d840243fe48d12bf2"
     },
     "templates/TOTVS-045.json": {
       "bytes": 11896,
-      "sha256": "0568d87388d0b3d4b85545d254747479d63b0dd90df26179e3fa0c597d23af0e"
+      "sha256": "e87b6008aa8c174af7e699c0522f5ff40ddb7a38e4b97728917940ae3a892aa5"
     },
     "templates/TOTVS-046.json": {
       "bytes": 15212,
-      "sha256": "54fbb11c4a5f1aef750a235963eb40a1866c5662bed7c397ab044fc5421f754c"
+      "sha256": "5f63cc9ecdbfc89395f53969fdd1e6c2e2a4f4fddb865dad110bf71617f186e8"
     },
     "templates/TOTVS-047.json": {
       "bytes": 16720,
-      "sha256": "bdbb36ef5708a4c7cbd5f13660e91acd42abc1db33f432826260832997e6fca6"
+      "sha256": "ceeed9812ed8db21fb27f05cf010de1655395fc02bc23e58402854f19847858d"
     },
     "templates/TOTVS-048.json": {
       "bytes": 12935,
-      "sha256": "510f9d007db994fb998c9ecd8504da21b32eaa3314cb7b25390e03d24e7d98f8"
+      "sha256": "19c2c5cc003024fd713a0a0b82749b80915b62281d9acdd9ffd16e69e31553f1"
     },
     "templates/TOTVS-049.json": {
       "bytes": 14186,
-      "sha256": "085a2b3a25f67003eb7803e69f73c3638e8a1f78e3b69f8ecd9138fc941e1fd2"
+      "sha256": "5b5ecb42c94bbf02a53783b79655a535e550b4ebec4610b271cdac116dca45ac"
     },
     "templates/TOTVS-050.json": {
       "bytes": 18456,
-      "sha256": "53988cd016b62305b91688bf700d696948b0900144053f0629b3ea2a6066ed3e"
+      "sha256": "86ccbb8306727e652c4f72b7d5c6ace5e1337c359a09b6da4f5ccd7d9fd6aded"
     },
     "templates/TOTVS-051.json": {
       "bytes": 22469,
-      "sha256": "0ad9a04ce8d20039d25c4ea5ac5f837367ea1961c18d0109d740d19fe724f3af"
+      "sha256": "f361884e0a5bb8f329e616cd09529dd95e0be12d589a8b26670a5050d0f134ea"
     },
     "templates/TOTVS-052.json": {
       "bytes": 18402,
-      "sha256": "7cf8e0bbac675e467a75aff30e7857d6b4af5cbc84ebef712edc61e7cbe70127"
+      "sha256": "2f4cb389ea36c9b09fa2289013c31632ad418d74517dcd5e7864ee7982b6cd2c"
     },
     "templates/TOTVS-053.json": {
       "bytes": 27998,
-      "sha256": "9d77f5ac3187253c7a870f404187323f788e8ba992e45134724978100a07877f"
+      "sha256": "bbf8869a26aeac9258de1c50520e8b05260059b62ae88d389915ab06aa242a7a"
     },
     "templates/TOTVS-054.json": {
       "bytes": 38948,
-      "sha256": "1fdb625ee4bd99ec4767b71ad86079d6ad159b8891d633dfd5f128bdc095a1ff"
+      "sha256": "07690b88faa3a17de23db5bb19bccad72e91b134c00e0cf9bed20b7aa917e349"
     },
     "templates/TOTVS-055.json": {
       "bytes": 36893,
-      "sha256": "13a0b1a622bccf2217ceeba3f80590cda97bcca7abf7231097e1351f5706a54f"
+      "sha256": "2456ebad4c270a8e24783dda5675bb18de446f4d59393f172df278306dc6f8f2"
     },
     "templates/TOTVS-056.json": {
       "bytes": 20412,
-      "sha256": "c932a8790e071983d3e3279fa9b56297483d96c9a1a047166016c003339388f8"
+      "sha256": "6be51ddb7b5361ff34f8717bf19c4144f712fc4246f734c536ea2d4c814f632c"
     },
     "templates/TOTVS-057.json": {
       "bytes": 33335,
-      "sha256": "a268e8b31522823a938ecb3138574314bbb304a6f177e20d7c1c0e6b47f1918a"
+      "sha256": "faba5656e3704b2904c86e4ad9dd7026262efdc2920d8722e3ca93b7cdcfd3e5"
     },
     "templates/TOTVS-058.json": {
       "bytes": 14944,
-      "sha256": "f0ee115ebdd9428989dcc03e36c587cd0470a59bd97398031dfaca78bb711ba4"
+      "sha256": "771feeaca4f414cb95625217cdee2b97ca9041d3a57a005bcfd244d42a747e6d"
     },
     "templates/TOTVS-059.json": {
       "bytes": 15765,
-      "sha256": "396c9730adeace963e25a5aadd3ce65657b4b550988abbf9671c71287b615892"
+      "sha256": "ecbae4efea34544ec01864a83f2b275f8e182fe24197aa1d145fbba9db84aec6"
     },
     "templates/TOTVS-060.json": {
       "bytes": 12847,
-      "sha256": "160840412d770159a3928bcd5fe2e991f1183779928a3cb086504bd976534cee"
+      "sha256": "c5a57a5fa5bc2f452446dcb915730587d4d835ca8f6890a7f1701e939a100203"
     },
     "templates/TOTVS-061.json": {
       "bytes": 13065,
-      "sha256": "969318e828f74127d5981623bf0b8eadfe3a6bd5691bd04e2583ecf51a05c5d8"
+      "sha256": "708fa484d6664d9b6bb98741df0073a1b413bfd4bf0eb7925ce861bb878bd9bf"
     },
     "templates/TOTVS-062.json": {
       "bytes": 7392,
-      "sha256": "8e7829f1828db99f4f2c1dd0720cf78c8498154e5f06a387182a287e10cd6232"
+      "sha256": "f36a3913cd7573b88df035c67218b6ad2badb490cc1e64e74e7aa210828a157b"
     },
     "templates/TOTVS-063.json": {
       "bytes": 11826,
-      "sha256": "919b2df8a201c2518d195d5e4792868efddd3b0e7c3eaf63ff6d455ea5b63232"
+      "sha256": "17efdea7b45e84e49b25ee31bbbaaa1a84db9399761323c5a0f64f6b2f2bf2bc"
     },
     "templates/TOTVS-064.json": {
       "bytes": 11523,
-      "sha256": "abf0eb3302d888680754c05b2203586dd199f34a638cfad018dbc684bc8b0c3e"
+      "sha256": "e198b3b2ba49fbbd8f76e2258bf3e241ebac3165300340dcf76e486ac8e3f5e1"
     },
     "templates/TOTVS-065.json": {
       "bytes": 31456,
-      "sha256": "4100b1f4bffc0736e2c2eba834d844d1a244e71b31e55e01ad8843f833155be4"
+      "sha256": "4d317c44e5aebb72e8d8d07bd328ed5d335daf82fa43811ccf5fda541b37bda9"
     },
     "templates/TOTVS-066.json": {
       "bytes": 14745,
-      "sha256": "ef21e95bc40c372254dc9af0c3be3bf27ee0f6c50141b949d5d0df571ded709e"
+      "sha256": "2c4e82eb0e6fde284c8363543a45cc75dddd0ec8a04ec50fc32415d03b63057c"
     },
     "templates/TOTVS-067.json": {
       "bytes": 8516,
-      "sha256": "211e1f634b94993b90c93e4de5d3abb065470912fa63ee6c816a73a196744429"
+      "sha256": "706d9e3f263ea208d846b3a9ecd07d523071b85737e8472b27cd9729eb029fb8"
     },
     "templates/TOTVS-068.json": {
       "bytes": 10137,
-      "sha256": "467b612b8222d6977fa32d552ad2331cf9114f9c6bb415042ba988e7b0ad5f21"
+      "sha256": "94bfa31e130bc299c40d9709731a1ded621256de28a9550cab1fe95e710f79a3"
     },
     "templates/TOTVS-069.json": {
       "bytes": 15223,
-      "sha256": "de48b3b243f1f43740270680a7938bc1d851eb2aed16341f0740fe5d270a660d"
+      "sha256": "85bc5718f3cdbcb6eaa2c3d6af1f8b97020f85ddc047d6eb95d22b2c3633e427"
     },
     "templates/TOTVS-070.json": {
       "bytes": 15203,
-      "sha256": "84f17dd70fe762c871b96a09cb74ea0e655588b763e021aad43c1dc90477efd5"
+      "sha256": "6b7d9579ff67dbe487ab25a20d57a384294f9c1c5ad0883b38067b2e6236cc95"
     },
     "templates/TOTVS-071.json": {
       "bytes": 39357,
-      "sha256": "d45bb44452db9a70ddb47bc2e942a393253f5c189865b61c1b9b3943e4cfc987"
+      "sha256": "4d8342cdca7976164b9d0efea8c84a173aa9f6deedf7bf79b3cefbb61bc94f24"
     },
     "templates/TOTVS-072.json": {
       "bytes": 39879,
-      "sha256": "74e612d503c18831b400935eb978d63ab10ab71a5d1d99d220252189fadf7a84"
+      "sha256": "b5ea14e8731265befd43d2459e9926826a4184d79d83cc72099b8d801da067ad"
     },
     "templates/TOTVS-073.json": {
       "bytes": 44180,
-      "sha256": "22f61cf8f1a08c381ba83ca8d6685d2ee5bf47c5a421b68fe056eaeb5d054382"
+      "sha256": "6893d326f0e987d6124a9e5597b26d2d679b628baac6553e13c8a135103eeb5e"
     },
     "templates/TOTVS-074.json": {
       "bytes": 31680,
-      "sha256": "339245bfe2053a12dc86b24e0241292cd79106a26bb03b0f44b42b6e62667c12"
+      "sha256": "3fed9d2a49a002545552441b980afa1d0c2d2fee490ce870f0a2165d88c406f3"
     },
     "templates/TOTVS-075.json": {
       "bytes": 23116,
-      "sha256": "576d8b36495ebeb554dd224487873fb5240f425bcadfdc1538aed3de26c40fe8"
+      "sha256": "a0f4c04f8b566e5eb32c421f2a2b84f9257d649c69323e0cda37992d462f6153"
     },
     "templates/TOTVS-076.json": {
       "bytes": 15604,
-      "sha256": "305406296899dd061e97e9bb16de07e70550d700e94ca32f9b61a06e7aaf980b"
+      "sha256": "ae958ffd3dc9ab73635a6c8b1266594116a30cfbfb0093f0461421256631c6e4"
     },
     "templates/TOTVS-077.json": {
       "bytes": 15613,
-      "sha256": "acb7b52f545ad6ff11e0957359031a1c8bbf8834ee8369861a73aa904f4ca828"
+      "sha256": "e0a8ad78a9736efc74bb44ff2a9a094738f48f469cd9499359f75ca3b6897071"
     },
     "templates/TOTVS-078.json": {
       "bytes": 15516,
-      "sha256": "01062afcc6f87fe20a5247ab9b56b020314411d2de9cc5f76a5271d55421c748"
+      "sha256": "051f6816ea8268a68789e68fd8d4aaf8d0dbd06a6bbcf932d753b4dcb8870ec3"
     },
     "templates/TOTVS-079.json": {
       "bytes": 41456,
-      "sha256": "002bfe3cc7b396519d4e5d07c01f37bb58964c84327ba3de08e4633befd4b7bc"
+      "sha256": "f503d699b78f86bce2d73fe408a3be722aa28fce4c8d2a8942dd87ac1b93623f"
     },
     "templates/TOTVS-080.json": {
       "bytes": 41456,
-      "sha256": "7449d4cc624c2339038fe6be3d7a30c6326f16b60e748fa6e73dd9bf915244d3"
+      "sha256": "3c963610ee8b06dff20876f14d32ccafcfcfc0048c1ab413c961b29a0605af6c"
     },
     "templates/TOTVS-081.json": {
       "bytes": 41455,
-      "sha256": "feb60cb165105a728a9fd82bfad58d71892807a6273766f6821091dc1a6300eb"
+      "sha256": "516fac9f54ec61a7353d118bfc3fb15b805af2426052b55c5dfc6941020736cd"
     },
     "templates/TOTVS-082.json": {
       "bytes": 41457,
-      "sha256": "173a7a3aae3172bcffe9a4ab0b3056af352c4f47b1c0c96efd6699a3a6227b4b"
+      "sha256": "7a9963c4219f685bf06ce63f7b5495e2bd5bf3c2e0d8877b1338fd398f994e32"
     },
     "templates/TOTVS-083.json": {
       "bytes": 41462,
-      "sha256": "01c9dfa6cc34ee72ff3d631575e63ae00f2aabfac3f4754b65c0c9d7bed9ed44"
+      "sha256": "43051afa6307239dea172f5d0a8cecedf998a62623b9c574b88b8f02f940d146"
     },
     "templates/TOTVS-084.json": {
       "bytes": 38638,
-      "sha256": "34f9da78fc061b0843ca6171255b89454ed7e63cd8c8c08145040acc49ae55df"
+      "sha256": "9a9610ce6676579402a7d9c586b92e40d74202c70ed97c439f69694beb4fec01"
     },
     "templates/TOTVS-085.json": {
       "bytes": 60590,
-      "sha256": "424f0c5bc4271b101fe62b14757812542c3a7964835ef913fa34fdf6648ddda4"
+      "sha256": "16ddde18940762f484c63414aa813d9562fb454010cffdd84634a4f2970e79b1"
     },
     "templates/TOTVS-086.json": {
-      "bytes": 46952,
-      "sha256": "fb9f566331672e2b31f3131f6d26bc7c39261149d896c008c5ed0f800c9a1793"
+      "bytes": 48792,
+      "sha256": "5d7a71bed3698b5b3c22fc1cb68247692a727775895c5f6c3b01c6b323806c37"
     },
     "templates/TOTVS-087.json": {
       "bytes": 19317,
-      "sha256": "c19460e911a681eb4f08d21b769282d1cd7522618a1f29c9c16e009c611d4aa7"
+      "sha256": "bd675fd525e7185e3ad232d12dc8ed93f04d192ffe89966ce53cab845c6ff453"
     },
     "templates/TOTVS-088.json": {
       "bytes": 19143,
-      "sha256": "75e24054c965259e0ccabf7a98e18b9c2f03b7a8d9ff7dfc625e10125864ac46"
+      "sha256": "f94fe5839cf5c052bf028d8468fd7ac9174bd299afa50761977cd1fafd49873b"
     },
     "templates/TOTVS-089.json": {
       "bytes": 21676,
-      "sha256": "402570ed3ec949fb963397d98f56d99fef2ada4e87df23b1b448fb7eec05cc4f"
+      "sha256": "20cc00bf40ff889079bcc8693e1823f8d464a493c921a1ea844937ff8714cdb6"
     },
     "templates/TOTVS-090.json": {
       "bytes": 21467,
-      "sha256": "f96a1c7813f45426ca438d260a778fb92c3fecf6bddd307fa14f05b95ebb8ba3"
+      "sha256": "53bc56c7d781a0ff066eba9f3544c8abfa61b13541b0ce877b5d535e126cf037"
     },
     "templates/TOTVS-091.json": {
       "bytes": 31035,
-      "sha256": "07ffd1d11dae180fad9f2364450c59f9e3ada3ad8719a2147b72f9762b817489"
+      "sha256": "76d34179019e7f610dd313aae9080bf087ff8c3704f8076c5a10d414806b33ba"
     },
     "templates/TOTVS-092.json": {
       "bytes": 12705,
-      "sha256": "3396ecb50d14d7b050ef95d76ca76ea596a3bf3edce1f1c5254a818a5b07fbdd"
+      "sha256": "2e32c75b0732ecab8fa54643886258eaa82b82f49d2187711c645dc50a4f216c"
     },
     "templates/TOTVS-093.json": {
       "bytes": 15255,
-      "sha256": "c340a6f738b0de7e3117a3119a902fee469df86d292ef84f06516bb5e1c1ceb4"
+      "sha256": "56c53e1393b0ae57fcdf0156f0ccadb57a2c624d5a9b0ece0d4104b7cae7e427"
     },
     "templates/TOTVS-094.json": {
       "bytes": 25866,
-      "sha256": "9955a86b4df0e15ee952b9171f2b756b7d90ff55de04a51d0a5265876c30ba6e"
+      "sha256": "5d5a72f86667c167e4da32fa5cf030d3e0a8215edeaddc6398b708f85bf98e6b"
     },
     "templates/TOTVS-095.json": {
       "bytes": 27195,
-      "sha256": "62d72e129ad071cc85a7d7c7a601184d85786e7ae5df61dfcf864df66bfeb9e1"
+      "sha256": "7914e7db74555a46a2cf9df10b435d376277ee7604dd1d13e3d75a4a5948ba80"
     },
     "templates/TOTVS-096.json": {
       "bytes": 8611,
-      "sha256": "6570d7fe152de851bca5421f3d5797a086afc81674e2fbdac2ba97db3da1d7f6"
+      "sha256": "6d21305ebbf832143407e0b6c561bed166a3713f401c5135b02fdc10869e3164"
     },
     "templates/TOTVS-097.json": {
       "bytes": 6903,
-      "sha256": "05cb00b627361ce38aafa55fba23384c4193eca695c0f6d0ff4360a5202d98c5"
+      "sha256": "7a13c2802020373d9e400e14342f9f0e84b11af46ac78e4d16c1148985932d3b"
     },
     "templates/TOTVS-098.json": {
       "bytes": 6883,
-      "sha256": "743c3aa35551945e8832e2c74f5f31a361b625b804670af237985e5294346ae7"
+      "sha256": "8f6aa7fa73b5a489b1cb82e3c283c115ae03fc30e2fa0113af9103c960feedd7"
     },
     "templates/TOTVS-099.json": {
       "bytes": 4612,
-      "sha256": "69417c3919e25a5e3871ad2b955027b6a36cf83513cb796696c9ac50937917e5"
+      "sha256": "aaac8622a13f17fb2026e153726254559f97a30c6cba19a31bfca12a45ef20d6"
     },
     "templates/TOTVS-100.json": {
       "bytes": 4684,
-      "sha256": "c55e370b07d901369eec491e3e82827a95ef221d0d76acd51317cf3cca9e8579"
+      "sha256": "500c8ca2016d8f105c439aceec9d39b96dd0cffbf31d2d56bed36b712af70281"
     },
     "templates/TOTVS-101.json": {
       "bytes": 8050,
-      "sha256": "2fa2da3e7cc69f955b1e8bc0cf9dc5ad0e5d953df9ef796c02a6a9a0f437a4b2"
+      "sha256": "ece013cec707b86007fd08d41654cd1c44cec065d43184445a101cef3e9b7a5b"
     },
     "templates/TOTVS-102.json": {
       "bytes": 6963,
-      "sha256": "06821c99196968798c06b761027f9cce1f91ff527c2d76aba1a176d569bcb0c7"
+      "sha256": "e99dfd74167a7b0547d201a344929981c5129bd52e998579171634c24687e0de"
     },
     "templates/TOTVS-103.json": {
       "bytes": 6261,
-      "sha256": "659e9abe739127f9551cd312e5a160d3d38e0b6433d6f59e9202f3fea8a9490a"
+      "sha256": "58c5d7354f3e605a97da188a4a532555e6e15fde51d0ce15a5bb690f686132ec"
     },
     "templates/TOTVS-104.json": {
       "bytes": 7995,
-      "sha256": "873fc727205c9b788cc8b4ca63f55e489769a5ef0f8f71c709c98b543fa98a63"
+      "sha256": "2157f0438a7f12d4f31d9e900e79c1bfc4e142cff6d204fef9bf53684750c92a"
     },
     "templates/TOTVS-105.json": {
       "bytes": 6982,
-      "sha256": "4fb68679da46afde50202f6adb42fbcb98ad65deee066a85d5a6efef60f6c4f2"
+      "sha256": "15be0dd834d36c3331332f1022fdd50ed161ca938a3d9a0cc420a6e1d4a78002"
     },
     "templates/TOTVS-106.json": {
       "bytes": 5799,
-      "sha256": "b6f00b1e3beb01351e3ac854516212befc5246cc357a9ae768daf8bc1f184e5b"
+      "sha256": "43ab1e1ac314b8a6fd31d60ae7b63f7241a0935efc79969bfd61a2e77fd2406b"
     },
     "templates/TOTVS-107.json": {
       "bytes": 5890,
-      "sha256": "5febe20884b888af57a38b543e7025ec83a03d5524f37145e222a97d835b0588"
+      "sha256": "18e08fdc671b7009d86466d743776e8a3893e79de9d6e8d88f312caf52d92e07"
     },
     "templates/TOTVS-108.json": {
       "bytes": 5939,
-      "sha256": "aed8cdfa3404689c69877d7e6187584219cb1796e54a0342b9e04234635c3cfa"
+      "sha256": "6ad7a02e8edda7f421535a9f0b97e852f18535debfd84d570497c43f40198c4d"
     },
     "templates/TOTVS-109.json": {
       "bytes": 6041,
-      "sha256": "53ad4d8f71aaa504005bc14875ae840b5b0c69729544abc8bae015778428adb0"
+      "sha256": "7966d81a10843817e3eecd6704392df858b556b08176d55fb2c80326808b0830"
     },
     "templates/TOTVS-110.json": {
       "bytes": 9124,
-      "sha256": "65ce916e903c9776bc0350bf93e6c5303afdae7fe73b098da265ff4f611729b4"
+      "sha256": "c98bafc4aed85bb0b4c3e8d62abb4e8bf8606aea80488b79fcebf222565de215"
     },
     "templates/TOTVS-111.json": {
-      "bytes": 17580,
-      "sha256": "bbb41a5b72b42952fc3b45c39ca6fd3bc79327764fcb653d32e9bb8cadfea615"
+      "bytes": 18684,
+      "sha256": "98a20aa7711cd49003c5c3466c7435450bf76f54d5780c152dac01d6dba29e47"
     },
     "templates/TOTVS-112.json": {
-      "bytes": 17098,
-      "sha256": "98a5fa9ba906c6cd13e7386ffa5b3f9aa5c5398e6c1c9b0c9f59db724add4a47"
+      "bytes": 18202,
+      "sha256": "fd6ed66c75c4b5fa2fc2c7036594e14c428ff83b4825f78f4f1017a73050ddbe"
     },
     "templates/TOTVS-113.json": {
       "bytes": 162488,
-      "sha256": "d65af444f99b6d66e2aebc205eea628b857d074652d431ba5821d7f74306b593"
+      "sha256": "c717b1ec3f867c693dde33693bdd1500066aa8a3b7e6eb36ebb61f6ea038777f"
     },
     "templates/TOTVS-114.json": {
       "bytes": 255270,
-      "sha256": "1213f147278a18d3c3f34a025fd24adae1f5389929d69b166ca4085ff6daf253"
+      "sha256": "91ab2d465085f36aaca7eb8b74c47df86028c8e73fadebc1c430c163ab5ca02f"
     },
     "templates/TOTVS-115.json": {
       "bytes": 131588,
-      "sha256": "a4a20e730757580a7a5cb38ac7c9a4e06278630f66aa1e387afea98176f66eea"
+      "sha256": "3adf45b3453a948c702ae8da87e35cad9d11075cc20aa7c625bb14f9d60e43c5"
     },
     "templates/TOTVS-116.json": {
       "bytes": 135971,
-      "sha256": "0fda402cd4e7dade832c6b86586aa888334109514095c2d1033ae4d4c90e5e71"
+      "sha256": "cb4417cc4f989a9fb73420f7f015987e04a53e04be98b7e402f15a5cfc293eb2"
     },
     "templates/TOTVS-117.json": {
       "bytes": 17347,
-      "sha256": "0a73f47f2d745500e68b1e024ab5e01cbe3a180fe97665d2d33a283a445e175c"
+      "sha256": "9ba2d8a76bab1bc3bd9f8f02c9372fe3a6638dd0adcd366da012f455e880d961"
     },
     "templates/TOTVS-118.json": {
       "bytes": 19802,
-      "sha256": "cfa5c5b9121856bb5b9ed6d1867ef0d50f1c5c5e47defc9d8cfb19344d3f958d"
+      "sha256": "357608f4687cb7ea1102773f0542782a91dafd1a2972311646a0ce8fd7f3646c"
     },
     "totvs-deck.css": {
-      "bytes": 19457,
-      "sha256": "62e2a31ec5d634225c82ef943f7dc4ebd9479916806e40fa598c989784a9a32b"
+      "bytes": 20313,
+      "sha256": "d01a78b92ec21bb50304bd7ad6f23bd916652e740a3c05035f73e4311dd7938f"
     },
     "totvs-deck.js": {
-      "bytes": 80874,
-      "sha256": "d654f1a651590ad8ff620441df7b2e3a2706dad09487a98552b8371e420b2204"
+      "bytes": 115791,
+      "sha256": "174de28016b80ae628fb2d9022250c6650c4873397e5b15286e3e7f2b086d598"
     }
   }
 }
