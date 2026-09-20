@@ -242,7 +242,7 @@
       const obstacles = Array.from(section.querySelectorAll(':scope > .slide-object'))
         .filter(node => {
           if (node === target) return false;
-          if (node.matches('[data-slot-id], [data-table-slot], .object-image-frame')) return true;
+          if (node.matches('[data-slot-id], [data-table-slot], [data-chart-slot], .object-image-frame')) return true;
           if (!node.matches('.object-image, .object-cover')) return false;
           return node.offsetWidth * node.offsetHeight < 1280 * 720 * 0.55;
         })
@@ -422,6 +422,10 @@
     let align = [];
     let columnWidths = [];
     let label = '';
+    let period = '';
+    let unit = '';
+    let source = '';
+    let notes = '';
 
     if (Array.isArray(value)) {
       const matrix = value.filter(Array.isArray);
@@ -445,7 +449,12 @@
         ? value.align
         : columns.map(column => column && typeof column === 'object' ? column.align : '');
       columnWidths = Array.isArray(value.columnWidths) ? value.columnWidths : [];
-      label = typeof value.label === 'string' ? value.label.trim() : '';
+      label = typeof value.label === 'string' ? value.label.trim()
+        : (typeof value.caption === 'string' ? value.caption.trim() : '');
+      period = typeof value.period === 'string' ? value.period.trim() : '';
+      unit = typeof value.unit === 'string' ? value.unit.trim() : '';
+      source = typeof value.source === 'string' ? value.source.trim() : '';
+      notes = typeof value.notes === 'string' ? value.notes.trim() : '';
     } else {
       return null;
     }
@@ -470,7 +479,7 @@
     align = Array.from({ length: columnCount }, (_, index) =>
       ['left', 'center', 'right'].includes(align[index]) ? align[index] : '');
 
-    return { headers, rows, align, columnWidths, columnCount, label };
+    return { headers, rows, align, columnWidths, columnCount, label, period, unit, source, notes };
   }
 
   function tablePrototype(table) {
@@ -572,7 +581,17 @@
         tbody.append(tableRow);
       });
 
-      table.replaceChildren(colgroup, thead, tbody);
+      const metadata = [
+        payload.label,
+        payload.period ? `Período: ${payload.period}` : '',
+        payload.unit ? `Unidade: ${payload.unit}` : '',
+        payload.source ? `Fonte: ${payload.source}` : '',
+        payload.notes ? `Notas: ${payload.notes}` : '',
+      ].filter(Boolean).join('. ');
+      const caption = document.createElement('caption');
+      caption.className = 'totvs-data-provenance';
+      caption.textContent = metadata || 'Tabela de dados';
+      table.replaceChildren(caption, colgroup, thead, tbody);
       table.hidden = false;
       table.classList.add('totvs-adaptive-table');
       table.dataset.tableRuntime = 'true';
@@ -585,9 +604,279 @@
       table.style.setProperty('--table-accent', table.dataset.tableAccent || '#00c9eb');
       table.style.setProperty('--table-accent-ink', table.dataset.tableAccentInk || '#002233');
       table.style.setProperty('--table-soft', table.dataset.tableSoft || '#dfe5e8');
-      if (payload.label) table.setAttribute('aria-label', payload.label);
+      table.setAttribute('aria-label', metadata || payload.label || 'Tabela de dados');
+      if (payload.source) table.dataset.tableSource = payload.source;
       const backdrop = bySlot(section, 'data-table-backdrop', slot);
       if (backdrop) backdrop.hidden = false;
+    });
+  }
+
+  const SVG_NAMESPACE = 'http://www.w3.org/2000/svg';
+
+  function svgElement(name, attributes = {}, text = '') {
+    const element = document.createElementNS(SVG_NAMESPACE, name);
+    Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, String(value)));
+    if (text !== '') element.textContent = text;
+    return element;
+  }
+
+  function chartString(value) {
+    return typeof value === 'string' ? value.trim() : '';
+  }
+
+  function chartValueLabel(value, unit) {
+    const number = new Intl.NumberFormat('pt-BR', {
+      maximumFractionDigits: 2,
+    }).format(value);
+    if (!unit) return number;
+    if (unit === '%') return `${number}%`;
+    if (/^(?:R\$|US\$|€|£)$/.test(unit)) return `${unit} ${number}`;
+    return `${number} ${unit}`;
+  }
+
+  function normalizedChartPayload(chart, value) {
+    if (!value || typeof value !== 'object' || Array.isArray(value)) return null;
+    const expectedType = chart.dataset.chartType || '';
+    const requestedType = chartString(value.type) || expectedType;
+    if (!['donut', 'horizontal_bar'].includes(expectedType) || requestedType !== expectedType) {
+      console.warn(`Tipo de gráfico incompatível em ${chart.dataset.chartSlot}.`);
+      return null;
+    }
+    const sourceSeries = Array.isArray(value.series)
+      ? value.series : (Array.isArray(value.data) ? value.data : []);
+    const series = sourceSeries.map(item => {
+      if (!item || typeof item !== 'object') return null;
+      const category = chartString(item.category || item.label || item.name);
+      if (item.value === null || item.value === undefined || item.value === '') return null;
+      const numeric = Number(item.value);
+      if (!category || !Number.isFinite(numeric) || numeric < 0) return null;
+      return { category, value: numeric };
+    }).filter(Boolean);
+    if (series.length !== sourceSeries.length) {
+      chart.setAttribute('data-chart-invalid', 'true');
+      console.warn(
+        `Gráfico recusado em ${chart.dataset.chartSlot}: nenhuma categoria ou valor inválido será omitido.`
+      );
+      return null;
+    }
+    chart.removeAttribute('data-chart-invalid');
+    const minimum = Number(chart.dataset.chartMinCategories || 1);
+    const maximum = Number(chart.dataset.chartMaxCategories || Infinity);
+    const labelMaximum = Number(chart.dataset.chartLabelMax || Infinity);
+    const labelsFit = series.every(item => item.category.length <= labelMaximum);
+    const countFits = series.length >= minimum && series.length <= maximum;
+    chart.toggleAttribute('data-chart-overflow', !labelsFit || !countFits);
+    if (!labelsFit || !countFits) {
+      console.warn(
+        `Gráfico acima da capacidade em ${chart.closest('section')?.dataset.templateId}/` +
+        `${chart.dataset.chartSlot}. Preserve os dados e escolha outro layout.`
+      );
+      return null;
+    }
+    const title = chartString(value.title);
+    const unit = chartString(value.unit);
+    const period = chartString(value.period);
+    const source = chartString(value.source);
+    const takeaway = chartString(value.takeaway);
+    const headlineValue = chartString(value.headlineValue || value.headline_value);
+    const axis = value.axis && typeof value.axis === 'object' ? value.axis : {};
+    const missingMetadata = [title, unit, period, source, takeaway].some(item => !item);
+    chart.toggleAttribute('data-chart-metadata-missing', missingMetadata);
+    if (missingMetadata) {
+      console.warn(
+        `Metadados incompletos em ${chart.dataset.chartSlot}: informe título, unidade, período, fonte e takeaway.`
+      );
+      return null;
+    }
+    return { type: expectedType, title, unit, period, source, takeaway, headlineValue, axis, series };
+  }
+
+  function chartDescription(payload) {
+    const values = payload.series
+      .map(item => `${item.category}: ${chartValueLabel(item.value, payload.unit)}`)
+      .join('; ');
+    return [
+      payload.title,
+      values,
+      payload.period ? `Período: ${payload.period}` : '',
+      payload.source ? `Fonte: ${payload.source}` : '',
+      payload.takeaway ? `Mensagem principal: ${payload.takeaway}` : '',
+    ].filter(Boolean).join('. ');
+  }
+
+  function chartFrame(payload, viewBox) {
+    const svg = svgElement('svg', {
+      viewBox,
+      preserveAspectRatio: 'xMidYMid meet',
+      role: 'img',
+      'aria-label': chartDescription(payload),
+    });
+    svg.append(svgElement('title', {}, payload.title));
+    svg.append(svgElement('desc', {}, chartDescription(payload)));
+    return svg;
+  }
+
+  function renderDonutChart(payload, palette) {
+    const svg = chartFrame(payload, '0 0 600 399');
+    const total = payload.series.reduce((sum, item) => sum + item.value, 0);
+    if (!(total > 0)) return null;
+    const radius = 150.5;
+    const circumference = 2 * Math.PI * radius;
+    let offset = 0;
+    payload.series.forEach((item, index) => {
+      const length = item.value / total * circumference;
+      svg.append(svgElement('circle', {
+        class: 'chart-segment',
+        'data-category': item.category,
+        'data-value': item.value,
+        cx: 300,
+        cy: 199.5,
+        r: radius,
+        fill: 'none',
+        stroke: palette[index % palette.length],
+        'stroke-width': 83,
+        'stroke-dasharray': `${length.toFixed(4)} ${(circumference - length).toFixed(4)}`,
+        'stroke-dashoffset': (-offset).toFixed(4),
+        transform: 'rotate(-90 300 199.5)',
+      }));
+      offset += length;
+    });
+    return svg;
+  }
+
+  function niceAxisStep(raw) {
+    if (!(raw > 0)) return 1;
+    const power = 10 ** Math.floor(Math.log10(raw));
+    const fraction = raw / power;
+    const nice = fraction <= 1 ? 1 : (fraction <= 2 ? 2 : (fraction <= 5 ? 5 : 10));
+    return nice * power;
+  }
+
+  function chartLabelLines(label, targetLength = 16) {
+    if (label.length <= targetLength || !label.includes(' ')) return [label];
+    const words = label.split(/\s+/);
+    const lines = ['', ''];
+    words.forEach(word => {
+      const firstCandidate = `${lines[0]} ${word}`.trim();
+      if (!lines[1] && firstCandidate.length <= targetLength) lines[0] = firstCandidate;
+      else lines[1] = `${lines[1]} ${word}`.trim();
+    });
+    return lines.filter(Boolean).slice(0, 2);
+  }
+
+  function renderHorizontalBarChart(payload, palette) {
+    const svg = chartFrame(payload, '0 0 600 272');
+    const largest = Math.max(...payload.series.map(item => item.value), 0);
+    const requestedMaximum = Number(payload.axis.maximum);
+    const requestedStep = Number(payload.axis.major_unit ?? payload.axis.majorUnit);
+    const step = requestedStep > 0
+      ? requestedStep : niceAxisStep(Math.max(largest, 1) / 6);
+    const maximum = requestedMaximum >= largest && requestedMaximum > 0
+      ? requestedMaximum : Math.ceil(Math.max(largest, step) / step) * step;
+    const longestLabel = payload.series.reduce(
+      (length, item) => Math.max(length, item.category.length), 0);
+    const plotLeft = Math.max(64, Math.min(176, 28 + longestLabel * 7));
+    const plotRight = 589;
+    const plotTop = 8;
+    const plotBottom = 247;
+    const plotWidth = plotRight - plotLeft;
+    const tickCount = Math.max(1, Math.min(10, Math.round(maximum / step)));
+    const actualStep = maximum / tickCount;
+    for (let index = 0; index <= tickCount; index += 1) {
+      const value = actualStep * index;
+      const x = plotLeft + plotWidth * index / tickCount;
+      svg.append(svgElement('line', {
+        class: 'chart-gridline',
+        'data-axis-value': value,
+        x1: x.toFixed(2), y1: plotTop, x2: x.toFixed(2), y2: plotBottom,
+        stroke: '#687176', 'stroke-width': 0.7, opacity: 0.8,
+      }));
+      svg.append(svgElement('text', {
+        class: 'chart-axis-label',
+        x: x.toFixed(2), y: 262, 'text-anchor': 'middle',
+        fill: '#d7dde0', 'font-family': 'Verdana, Geneva, sans-serif', 'font-size': 14,
+      }, new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 2 }).format(value)));
+    }
+    const rowHeight = (plotBottom - plotTop) / payload.series.length;
+    const barHeight = Math.min(41, Math.max(20, rowHeight * 0.52));
+    payload.series.forEach((item, index) => {
+      const center = plotTop + rowHeight * (index + 0.5);
+      const top = center - barHeight / 2;
+      const categoryText = svgElement('text', {
+        class: 'chart-category-label',
+        x: plotLeft - 7, y: center, 'text-anchor': 'end',
+        fill: '#d7dde0', 'font-family': 'Verdana, Geneva, sans-serif', 'font-size': 15,
+      });
+      const lines = chartLabelLines(item.category);
+      lines.forEach((line, lineIndex) => {
+        categoryText.append(svgElement('tspan', {
+          x: plotLeft - 7,
+          dy: lineIndex === 0 ? (lines.length === 1 ? 5 : -2) : 16,
+        }, line));
+      });
+      svg.append(categoryText);
+      svg.append(svgElement('rect', {
+        class: 'chart-bar',
+        'data-category': item.category,
+        'data-value': item.value,
+        x: plotLeft,
+        y: top.toFixed(2),
+        width: Math.max(0, item.value / maximum * plotWidth).toFixed(2),
+        height: barHeight.toFixed(2),
+        fill: palette[index % palette.length],
+      }));
+    });
+    return svg;
+  }
+
+  function syncChartText(section, chart, payload) {
+    const bindings = {};
+    const titleSlot = chart.dataset.chartRelatedTitle;
+    const legendSlot = chart.dataset.chartRelatedLegend;
+    const headlineSlot = chart.dataset.chartRelatedHeadlineValue;
+    if (titleSlot) bindings[titleSlot] = payload.title;
+    if (legendSlot) bindings[legendSlot] = { runs: payload.series.map(item => item.category) };
+    if (headlineSlot) {
+      const largest = payload.series.reduce(
+        (current, item) => !current || item.value > current.value ? item : current, null);
+      bindings[headlineSlot] = payload.headlineValue ||
+        (largest ? chartValueLabel(largest.value, payload.unit) : '');
+    }
+    applyText(section, bindings);
+  }
+
+  function applyCharts(section, charts) {
+    if (!charts || typeof charts !== 'object') return;
+    Object.entries(charts).forEach(([slot, value]) => {
+      const chart = bySlot(section, 'data-chart-slot', slot);
+      if (!chart) {
+        console.warn(`Slot de gráfico ${slot} não existe em ${section.dataset.templateId}.`);
+        return;
+      }
+      const payload = normalizedChartPayload(chart, value);
+      if (!payload) return;
+      const palette = (chart.dataset.chartPalette || '').split(',').filter(Boolean);
+      if (!palette.length) return;
+      const svg = payload.type === 'donut'
+        ? renderDonutChart(payload, palette)
+        : renderHorizontalBarChart(payload, palette);
+      if (!svg) {
+        console.warn(`Valores insuficientes para renderizar ${section.dataset.templateId}/${slot}.`);
+        return;
+      }
+      const metadata = document.createElement('script');
+      metadata.type = 'application/json';
+      metadata.className = 'chart-data';
+      metadata.textContent = JSON.stringify({
+        schema: 'totvs-chart/v1',
+        ...payload,
+        palette,
+      });
+      chart.replaceChildren(svg, metadata);
+      chart.dataset.chartRuntime = 'true';
+      chart.dataset.chartCategories = String(payload.series.length);
+      chart.dataset.chartSource = payload.source;
+      syncChartText(section, chart, payload);
     });
   }
 
@@ -712,6 +1001,7 @@
       applyImages(section, slideData.images, slideData.alt);
       applyLinks(section, slideData.links);
       applyTables(section, slideData.tables);
+      applyCharts(section, slideData.charts);
       namespaceSVG(section, index);
       stage.append(section);
       fitAdaptiveTables(section);

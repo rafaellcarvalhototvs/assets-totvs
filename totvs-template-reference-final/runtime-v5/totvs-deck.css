@@ -270,6 +270,7 @@ deck-stage[data-comfortable-spacing] .bullet-line+.bullet-line{margin-top:.42em!
 deck-stage .slide-wrap [data-text-box-expanded],
 deck-stage .slide-wrap [data-text-box-adjusted]{overflow:visible!important}
 deck-stage .adaptive-table-backdrop[hidden],deck-stage .totvs-adaptive-table[hidden]{display:none!important}
+deck-stage .totvs-data-provenance{position:absolute!important;width:1px!important;height:1px!important;margin:-1px!important;padding:0!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important}
 deck-stage .totvs-adaptive-table{height:auto!important;max-height:none!important;overflow:visible!important;font-family:Verdana,Geneva,sans-serif}
 deck-stage .totvs-adaptive-table th,deck-stage .totvs-adaptive-table td{height:auto!important;white-space:normal;overflow-wrap:break-word;word-break:normal;hyphens:none;line-height:1.2}
 deck-stage .totvs-adaptive-table[data-table-variant="light-grid"]{border-collapse:collapse!important;border-spacing:0!important;background:#fff!important}
@@ -291,6 +292,8 @@ deck-stage .totvs-adaptive-table[data-table-variant="compact-dark"] tbody td:fir
 deck-stage .totvs-adaptive-table[data-table-variant="compact-dark"] tbody td:last-child{border:1px solid var(--table-accent)!important;background:#002233!important}
 deck-stage .totvs-adaptive-table[data-table-variant="compact-dark"] tbody td[data-cell-emphasis="accent"],deck-stage .totvs-adaptive-table[data-table-variant="compact-dark"] tbody td[data-cell-emphasis="total"]{border-color:var(--table-accent)!important;background:var(--table-accent)!important;color:var(--table-accent-ink)!important}
 deck-stage .totvs-adaptive-table[data-table-overflow]{outline:4px solid #ff8900;outline-offset:3px}
+deck-stage .editable-chart-prepared>svg{display:block;width:100%;height:100%;overflow:visible}
+deck-stage .editable-chart-prepared[data-chart-overflow]{outline:4px solid #ff8900;outline-offset:3px}
 .slide-link-trigger{position:absolute;z-index:120;display:block;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer}
 .slide-link-trigger[hidden]{display:none}
 .slide-link-trigger:hover{background:rgba(255,255,255,.08)}
