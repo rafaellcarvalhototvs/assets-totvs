@@ -398,21 +398,250 @@
     });
   }
 
+  function normalizedTableCell(value) {
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+      const raw = 'text' in value ? value.text : ('value' in value ? value.value : '');
+      const emphasis = ['accent', 'total', 'muted'].includes(value.emphasis)
+        ? value.emphasis : '';
+      const align = ['left', 'center', 'right'].includes(value.align)
+        ? value.align : '';
+      return { text: String(raw ?? ''), emphasis, align };
+    }
+    return { text: String(value ?? ''), emphasis: '', align: '' };
+  }
+
+  function sourceTableHeaders(table) {
+    const row = Array.from(table.rows || [])[0];
+    if (!row) return [];
+    return Array.from(row.cells || []).map(cell => normalizedTableCell(cell.textContent || ''));
+  }
+
+  function normalizedTablePayload(table, value) {
+    let headers = [];
+    let rows = [];
+    let align = [];
+    let columnWidths = [];
+    let label = '';
+
+    if (Array.isArray(value)) {
+      const matrix = value.filter(Array.isArray);
+      if (!matrix.length) return null;
+      headers = matrix[0];
+      rows = matrix.slice(1);
+    } else if (value && typeof value === 'object') {
+      const columns = Array.isArray(value.columns) ? value.columns : [];
+      headers = Array.isArray(value.headers)
+        ? value.headers
+        : columns.map(column => column && typeof column === 'object'
+          ? (column.label ?? column.key ?? '') : column);
+      rows = Array.isArray(value.rows) ? value.rows : [];
+      if (columns.length && rows.some(row => row && !Array.isArray(row) && typeof row === 'object')) {
+        rows = rows.map(row => Array.isArray(row) ? row : columns.map(column => {
+          const key = column && typeof column === 'object' ? column.key : column;
+          return row?.[key] ?? '';
+        }));
+      }
+      align = Array.isArray(value.align)
+        ? value.align
+        : columns.map(column => column && typeof column === 'object' ? column.align : '');
+      columnWidths = Array.isArray(value.columnWidths) ? value.columnWidths : [];
+      label = typeof value.label === 'string' ? value.label.trim() : '';
+    } else {
+      return null;
+    }
+
+    rows = rows.filter(Array.isArray);
+    const columnCount = Math.max(
+      headers.length,
+      align.length,
+      columnWidths.length,
+      ...rows.map(row => row.length),
+    );
+    if (!columnCount) return null;
+
+    if (!headers.length) headers = sourceTableHeaders(table);
+    while (headers.length < columnCount) headers.push(`Coluna ${headers.length + 1}`);
+    headers = headers.slice(0, columnCount).map(normalizedTableCell);
+    rows = rows.map(row => {
+      const normalized = row.slice(0, columnCount).map(normalizedTableCell);
+      while (normalized.length < columnCount) normalized.push(normalizedTableCell(''));
+      return normalized;
+    });
+    align = Array.from({ length: columnCount }, (_, index) =>
+      ['left', 'center', 'right'].includes(align[index]) ? align[index] : '');
+
+    return { headers, rows, align, columnWidths, columnCount, label };
+  }
+
+  function tablePrototype(table) {
+    const rows = Array.from(table.rows || []);
+    return {
+      header: rows[0] ? Array.from(rows[0].cells || []) : [],
+      body: rows.slice(1).map(row => Array.from(row.cells || [])),
+    };
+  }
+
+  function mappedPrototype(cells, index, total) {
+    if (!cells?.length) return null;
+    if (index === 0) return cells[0];
+    if (index === total - 1) return cells[cells.length - 1];
+    if (total <= 1) return cells[0];
+    const sourceIndex = Math.round(index / (total - 1) * (cells.length - 1));
+    return cells[Math.max(0, Math.min(cells.length - 1, sourceIndex))];
+  }
+
+  function adaptiveTableCell(tagName, prototype, value, defaultAlign) {
+    const cell = document.createElement(tagName);
+    if (prototype) {
+      cell.className = prototype.className;
+      cell.style.cssText = prototype.style.cssText;
+    }
+    cell.removeAttribute('rowspan');
+    cell.removeAttribute('colspan');
+    cell.removeAttribute('contenteditable');
+    cell.style.removeProperty('height');
+    cell.textContent = value.text;
+    if (tagName === 'th') cell.scope = 'col';
+    const alignment = value.align || defaultAlign;
+    if (alignment) cell.style.textAlign = alignment;
+    if (value.emphasis) cell.dataset.cellEmphasis = value.emphasis;
+    return cell;
+  }
+
+  function inferredColumnWidths(payload) {
+    const requested = payload.columnWidths.map(Number);
+    if (requested.length === payload.columnCount && requested.every(value => value > 0)) {
+      const total = requested.reduce((sum, value) => sum + value, 0) || 1;
+      return requested.map(value => value / total * 100);
+    }
+    const matrix = [payload.headers, ...payload.rows];
+    const weights = Array.from({ length: payload.columnCount }, (_, columnIndex) => {
+      const values = matrix.map(row => row[columnIndex]?.text || '');
+      const longest = values.reduce((maximum, text) => Math.max(maximum, text.length), 0);
+      const body = payload.rows.map(row => row[columnIndex]?.text || '').filter(Boolean);
+      const numeric = body.length > 0 && body.every(text =>
+        /^[-+]?\s*(?:R\$\s*)?[\d.,]+\s*(?:%|mi|bi|mil)?$/i.test(text));
+      let weight = numeric ? 0.9 : Math.max(1, Math.min(4.2, Math.sqrt(Math.max(8, longest) / 8)));
+      if (columnIndex === 0) weight = Math.max(weight, 1.25);
+      if (longest > 42) weight *= 1.25;
+      return weight;
+    });
+    const total = weights.reduce((sum, value) => sum + value, 0) || 1;
+    return weights.map(value => value / total * 100);
+  }
+
   function applyTables(section, tables) {
     if (!tables || typeof tables !== 'object') return;
-    Object.entries(tables).forEach(([slot, rows]) => {
+    Object.entries(tables).forEach(([slot, value]) => {
       const table = bySlot(section, 'data-table-slot', slot);
-      if (!table || !Array.isArray(rows)) return;
-      const tableRows = Array.from(table.rows || []);
-      rows.forEach((row, rowIndex) => {
-        if (!Array.isArray(row) || !tableRows[rowIndex]) return;
-        const cells = Array.from(tableRows[rowIndex].cells || []);
-        row.forEach((cell, cellIndex) => {
-          if (cells[cellIndex] && cell !== null && cell !== undefined) {
-            cells[cellIndex].textContent = String(cell);
+      if (!table) {
+        console.warn(`Slot de tabela ${slot} não existe em ${section.dataset.templateId}.`);
+        return;
+      }
+      const payload = normalizedTablePayload(table, value);
+      if (!payload) return;
+      const prototypes = tablePrototype(table);
+      const widths = inferredColumnWidths(payload);
+      const colgroup = document.createElement('colgroup');
+      widths.forEach(width => {
+        const column = document.createElement('col');
+        column.style.width = `${width.toFixed(4)}%`;
+        colgroup.append(column);
+      });
+
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      payload.headers.forEach((value, columnIndex) => {
+        const prototype = mappedPrototype(prototypes.header, columnIndex, payload.columnCount);
+        headerRow.append(adaptiveTableCell(
+          'th', prototype, value, payload.align[columnIndex] || 'left'));
+      });
+      thead.append(headerRow);
+
+      const tbody = document.createElement('tbody');
+      payload.rows.forEach((row, rowIndex) => {
+        const tableRow = document.createElement('tr');
+        const prototypeRow = prototypes.body.length
+          ? prototypes.body[rowIndex % prototypes.body.length] : [];
+        row.forEach((value, columnIndex) => {
+          const prototype = mappedPrototype(prototypeRow, columnIndex, payload.columnCount);
+          tableRow.append(adaptiveTableCell(
+            'td', prototype, value, payload.align[columnIndex] ||
+              (columnIndex > 1 ? 'center' : 'left')));
+        });
+        tbody.append(tableRow);
+      });
+
+      table.replaceChildren(colgroup, thead, tbody);
+      table.hidden = false;
+      table.classList.add('totvs-adaptive-table');
+      table.dataset.tableRuntime = 'true';
+      table.dataset.tableRows = String(payload.rows.length);
+      table.dataset.tableColumns = String(payload.columnCount);
+      table.dataset.tableDensity =
+        table.dataset.tableVariant === 'compact-dark' && payload.rows.length >= 7
+          ? 'dense'
+          : 'regular';
+      table.style.setProperty('--table-accent', table.dataset.tableAccent || '#00c9eb');
+      table.style.setProperty('--table-accent-ink', table.dataset.tableAccentInk || '#002233');
+      table.style.setProperty('--table-soft', table.dataset.tableSoft || '#dfe5e8');
+      if (payload.label) table.setAttribute('aria-label', payload.label);
+      const backdrop = bySlot(section, 'data-table-backdrop', slot);
+      if (backdrop) backdrop.hidden = false;
+    });
+  }
+
+  function fitAdaptiveTables(section) {
+    section.querySelectorAll('table[data-table-runtime="true"]').forEach(table => {
+      const safeLeft = Number(table.dataset.tableSafeLeft || table.offsetLeft || 0);
+      const safeTop = Number(table.dataset.tableSafeTop || table.offsetTop || 0);
+      const safeWidth = Number(table.dataset.tableSafeWidth || table.offsetWidth || 1280);
+      const safeHeight = Number(table.dataset.tableSafeHeight || 720 - safeTop);
+      const columns = Number(table.dataset.tableColumns || 0);
+      const rows = Number(table.dataset.tableRows || 0);
+      const maxColumns = Number(table.dataset.tableMaxColumns || Infinity);
+      const maxRows = Number(table.dataset.tableMaxRows || Infinity);
+      const averageLength = (table.textContent || '').length / Math.max(1, (rows + 1) * columns);
+      let widthFactor = columns <= 2 ? 0.76 : (columns === 3 ? 0.86 : (columns === 4 ? 0.94 : 1));
+      if (averageLength > 26 || table.dataset.tableVariant === 'editorial-light') widthFactor = 1;
+      const width = Math.round(safeWidth * widthFactor);
+      const left = Math.round(safeLeft + (safeWidth - width) / 2);
+      const backdrop = bySlot(section, 'data-table-backdrop', table.dataset.tableSlot);
+
+      if (backdrop) {
+        const safeBottom = safeTop + safeHeight;
+        section.querySelectorAll(':scope > .slide-object').forEach(node => {
+          if (node === table || node === backdrop || node.classList.contains('system-background')) return;
+          const centerY = node.offsetTop + node.offsetHeight / 2;
+          if (centerY >= safeTop - 4 && centerY <= safeBottom + 4) {
+            node.hidden = true;
+            node.setAttribute('aria-hidden', 'true');
+            node.dataset.tableSourceHidden = table.dataset.tableSlot;
           }
         });
-      });
+      }
+
+      table.style.left = `${left}px`;
+      table.style.top = `${safeTop}px`;
+      table.style.width = `${width}px`;
+      table.style.height = 'auto';
+      table.style.maxHeight = 'none';
+      Array.from(table.rows || []).forEach(row => row.style.removeProperty('height'));
+
+      const measuredHeight = Math.ceil(table.scrollHeight || table.offsetHeight);
+      const remaining = Math.max(0, safeHeight - measuredHeight);
+      const verticalShift = Math.min(42, Math.round(remaining * 0.24));
+      table.style.top = `${Math.round(safeTop + verticalShift)}px`;
+      const overCapacity = rows > maxRows || columns > maxColumns;
+      const visualOverflow = measuredHeight > safeHeight + 1;
+      table.toggleAttribute('data-table-overflow', overCapacity || visualOverflow);
+      if (overCapacity || visualOverflow) {
+        table.style.top = `${safeTop}px`;
+        console.warn(
+          `Tabela acima da capacidade em ${section.dataset.templateId}/${table.dataset.tableSlot}. ` +
+          'Divida os dados em slides de continuação; a fonte não será reduzida.'
+        );
+      }
     });
   }
 
@@ -485,6 +714,7 @@
       applyTables(section, slideData.tables);
       namespaceSVG(section, index);
       stage.append(section);
+      fitAdaptiveTables(section);
       expandTextBoxes(section, manifest.textFit || 'expand');
 
       if (manifest.motion === 'source' && templateData.animation) {
