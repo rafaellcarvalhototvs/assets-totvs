@@ -1,0 +1,1423 @@
+{
+  "schema": "totvs-layout-template/v5",
+  "version": "5.5.0",
+  "id": "TOTVS-071",
+  "source_slide": 71,
+  "background": "#ffffff",
+  "section": "<section class=\"slide-wrap\" data-template-id=\"TOTVS-071\" data-template-version=\"5.5.0\" data-source-slide=\"071\" data-reading-profile=\"compacto\" data-status=\"presentation_layout\" data-label=\"Boxes comparativos · variação 01\" data-animation-ref=\"animation-TOTVS-071\" data-slide-background=\"#ffffff\" style=\"background:#ffffff;\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"Slide 071 editável\" tabindex=\"0\"><div class=\"slide-object object-shape\" data-object=\"Google Shape;1782;p143\" style=\"z-index:1;left:27.4803%;top:19.1783%;width:22.467%;height:70.0219%;--order:0;background:#00c9eb;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:0 5.65cqw 2.45cqw rgba(0,34,51,.16);\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1783;p143\" style=\"z-index:2;left:5.0132%;top:19.1783%;width:22.467%;height:70.0219%;--order:1;background:#00c9eb;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:0 5.65cqw 2.45cqw rgba(0,34,51,.16);\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1784;p143\" style=\"z-index:3;left:50.027%;top:19.1783%;width:22.467%;height:70.0219%;--order:2;background:#00c9eb;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:0 5.65cqw 2.45cqw rgba(0,34,51,.16);\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1785;p143\" style=\"z-index:4;left:72.5296%;top:19.1783%;width:22.467%;height:70.0219%;--order:3;background:#00c9eb;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:0 5.65cqw 2.45cqw rgba(0,34,51,.16);\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1786;p143\" data-placeholder=\"body\" style=\"z-index:5;left:21.4937%;top:3.8166%;width:57.0128%;height:6.846%;--order:4;font-size:2.8637cqw;color:#002233;font-weight:700;text-align:center;padding:0.1874cqw 0.3691cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: body\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T01\" data-slot-role=\"title\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Slide com </span><span style=\"color:#00c9eb\">boxes comparativos</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1787;p143\" data-placeholder=\"body\" style=\"z-index:6;left:21.4937%;top:10.4675%;width:57.0128%;height:4.5997%;--order:5;font-size:1.8227cqw;color:#002233;font-weight:400;text-align:center;padding:0.1874cqw 0.3691cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: body\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T02\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Complemento da informação aqui</span></div></div></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1788;p143\" style=\"z-index:7;left:5.6397%;top:20.1313%;width:21.2141%;height:68.116%;--order:6;\"></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1789;p143\" style=\"z-index:8;left:5.6566%;top:20.1313%;width:21.1973%;height:68.116%;--order:7;\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1790;p143\" style=\"z-index:9;left:5.6566%;top:20.1313%;width:21.1973%;height:14.9278%;--order:8;background:#00c9eb;border-radius:0.7812cqw;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1791;p143\" style=\"z-index:10;left:5.6566%;top:35.0588%;width:21.197%;height:53.1884%;--order:9;background:#002233;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:none;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1792;p143\" data-placeholder=\"\" style=\"z-index:11;left:8.9992%;top:76.653%;width:14.5118%;height:6.3768%;--order:10;font-size:1.4578cqw;color:#00c9eb;font-weight:700;text-align:center;padding:0.0738cqw 0.375cqw 0.1874cqw 0.3691cqw;display:flex;flex-direction:column;justify-content:center;border:0.1042cqw solid #00c9eb;border-radius:0.7812cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T03\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>LOREM</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1793;p143\" data-placeholder=\"\" style=\"z-index:12;left:5.6397%;top:23.3449%;width:21.1973%;height:9.65%;--order:11;font-size:2.0828cqw;color:#002233;font-weight:700;text-align:center;padding:0.1874cqw 0.375cqw 0.1874cqw 0.375cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T04\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Tema em até</span><span style=\"font-weight:400\"><br></span><span>2 linhas</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1794;p143\" data-placeholder=\"\" style=\"z-index:13;left:7.7569%;top:46.3917%;width:17.2588%;height:28.808%;--order:12;font-size:1.1977cqw;color:#ffffff;font-weight:400;text-align:left;padding:0.1874cqw 0.375cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T05\" data-slot-role=\"body\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:left\"><span>Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium</span></div><div class=\"text-paragraph\" style=\"text-align:left\"><span>Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo</span></div></div></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1795;p143\" style=\"z-index:14;left:28.1549%;top:19.9944%;width:21.1973%;height:68.116%;--order:13;\"></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1796;p143\" style=\"z-index:15;left:28.1549%;top:19.9944%;width:21.197%;height:68.116%;--order:14;\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1797;p143\" style=\"z-index:16;left:28.1549%;top:34.922%;width:21.197%;height:53.1884%;--order:15;background:#002233;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:none;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1798;p143\" data-placeholder=\"\" style=\"z-index:17;left:31.4975%;top:76.5162%;width:14.5118%;height:6.3768%;--order:16;font-size:1.4578cqw;color:#00c9eb;font-weight:700;text-align:center;padding:0.0738cqw 0.375cqw 0.1874cqw 0.3691cqw;display:flex;flex-direction:column;justify-content:center;border:0.1042cqw solid #00c9eb;border-radius:0.7812cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T06\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>LOREM</span></div></div></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1799;p143\" style=\"z-index:18;left:28.1549%;top:19.9944%;width:21.197%;height:14.9275%;--order:17;background:#00c9eb;border-radius:0.7812cqw;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1800;p143\" data-placeholder=\"\" style=\"z-index:19;left:28.1549%;top:23.2116%;width:21.1973%;height:9.6479%;--order:18;font-size:2.0828cqw;color:#002233;font-weight:700;text-align:center;padding:0.1874cqw 0.375cqw 0.1874cqw 0.375cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T07\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Tema em até</span><span style=\"font-weight:400\"><br></span><span>2 linhas</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1801;p143\" data-placeholder=\"\" style=\"z-index:20;left:30.2272%;top:46.2549%;width:17.2588%;height:31.7585%;--order:19;font-size:1.1977cqw;color:#ffffff;font-weight:400;text-align:left;padding:0.1874cqw 0.375cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T08\" data-slot-role=\"body\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:left\"><span>Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium</span></div><div class=\"text-paragraph\" style=\"text-align:left\"><span>Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo</span></div></div></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1802;p143\" style=\"z-index:21;left:50.662%;top:19.9944%;width:21.197%;height:68.116%;--order:20;\"></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1803;p143\" style=\"z-index:22;left:50.662%;top:19.9944%;width:21.197%;height:68.116%;--order:21;\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1804;p143\" style=\"z-index:23;left:50.662%;top:34.922%;width:21.197%;height:53.1884%;--order:22;background:#002233;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:none;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1805;p143\" data-placeholder=\"\" style=\"z-index:24;left:54.0046%;top:76.5162%;width:14.5118%;height:6.3768%;--order:23;font-size:1.4578cqw;color:#00c9eb;font-weight:700;text-align:center;padding:0.0738cqw 0.375cqw 0.1874cqw 0.3691cqw;display:flex;flex-direction:column;justify-content:center;border:0.1042cqw solid #00c9eb;border-radius:0.7812cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T09\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>LOREM</span></div></div></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1806;p143\" style=\"z-index:25;left:50.662%;top:19.9944%;width:21.197%;height:14.9275%;--order:24;background:#00c9eb;border-radius:0.7812cqw;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1807;p143\" data-placeholder=\"\" style=\"z-index:26;left:50.662%;top:23.2116%;width:21.197%;height:9.6489%;--order:25;font-size:2.0828cqw;color:#002233;font-weight:700;text-align:center;padding:0.1874cqw 0.375cqw 0.1874cqw 0.375cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T10\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Tema em até</span><span style=\"font-weight:400\"><br></span><span>2 linhas</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1808;p143\" data-placeholder=\"\" style=\"z-index:27;left:52.7399%;top:46.2549%;width:17.2588%;height:31.7585%;--order:26;font-size:1.1977cqw;color:#ffffff;font-weight:400;text-align:left;padding:0.1874cqw 0.375cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T11\" data-slot-role=\"body\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:left\"><span>Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium</span></div><div class=\"text-paragraph\" style=\"text-align:left\"><span>Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo</span></div></div></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1809;p143\" style=\"z-index:28;left:73.1688%;top:19.9944%;width:21.1973%;height:68.116%;--order:27;\"></div><div class=\"slide-object object-group shape-transparent\" data-object=\"Google Shape;1810;p143\" style=\"z-index:29;left:73.1688%;top:19.9944%;width:21.197%;height:68.116%;--order:28;\"></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1811;p143\" style=\"z-index:30;left:73.1688%;top:34.922%;width:21.197%;height:53.1884%;--order:29;background:#002233;border-radius:0.7812cqw;box-shadow:0.0cqw 7.813cqw 1.25cqw rgba(0,0,0,0.3);box-shadow:none;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1812;p143\" data-placeholder=\"\" style=\"z-index:31;left:76.5114%;top:76.5162%;width:14.5118%;height:6.3768%;--order:30;font-size:1.4578cqw;color:#00c9eb;font-weight:700;text-align:center;padding:0.0738cqw 0.375cqw 0.1874cqw 0.3691cqw;display:flex;flex-direction:column;justify-content:center;border:0.1042cqw solid #00c9eb;border-radius:0.7812cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T12\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>LOREM</span></div></div></div><div class=\"slide-object object-shape\" data-object=\"Google Shape;1813;p143\" style=\"z-index:32;left:73.1688%;top:19.9944%;width:21.197%;height:14.9275%;--order:31;background:#00c9eb;border-radius:0.7812cqw;\" aria-label=\"Forma editável\"></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1814;p143\" data-placeholder=\"\" style=\"z-index:33;left:73.1688%;top:23.2081%;width:21.1973%;height:9.65%;--order:32;font-size:2.0828cqw;color:#002233;font-weight:700;text-align:center;padding:0.1874cqw 0.375cqw 0.1874cqw 0.375cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T13\" data-slot-role=\"label\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:center\"><span>Tema em até</span><span style=\"font-weight:400\"><br></span><span>2 linhas</span></div></div></div><div class=\"slide-object object-text\" data-object=\"Google Shape;1815;p143\" data-placeholder=\"\" style=\"z-index:34;left:75.2523%;top:46.2549%;width:17.2588%;height:31.7585%;--order:33;font-size:1.1977cqw;color:#ffffff;font-weight:400;text-align:left;padding:0.1874cqw 0.375cqw 0.1874cqw 0.0cqw;\" role=\"textbox\" aria-multiline=\"true\" aria-label=\"Texto editável: conteúdo do slide\" spellcheck=\"false\" data-editable=\"text\" data-slot-id=\"T14\" data-slot-role=\"body\"><div class=\"text-content\"><div class=\"text-paragraph\" style=\"text-align:left\"><span>Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium</span></div><div class=\"text-paragraph\" style=\"text-align:left\"><span>Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo</span></div></div></div><div class=\"slide-object object-image-frame\" data-object=\"Google Shape;1816;p143\" style=\"z-index:35;left:96.1149%;top:5.1561%;width:2.0558%;height:4.2085%;--order:34;\"><img class=\"object-image-content\" src=\"https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image12.png\" alt=\"Imagem editável do slide\" style=\"left:0.0%;top:0.0%;width:405.8112%;height:100.0%;opacity:1.0;\" loading=\"lazy\"></div><div class=\"slide-object object-text slide-number\" data-object=\"Google Shape;1817;p143\" data-placeholder=\"sldNum\" style=\"z-index:36;left:93.1628%;top:6.6428%;width:1.6502%;height:1.7951%;--order:35;font-size:0.8332cqw;color:#002233;font-weight:700;text-align:right;padding:0.0cqw 0.0cqw 0.0cqw 0.0cqw;display:flex;flex-direction:column;justify-content:center;\" spellcheck=\"false\" data-pn=\"true\" data-slide-number=\"true\" data-fixed=\"true\"><div class=\"text-content\">71</div></div><img class=\"slide-object object-image\" src=\"https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image109.png\" alt=\"Imagem editável do slide\" data-object=\"Google Shape;1818;p143\" style=\"z-index:37;left:14.2481%;top:37.6428%;width:3.7311%;height:6.1976%;--order:36;opacity:1.0;\" loading=\"lazy\" data-media-slot=\"M02\" data-media-role=\"replaceable-icon\" data-icon-family=\"Phosphor\" data-icon-weight=\"Light\" data-icon-color=\"#00c9eb\"><img class=\"slide-object object-image\" src=\"https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image111.png\" alt=\"Imagem editável do slide\" data-object=\"Google Shape;1819;p143\" style=\"z-index:38;left:37.0951%;top:37.3297%;width:3.3166%;height:6.6328%;--order:37;opacity:1.0;\" loading=\"lazy\" data-media-slot=\"M01\" data-media-role=\"replaceable-icon\" data-icon-family=\"Phosphor\" data-icon-weight=\"Light\" data-icon-color=\"#00c9eb\"><img class=\"slide-object object-image\" src=\"https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image114.png\" alt=\"Imagem editável do slide\" data-object=\"Google Shape;1820;p143\" style=\"z-index:39;left:59.754%;top:38.5546%;width:3.0131%;height:5.3563%;--order:38;opacity:1.0;\" loading=\"lazy\" data-media-slot=\"M04\" data-media-role=\"replaceable-icon\" data-icon-family=\"Phosphor\" data-icon-weight=\"Light\" data-icon-color=\"#00c9eb\"><img class=\"slide-object object-image\" src=\"https://raw.githubusercontent.com/rafaellcarvalhototvs/assets-totvs/476da4aa0ec513d528f77453f50918c29915378e/totvs-template-reference-final/media/static/image115.png\" alt=\"Imagem editável do slide\" data-object=\"Google Shape;1821;p143\" style=\"z-index:40;left:82.0446%;top:38.0349%;width:3.4347%;height:6.1058%;--order:39;opacity:1.0;\" loading=\"lazy\" data-media-slot=\"M03\" data-media-role=\"replaceable-icon\" data-icon-family=\"Phosphor\" data-icon-weight=\"Light\" data-icon-color=\"#00c9eb\"></section>",
+  "animation": {
+    "schema_version": 1,
+    "slide": 71,
+    "source_file": "Template_PPT TOTVS_junho_2025_GSlides (1).pptx",
+    "native_timing_present": true,
+    "runtime_playback": {
+      "manual_step_speed_factor": 0.85,
+      "scope": "manual_on_click_groups",
+      "source_timing_preserved": true
+    },
+    "effects": [
+      {
+        "order": 1,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 700,
+        "targets": [
+          {
+            "shape_id": "1788",
+            "shape_name": "Google Shape;1788;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1788",
+                "shape_name": "Google Shape;1788;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 700,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1788",
+                "shape_name": "Google Shape;1788;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "effect_name": "fly_in_from_right",
+        "effect_label_pt_br": "Voar da direita",
+        "preset_class": "entr",
+        "preset_id": "2",
+        "preset_subtype": "4",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 800,
+        "targets": [
+          {
+            "shape_id": "1788",
+            "shape_name": "Google Shape;1788;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1788",
+                "shape_name": "Google Shape;1788;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "anim",
+            "duration_ms": 800,
+            "attributes": [
+              "ppt_y"
+            ],
+            "targets": [
+              {
+                "shape_id": "1788",
+                "shape_name": "Google Shape;1788;p143"
+              }
+            ],
+            "calculation_mode": "lin",
+            "value_type": "num",
+            "values": [
+              {
+                "time": 0,
+                "formula": null,
+                "value": "#ppt_y+1"
+              },
+              {
+                "time": 100000,
+                "formula": null,
+                "value": "#ppt_y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "afterEffect",
+        "trigger": "after_previous",
+        "delay_ms": 0,
+        "duration_ms": 1000,
+        "targets": [
+          {
+            "shape_id": "1818",
+            "shape_name": "Google Shape;1818;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1818",
+                "shape_name": "Google Shape;1818;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 1000,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1818",
+                "shape_name": "Google Shape;1818;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 600,
+        "targets": [
+          {
+            "shape_id": "1795",
+            "shape_name": "Google Shape;1795;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1795",
+                "shape_name": "Google Shape;1795;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 600,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1795",
+                "shape_name": "Google Shape;1795;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "effect_name": "fly_in_from_right",
+        "effect_label_pt_br": "Voar da direita",
+        "preset_class": "entr",
+        "preset_id": "2",
+        "preset_subtype": "4",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 700,
+        "targets": [
+          {
+            "shape_id": "1795",
+            "shape_name": "Google Shape;1795;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1795",
+                "shape_name": "Google Shape;1795;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "anim",
+            "duration_ms": 700,
+            "attributes": [
+              "ppt_y"
+            ],
+            "targets": [
+              {
+                "shape_id": "1795",
+                "shape_name": "Google Shape;1795;p143"
+              }
+            ],
+            "calculation_mode": "lin",
+            "value_type": "num",
+            "values": [
+              {
+                "time": 0,
+                "formula": null,
+                "value": "#ppt_y+1"
+              },
+              {
+                "time": 100000,
+                "formula": null,
+                "value": "#ppt_y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "afterEffect",
+        "trigger": "after_previous",
+        "delay_ms": 0,
+        "duration_ms": 1000,
+        "targets": [
+          {
+            "shape_id": "1819",
+            "shape_name": "Google Shape;1819;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1819",
+                "shape_name": "Google Shape;1819;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 1000,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1819",
+                "shape_name": "Google Shape;1819;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 700,
+        "targets": [
+          {
+            "shape_id": "1802",
+            "shape_name": "Google Shape;1802;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1802",
+                "shape_name": "Google Shape;1802;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 700,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1802",
+                "shape_name": "Google Shape;1802;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 8,
+        "effect_name": "fly_in_from_right",
+        "effect_label_pt_br": "Voar da direita",
+        "preset_class": "entr",
+        "preset_id": "2",
+        "preset_subtype": "4",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 800,
+        "targets": [
+          {
+            "shape_id": "1802",
+            "shape_name": "Google Shape;1802;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1802",
+                "shape_name": "Google Shape;1802;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "anim",
+            "duration_ms": 800,
+            "attributes": [
+              "ppt_y"
+            ],
+            "targets": [
+              {
+                "shape_id": "1802",
+                "shape_name": "Google Shape;1802;p143"
+              }
+            ],
+            "calculation_mode": "lin",
+            "value_type": "num",
+            "values": [
+              {
+                "time": 0,
+                "formula": null,
+                "value": "#ppt_y+1"
+              },
+              {
+                "time": 100000,
+                "formula": null,
+                "value": "#ppt_y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "afterEffect",
+        "trigger": "after_previous",
+        "delay_ms": 0,
+        "duration_ms": 1000,
+        "targets": [
+          {
+            "shape_id": "1820",
+            "shape_name": "Google Shape;1820;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1820",
+                "shape_name": "Google Shape;1820;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 1000,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1820",
+                "shape_name": "Google Shape;1820;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 900,
+        "targets": [
+          {
+            "shape_id": "1809",
+            "shape_name": "Google Shape;1809;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1809",
+                "shape_name": "Google Shape;1809;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 900,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1809",
+                "shape_name": "Google Shape;1809;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 11,
+        "effect_name": "fly_in_from_right",
+        "effect_label_pt_br": "Voar da direita",
+        "preset_class": "entr",
+        "preset_id": "2",
+        "preset_subtype": "4",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 900,
+        "targets": [
+          {
+            "shape_id": "1809",
+            "shape_name": "Google Shape;1809;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1809",
+                "shape_name": "Google Shape;1809;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "anim",
+            "duration_ms": 900,
+            "attributes": [
+              "ppt_y"
+            ],
+            "targets": [
+              {
+                "shape_id": "1809",
+                "shape_name": "Google Shape;1809;p143"
+              }
+            ],
+            "calculation_mode": "lin",
+            "value_type": "num",
+            "values": [
+              {
+                "time": 0,
+                "formula": null,
+                "value": "#ppt_y+1"
+              },
+              {
+                "time": 100000,
+                "formula": null,
+                "value": "#ppt_y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "order": 12,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "afterEffect",
+        "trigger": "after_previous",
+        "delay_ms": 0,
+        "duration_ms": 1000,
+        "targets": [
+          {
+            "shape_id": "1821",
+            "shape_name": "Google Shape;1821;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1821",
+                "shape_name": "Google Shape;1821;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 1000,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1821",
+                "shape_name": "Google Shape;1821;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 13,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "clickEffect",
+        "trigger": "on_click",
+        "delay_ms": 0,
+        "duration_ms": 300,
+        "targets": [
+          {
+            "shape_id": "1783",
+            "shape_name": "Google Shape;1783;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1783",
+                "shape_name": "Google Shape;1783;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 300,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1783",
+                "shape_name": "Google Shape;1783;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 14,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "clickEffect",
+        "trigger": "on_click",
+        "delay_ms": 0,
+        "duration_ms": 300,
+        "targets": [
+          {
+            "shape_id": "1782",
+            "shape_name": "Google Shape;1782;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1782",
+                "shape_name": "Google Shape;1782;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 300,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1782",
+                "shape_name": "Google Shape;1782;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 15,
+        "effect_name": "fade_out",
+        "effect_label_pt_br": "Saida suave",
+        "preset_class": "exit",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 200,
+        "targets": [
+          {
+            "shape_id": "1783",
+            "shape_name": "Google Shape;1783;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "animEffect",
+            "duration_ms": 200,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1783",
+                "shape_name": "Google Shape;1783;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "out"
+          },
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1783",
+                "shape_name": "Google Shape;1783;p143"
+              }
+            ],
+            "to": "hidden"
+          }
+        ]
+      },
+      {
+        "order": 16,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "clickEffect",
+        "trigger": "on_click",
+        "delay_ms": 0,
+        "duration_ms": 300,
+        "targets": [
+          {
+            "shape_id": "1784",
+            "shape_name": "Google Shape;1784;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1784",
+                "shape_name": "Google Shape;1784;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 300,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1784",
+                "shape_name": "Google Shape;1784;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 17,
+        "effect_name": "fade_out",
+        "effect_label_pt_br": "Saida suave",
+        "preset_class": "exit",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 200,
+        "targets": [
+          {
+            "shape_id": "1782",
+            "shape_name": "Google Shape;1782;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "animEffect",
+            "duration_ms": 200,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1782",
+                "shape_name": "Google Shape;1782;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "out"
+          },
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1782",
+                "shape_name": "Google Shape;1782;p143"
+              }
+            ],
+            "to": "hidden"
+          }
+        ]
+      },
+      {
+        "order": 18,
+        "effect_name": "fade_in",
+        "effect_label_pt_br": "Entrada suave",
+        "preset_class": "entr",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "clickEffect",
+        "trigger": "on_click",
+        "delay_ms": 0,
+        "duration_ms": 300,
+        "targets": [
+          {
+            "shape_id": "1785",
+            "shape_name": "Google Shape;1785;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1785",
+                "shape_name": "Google Shape;1785;p143"
+              }
+            ],
+            "to": "visible"
+          },
+          {
+            "kind": "animEffect",
+            "duration_ms": 300,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1785",
+                "shape_name": "Google Shape;1785;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "in"
+          }
+        ]
+      },
+      {
+        "order": 19,
+        "effect_name": "fade_out",
+        "effect_label_pt_br": "Saida suave",
+        "preset_class": "exit",
+        "preset_id": "10",
+        "preset_subtype": "0",
+        "node_type": "withEffect",
+        "trigger": "with_previous",
+        "delay_ms": 0,
+        "duration_ms": 200,
+        "targets": [
+          {
+            "shape_id": "1784",
+            "shape_name": "Google Shape;1784;p143"
+          }
+        ],
+        "components": [
+          {
+            "kind": "animEffect",
+            "duration_ms": 200,
+            "attributes": [],
+            "targets": [
+              {
+                "shape_id": "1784",
+                "shape_name": "Google Shape;1784;p143"
+              }
+            ],
+            "filter": "fade",
+            "transition": "out"
+          },
+          {
+            "kind": "set",
+            "duration_ms": 1,
+            "attributes": [
+              "style.visibility"
+            ],
+            "targets": [
+              {
+                "shape_id": "1784",
+                "shape_name": "Google Shape;1784;p143"
+              }
+            ],
+            "to": "hidden"
+          }
+        ]
+      }
+    ],
+    "runtime_sequence_policy": null,
+    "transition": null,
+    "animated_media": [],
+    "implementation_note": "Targets use the original PowerPoint shape id and shape name. The shared HTML runtime executes the native sequence and timing. Manual click-through steps run 15% faster than the source timing. Animated GIF media plays once and then freezes on its final frame."
+  },
+  "slots": {
+    "text": [
+      {
+        "id": "T01",
+        "role": "title",
+        "shape_name": "Google Shape;1786;p143",
+        "sample_text": "Slide com boxes comparativos",
+        "sample_runs": [
+          "Slide com",
+          "boxes comparativos"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 1,
+          "estimated_characters_per_line": 34,
+          "estimated_max_characters": 34,
+          "sample_character_counts": [
+            9,
+            18
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 275,
+            "top": 27,
+            "width": 730,
+            "height": 49
+          }
+        }
+      },
+      {
+        "id": "T02",
+        "role": "label",
+        "shape_name": "Google Shape;1787;p143",
+        "sample_text": "Complemento da informação aqui",
+        "sample_runs": [
+          "Complemento da informação aqui"
+        ],
+        "run_count": 1,
+        "fit": {
+          "estimated_max_lines": 1,
+          "estimated_characters_per_line": 53,
+          "estimated_max_characters": 53,
+          "sample_character_counts": [
+            30
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 275,
+            "top": 75,
+            "width": 730,
+            "height": 33
+          }
+        }
+      },
+      {
+        "id": "T03",
+        "role": "label",
+        "shape_name": "Google Shape;1792;p143",
+        "sample_text": "LOREM",
+        "sample_runs": [
+          "LOREM"
+        ],
+        "run_count": 1,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            5
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 115,
+            "top": 552,
+            "width": 186,
+            "height": 46
+          }
+        }
+      },
+      {
+        "id": "T04",
+        "role": "label",
+        "shape_name": "Google Shape;1793;p143",
+        "sample_text": "Tema em até 2 linhas",
+        "sample_runs": [
+          "Tema em até",
+          "2 linhas"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            11,
+            8
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 72,
+            "top": 168,
+            "width": 271,
+            "height": 69
+          }
+        }
+      },
+      {
+        "id": "T05",
+        "role": "body",
+        "shape_name": "Google Shape;1794;p143",
+        "sample_text": "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo",
+        "sample_runs": [
+          "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium",
+          "Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 11,
+          "estimated_characters_per_line": 24,
+          "estimated_max_characters": 232,
+          "sample_character_counts": [
+            95,
+            115
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 99,
+            "top": 334,
+            "width": 221,
+            "height": 207
+          }
+        }
+      },
+      {
+        "id": "T06",
+        "role": "label",
+        "shape_name": "Google Shape;1798;p143",
+        "sample_text": "LOREM",
+        "sample_runs": [
+          "LOREM"
+        ],
+        "run_count": 1,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            5
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 403,
+            "top": 551,
+            "width": 186,
+            "height": 46
+          }
+        }
+      },
+      {
+        "id": "T07",
+        "role": "label",
+        "shape_name": "Google Shape;1800;p143",
+        "sample_text": "Tema em até 2 linhas",
+        "sample_runs": [
+          "Tema em até",
+          "2 linhas"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            11,
+            8
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 360,
+            "top": 167,
+            "width": 271,
+            "height": 69
+          }
+        }
+      },
+      {
+        "id": "T08",
+        "role": "body",
+        "shape_name": "Google Shape;1801;p143",
+        "sample_text": "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo",
+        "sample_runs": [
+          "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium",
+          "Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 12,
+          "estimated_characters_per_line": 24,
+          "estimated_max_characters": 253,
+          "sample_character_counts": [
+            95,
+            115
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 387,
+            "top": 333,
+            "width": 221,
+            "height": 229
+          }
+        }
+      },
+      {
+        "id": "T09",
+        "role": "label",
+        "shape_name": "Google Shape;1805;p143",
+        "sample_text": "LOREM",
+        "sample_runs": [
+          "LOREM"
+        ],
+        "run_count": 1,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            5
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 691,
+            "top": 551,
+            "width": 186,
+            "height": 46
+          }
+        }
+      },
+      {
+        "id": "T10",
+        "role": "label",
+        "shape_name": "Google Shape;1807;p143",
+        "sample_text": "Tema em até 2 linhas",
+        "sample_runs": [
+          "Tema em até",
+          "2 linhas"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            11,
+            8
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 648,
+            "top": 167,
+            "width": 271,
+            "height": 69
+          }
+        }
+      },
+      {
+        "id": "T11",
+        "role": "body",
+        "shape_name": "Google Shape;1808;p143",
+        "sample_text": "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo",
+        "sample_runs": [
+          "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium",
+          "Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 12,
+          "estimated_characters_per_line": 24,
+          "estimated_max_characters": 253,
+          "sample_character_counts": [
+            95,
+            115
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 675,
+            "top": 333,
+            "width": 221,
+            "height": 229
+          }
+        }
+      },
+      {
+        "id": "T12",
+        "role": "label",
+        "shape_name": "Google Shape;1812;p143",
+        "sample_text": "LOREM",
+        "sample_runs": [
+          "LOREM"
+        ],
+        "run_count": 1,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            5
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 979,
+            "top": 551,
+            "width": 186,
+            "height": 46
+          }
+        }
+      },
+      {
+        "id": "T13",
+        "role": "label",
+        "shape_name": "Google Shape;1814;p143",
+        "sample_text": "Tema em até 2 linhas",
+        "sample_runs": [
+          "Tema em até",
+          "2 linhas"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 2,
+          "estimated_characters_per_line": 17,
+          "estimated_max_characters": 29,
+          "sample_character_counts": [
+            11,
+            8
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 937,
+            "top": 167,
+            "width": 271,
+            "height": 69
+          }
+        }
+      },
+      {
+        "id": "T14",
+        "role": "body",
+        "shape_name": "Google Shape;1815;p143",
+        "sample_text": "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo",
+        "sample_runs": [
+          "Mauris id magna gravida, varius risus ac, varius nunc nullam ut sit nulla ut velit rhon pretium",
+          "Wisi enim ad minim veniam, quis nostrud exerci tation ullam corper suscipit lobor tis nisl ut aliquip ex ea commodo"
+        ],
+        "run_count": 2,
+        "fit": {
+          "estimated_max_lines": 12,
+          "estimated_characters_per_line": 24,
+          "estimated_max_characters": 253,
+          "sample_character_counts": [
+            95,
+            115
+          ],
+          "rule": "Não ultrapassar estes limites; se não couber, sintetizar, dividir ou escolher outro layout.",
+          "base_box_px": {
+            "left": 963,
+            "top": 333,
+            "width": 221,
+            "height": 229
+          }
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "M01",
+        "role": "replaceable-icon",
+        "shape_name": "Google Shape;1819;p143",
+        "sample_url": null,
+        "media_type": "icon",
+        "input_schema": "totvs-icon/v1",
+        "icon_family": "Phosphor",
+        "icon_weight": "Light",
+        "icon_color": "#00c9eb",
+        "allowed_names": "icones-phosphor-light.json",
+        "accessibility": "Fornecer label ou decorative=true.",
+        "preserve_container": true,
+        "preferred_payload": {
+          "name": "lightbulb",
+          "label": "Ideia"
+        }
+      },
+      {
+        "id": "M02",
+        "role": "replaceable-icon",
+        "shape_name": "Google Shape;1818;p143",
+        "sample_url": null,
+        "media_type": "icon",
+        "input_schema": "totvs-icon/v1",
+        "icon_family": "Phosphor",
+        "icon_weight": "Light",
+        "icon_color": "#00c9eb",
+        "allowed_names": "icones-phosphor-light.json",
+        "accessibility": "Fornecer label ou decorative=true.",
+        "preserve_container": true,
+        "preferred_payload": {
+          "name": "lightbulb",
+          "label": "Ideia"
+        }
+      },
+      {
+        "id": "M03",
+        "role": "replaceable-icon",
+        "shape_name": "Google Shape;1821;p143",
+        "sample_url": null,
+        "media_type": "icon",
+        "input_schema": "totvs-icon/v1",
+        "icon_family": "Phosphor",
+        "icon_weight": "Light",
+        "icon_color": "#00c9eb",
+        "allowed_names": "icones-phosphor-light.json",
+        "accessibility": "Fornecer label ou decorative=true.",
+        "preserve_container": true,
+        "preferred_payload": {
+          "name": "lightbulb",
+          "label": "Ideia"
+        }
+      },
+      {
+        "id": "M04",
+        "role": "replaceable-icon",
+        "shape_name": "Google Shape;1820;p143",
+        "sample_url": null,
+        "media_type": "icon",
+        "input_schema": "totvs-icon/v1",
+        "icon_family": "Phosphor",
+        "icon_weight": "Light",
+        "icon_color": "#00c9eb",
+        "allowed_names": "icones-phosphor-light.json",
+        "accessibility": "Fornecer label ou decorative=true.",
+        "preserve_container": true,
+        "preferred_payload": {
+          "name": "lightbulb",
+          "label": "Ideia"
+        }
+      }
+    ],
+    "tables": [],
+    "charts": [],
+    "links": []
+  }
+}
